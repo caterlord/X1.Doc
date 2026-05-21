@@ -45,6 +45,16 @@ The editor typically includes:
 - `Published`
 - category assignment between available and assigned lists
 
+### Restore a recently removed POS menu
+
+Use `Show recently removed` when a POS menu was removed by mistake.
+
+- The toggle only shows POS menus removed in the last 24 hours. POS menus removed longer ago are not included.
+- Recently removed rows use a light gray background.
+- A recently removed row only shows the restore action. The edit, copy, and delete actions are hidden.
+- Select the restore icon to make the POS menu active again.
+- HQ blocks the restore if another active POS menu already has the same name or code.
+
 ## Steps
 
 1. Open `Menu Management` -> `POS Menus`.
@@ -54,6 +64,9 @@ The editor typically includes:
 5. Assign the required root categories to the menu.
 6. Arrange the assigned categories in the order staff should browse them.
 7. Save the menu.
+8. If you removed a POS menu by mistake, turn on `Show recently removed`.
+9. Find the light gray row and select the restore icon.
+10. If HQ blocks the restore, review any active POS menu with the same name or code before trying again.
 
 ## What changes after you save
 
@@ -70,6 +83,7 @@ These changes affect which root categories are visible together on the POS when 
 - Confirm the category is a root category rather than a sub-category.
 - Check whether the menu is unpublished.
 - Review whether the issue belongs to the menu itself or to the underlying category setup.
+- If restore is blocked, check whether another active POS menu is using the same name or code.
 
 ## When to ask owner/admin
 

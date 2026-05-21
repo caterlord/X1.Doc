@@ -75,6 +75,16 @@ The shared settings below the row list apply to every payment method created in 
 
 Use normal create mode when each payment method needs different checkout behavior, gateway settings, rates, or shop enablement.
 
+### Restore a recently removed payment method
+
+Use `Show recently removed` when a payment method was removed by mistake.
+
+- The toggle only shows payment methods removed in the last 24 hours. Payment methods removed longer ago are not included.
+- Recently removed rows use a light gray background.
+- A recently removed row only shows the restore action. The edit and delete actions are hidden.
+- Select the restore icon to make the payment method active again.
+- HQ blocks the restore if another active payment method already has the same `Code` or `Name`.
+
 ## Steps
 
 1. Open `POS Settings` -> `Payment Methods`.
@@ -85,6 +95,9 @@ Use normal create mode when each payment method needs different checkout behavio
 6. Open the shop settings area.
 7. Enable the method for the target shops.
 8. Save the method.
+9. If you removed a payment method by mistake, turn on `Show recently removed`.
+10. Find the light gray row and select the restore icon.
+11. If HQ blocks the restore, review any active payment method with the same `Code` or `Name` before trying again.
 
 ## Create several payment methods at once
 
@@ -120,6 +133,7 @@ Saving the base method creates or updates the tender definition. The tender stil
 - Confirm the issue is not in the shop enablement step.
 - Check whether the wrong or missing gateway is linked.
 - If a surcharge or cash-drawer behavior is wrong, review only the affected switch before changing other fields.
+- If restore is blocked, check whether another active payment method is using the same `Code` or `Name`.
 
 ## When to ask owner/admin
 

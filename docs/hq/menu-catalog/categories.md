@@ -83,6 +83,16 @@ Use normal create mode when each category needs different parents, styles, displ
 
 Use the reorder action when the current category order no longer matches how staff should browse the menu.
 
+### Restore a recently removed category
+
+Use `Show recently removed` when a category was removed by mistake.
+
+- The toggle only shows categories removed in the last 24 hours. Categories removed longer ago are not included.
+- Recently removed rows use a light gray background.
+- A recently removed row only shows the restore action. The edit, copy, and delete actions are hidden.
+- Select the restore icon to make the category active again.
+- HQ blocks the restore if the parent category is not active, another active category at the same level already has the same name, or another active category already has the same code.
+
 ## Steps
 
 1. Open `Menu Management` -> `Categories`.
@@ -94,6 +104,9 @@ Use the reorder action when the current category order no longer matches how sta
 7. Set `Visible in Menu` and `Shop Settings` for the intended shops or channels.
 8. Save the category.
 9. Select `Reorder` if the browsing order also needs to change.
+10. If you removed a category by mistake, turn on `Show recently removed`.
+11. Find the light gray row and select the restore icon.
+12. If HQ blocks the restore, review the parent category and any active category with the same name or code before trying again.
 
 ## Create several categories at once
 
@@ -120,6 +133,7 @@ These changes affect the menu structure used for browsing. They can change what 
 - Confirm the category is in the correct level of the hierarchy.
 - Check whether the issue is in category order, visibility, or item assignment.
 - If the category exists but does not appear where expected, review the relevant display or channel visibility fields.
+- If restore is blocked, check whether the parent category is still active and whether another active category has the same name or code.
 
 ## When to ask owner/admin
 

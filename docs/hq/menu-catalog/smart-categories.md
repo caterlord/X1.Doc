@@ -77,6 +77,16 @@ The page can show tabs for:
 
 Use these tabs to control what the smart category contains and where it appears.
 
+### Restore a recently removed smart category
+
+Use `Show recently removed` when a smart category was removed by mistake.
+
+- The toggle only shows smart categories removed in the last 24 hours. Smart categories removed longer ago are not included.
+- Recently removed rows use a light gray background.
+- A recently removed row only shows the restore action. The edit, copy, and delete actions are hidden.
+- Select the restore icon to make the smart category active again.
+- HQ blocks the restore if the parent category is not active or another active smart category at the same level already has the same name.
+
 ## Steps
 
 1. Open `Menu Management` -> `Smart Categories`.
@@ -89,6 +99,9 @@ Use these tabs to control what the smart category contains and where it appears.
 8. Turn `Public Display` on or off as needed.
 9. Save the category.
 10. Open the detail tabs to manage `Items`, `Shop Display Settings`, or `Order Channels`.
+11. If you removed a smart category by mistake, turn on `Show recently removed`.
+12. Find the light gray row and select the restore icon.
+13. If HQ blocks the restore, review the parent category and any active smart category with the same name before trying again.
 
 ## Create several smart categories at once
 
@@ -115,6 +128,7 @@ Saving the category updates the smart category record, but you may still need to
 - Confirm you edited the correct smart category type.
 - Check whether the issue is in the category record or in the tab-level settings.
 - If the category does not appear, review `Public Display` and the target channel or shop settings.
+- If restore is blocked, check whether the parent category is still active and whether another active smart category at the same level has the same name.
 
 ## When to ask owner/admin
 
