@@ -45,7 +45,7 @@ Key fields include:
 
 ### Group contents
 
-After the group is created, open the detail area to add the actual modifier items and any override prices.
+After the group is created, HQ focuses the new row and expands its detail area. Use `Add Items` to link existing modifier items, or use `Create Item` to create a new modifier item and add it to the group.
 
 ### Copy a group
 
@@ -66,13 +66,14 @@ Use the row-level copy action when you need a similar modifier setup without reb
 4. Set `Min Selection` and `Max Selection`.
 5. Choose the channels where the group should appear.
 6. Save the group.
-7. Open the row action for the group you want to copy.
-8. Review the source group at the top of the copy modal.
-9. Turn on `Beast Mode` if you need multiple target rows.
-10. Enter the copied group details and shared display settings.
-11. Save the copy.
-12. Open the group details and attach the modifier items.
-13. Set any required override prices.
+7. Check that the new group row is selected and expanded.
+8. Select `Add Items` to link existing modifier items, or select `Create Item` to create a new modifier item for this group.
+9. Set any required override prices.
+10. Open the row action for the group you want to copy.
+11. Review the source group at the top of the copy modal.
+12. Turn on `Beast Mode` if you need multiple target rows.
+13. Enter the copied group details and shared display settings.
+14. Save the copy.
 
 ## What changes after you save
 

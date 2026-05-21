@@ -43,7 +43,7 @@ Typical settings include:
 
 ### Group contents
 
-After creating the group, add the actual menu items that belong to that choice group.
+After the group is created, HQ focuses the new row and expands its detail area. Use `Add Items` to link existing menu items, or use `Create Item` to create a new item and add it to the group.
 
 ### Parent item linkage
 
@@ -66,16 +66,17 @@ Use the row-level copy action when you need a similar meal set without rebuildin
 2. Create the required choice groups.
 3. Set the minimum and maximum selection rules for each group.
 4. Save the groups.
-5. Open the row action for the group you want to copy.
-6. Review the source group at the top of the copy modal.
-7. Turn on `Beast Mode` if you need multiple target rows.
-8. Enter the copied group details and shared display settings.
-9. Save the copy.
-10. Add the relevant menu items to each group.
-11. Set override prices where an item should add an upcharge.
-12. Open the parent set item in [Menu Items](./menu-items.md).
-13. Attach the meal set groups to the parent item.
-14. Save the parent item.
+5. Check that the new group row is selected and expanded.
+6. Select `Add Items` to link existing menu items, or select `Create Item` to create a new item for this group.
+7. Set override prices where an item should add an upcharge.
+8. Open the row action for the group you want to copy.
+9. Review the source group at the top of the copy modal.
+10. Turn on `Beast Mode` if you need multiple target rows.
+11. Enter the copied group details and shared display settings.
+12. Save the copy.
+13. Open the parent set item in [Menu Items](./menu-items.md).
+14. Attach the meal set groups to the parent item.
+15. Save the parent item.
 
 ## What changes after you save
 
