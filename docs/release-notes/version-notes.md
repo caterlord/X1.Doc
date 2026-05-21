@@ -13,6 +13,7 @@ It is not limited to the POS app manual. Use it for POS, HQ, shared workflow, an
 
 - `Sales Flow`: documented the current modifier and meal-set prompt behavior after adding an item.
 - `Menu Items`: documented `Auto-show modifier groups on POS`, `Item Relationships`, and the `Manage Relationships` check for modifier groups and meal-set groups.
+- `Modifiers` and `Meal Set`: documented `Show recently removed`, the 24-hour restore window, restore-only removed rows, and duplicate-name restore blocking.
 - `Manage Printers`, `Settings`, `Troubleshooting`, and `Function and Feature Map`: documented printer spooler retry details, automatic retry states, and `Show AUTO REPRINT label on automatic retries`.
 - `Info Settings`: documented receipt logo printout type coverage for `ODO Slip`.
 
