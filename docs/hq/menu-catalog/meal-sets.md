@@ -60,6 +60,16 @@ Use the row-level copy action when you need a similar meal set without rebuildin
 - In `Beast Mode`, you can set `Max Selection`, `Min Selection`, `Display in POS`, and `Display in Online Ordering` for each copied row.
 - The copy action also brings over the linked set items and shop pricing details.
 
+### Restore a recently removed group
+
+Use `Show recently removed` when a meal set group was removed by mistake.
+
+- The toggle only shows groups removed in the last 24 hours. Groups removed longer ago are not included.
+- Recently removed rows use a light gray background.
+- A recently removed row only shows the restore action. The edit, copy, and delete actions are hidden.
+- Select the restore icon to make the group active again.
+- HQ blocks the restore if another active meal set group already has the same name. Rename or remove the active duplicate before you restore.
+
 ## Steps
 
 1. Open `Menu Management` -> `Meal Set`.
@@ -77,6 +87,9 @@ Use the row-level copy action when you need a similar meal set without rebuildin
 13. Open the parent set item in [Menu Items](./menu-items.md).
 14. Attach the meal set groups to the parent item.
 15. Save the parent item.
+16. If you removed a group by mistake, turn on `Show recently removed`.
+17. Find the light gray row and select the restore icon.
+18. If HQ says a group with the same name already exists, review the active groups before trying again.
 
 ## What changes after you save
 
@@ -93,6 +106,7 @@ These changes affect how the combo item prompts for choices during ordering. The
 - Confirm the component items were added to the correct groups.
 - Check whether the parent set item was linked to the groups.
 - Review selection limits if the flow is too strict or too open.
+- If restore is blocked, check whether another active meal set group is using the same name.
 
 ## When to ask owner/admin
 
