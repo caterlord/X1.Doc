@@ -155,6 +155,16 @@ import TabItem from '@theme/TabItem';
 6. 点按 `Save`。
 7. 列印一个包含长品项名称的标签，并确认文字仍然清晰可读。
 
+## 常见自动重印标签设置任务
+
+1. 点按 `设置` -> `打印`。
+2. 打开 `模板`。
+3. 选择需要恢复标签的打印模板，例如 `厨房单`、`部门单` 或 `点单号单`。
+4. 如果厨房或取餐柜台员工需要识别由打印队列自动重试打印的输出，请打开 `自动重印时显示「自动重印」标签`。
+5. 如果是顾客可见输出，而门市不希望打印恢复标签，请保持关闭。
+6. 点按 `Save`。
+7. 如正在测试打印机恢复情况，请确认自动重试输出显示预期的 `自动重印` 标签。
+
 ## 常见收据自动列印任务
 
 1. 点按 `设置` -> `打印`。
@@ -219,6 +229,7 @@ import TabItem from '@theme/TabItem';
 - `Printing` -> `Setting` 包含 `Show Order Contact On Receipt` 与 `Show Order Contact On Kitchen Output`
 - `Printing` -> `Template` 的收据字体设定包含 `Customer Contact`
 - `打印` -> `模板` 的标签设定包含 `启用自适应文字大小`
+- `打印` -> `模板` 包含 `自动重印时显示「自动重印」标签`
 - `Report` 包含 `Print Qty`、`Daily Report Sections` 与 `Show advanced sections`
 - 设定页面底部有 `Restore` 动作
 

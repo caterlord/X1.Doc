@@ -46,6 +46,8 @@ If you need the customer name or phone number on takeaway printouts, use `Order 
 - Quantity and line totals update after each item selection
 - `Send` and `Checkout` actions are available
 - Item names follow your current language and item-name mapping (`Main` / `Alt`) from `Settings`
+- If the item has linked modifier groups and HQ has `Auto-show modifier groups on POS` on for that item, the modifier selection opens immediately after you add the item
+- If the item has linked meal-set groups, the meal-set selection opens so staff can choose the required combo items
 - On takeaway orders, saved customer contact details appear under the order header
 
 :::note[Screenshot pending]
@@ -129,6 +131,10 @@ Send pending items first, then retry.
 
 :::note[Wrong table selected]
 Use `Change Table` from function menu before checkout.
+:::
+
+:::note[Modifier or meal-set prompt did not appear]
+Select the item row and check whether modifiers can be adjusted manually. If the prompt still looks wrong, ask a manager/admin to review the item's `Manage Relationships` setup and `Auto-show modifier groups on POS` setting in HQ.
 :::
 
 ## When to ask manager/admin

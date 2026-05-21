@@ -103,12 +103,13 @@ What to verify:
   <TabItem value="spooler" label="Manage Printer Spooler">
 1. Tap `Manage Spooler` on target printer row.
 2. Review tabs: `Printing`, `History`, `Error`.
-3. Use required actions:
+3. Select the row info button when you need to inspect a job. The details can show `Status`, `Retry source`, `Attempts`, `Auto reprint`, `Next retry`, and the last recorded `Error`.
+4. Use required actions:
    - `Refresh`
    - `Clear Selection`
    - `Remove Selected`
    - `Remove All`
-4. In `Error` tab, use retry actions:
+5. In `Error` tab, use retry actions:
    - `Select All`
    - `Retry Selected`
    - `Retry All`
@@ -116,6 +117,8 @@ What to verify:
 What to verify:
 
 - Queue decreases after retry/remove actions
+- Jobs marked `Waiting for auto retry` may clear by themselves after the printer is ready again
+- Jobs marked `Permanent error` need manual review, removal, or a fresh print request
 - New print jobs are processed normally
 - The failed-job badge on the printer row clears after the error queue is empty
 
@@ -135,7 +138,7 @@ Verify power/network on printer first, then run `Test Print`.
 :::
 
 :::note[Spooler retries do not clear error jobs]
-Remove failed jobs, validate connectivity, then resend order/print request.
+Open the spooler job details. If the job is waiting for automatic retry, confirm the printer is online and wait for the next retry. If the job is a permanent error or repeated retries fail, remove the failed job, validate connectivity, then resend the order or print request.
 :::
 
 :::warning[`Not configured` on an HQ-managed printer]
