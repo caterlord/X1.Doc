@@ -7,6 +7,21 @@ This page tracks manual changes by release and update batch across the full X1 d
 
 It is not limited to the POS app manual. Use it for POS, HQ, shared workflow, and documentation-structure updates.
 
+## 2026-05-21 (v1.7.16 POS and HQ Alignment)
+
+### Updated
+
+- `Sales Flow`: documented the current modifier and meal-set prompt behavior after adding an item.
+- `Menu Items`: documented `Auto-show modifier groups on POS`, `Item Relationships`, and the `Manage Relationships` check for modifier groups and meal-set groups.
+- `Manage Printers`, `Settings`, `Troubleshooting`, and `Function and Feature Map`: documented printer spooler retry details, automatic retry states, and `Show AUTO REPRINT label on automatic retries`.
+- `Info Settings`: documented receipt logo printout type coverage for `ODO Slip`.
+
+### Reviewed
+
+- Checked POS source changes from `v1.7.13` through `v1.7.16`, including release notes, print spooler auto retry, ODO slip logo printing, browser sandbox work, macOS camera scanner setup, sync fixes, and modifier/meal-set ordering flow.
+- Checked HQ source changes after the prior subscription-seat documentation update, including POS logs, ODO slip logo settings, modifier relationship fixes, modifier printer assignment handling, `Auto-show modifier groups on POS`, POS log filename handling, promotion save handling, Neon channel binding, and deployment docs.
+- Confirmed browser sandbox, deployment, dependency-warning, channel-binding, and general stability fixes do not add new cashier/admin manual steps beyond the updates above.
+
 ## 2026-05-09 (v1.7.13 POS Rebuild)
 
 ### Updated

@@ -70,6 +70,15 @@ Examples include:
 - non-service-charge
 - non-taxable
 - receipt visibility options
+- `Auto-show modifier groups on POS`
+
+When `Auto-show modifier groups on POS` is on, POS opens the linked modifier groups immediately after staff add this item. When it is off, POS skips straight to any linked meal-set groups; staff can still select the item row later to adjust modifiers manually.
+
+### Item relationships
+
+Use `Item Relationships` to attach modifier groups and meal set groups to the item. Select `Manage Relationships` after the item has been saved, then add the required `Modifier Groups` and `Meal Set Groups`.
+
+If a modifier group or meal set group looks stale, reopen `Manage Relationships` and check that the correct group is still linked to the current item. A group that is no longer linked should not continue to appear in the item relationship graph.
 
 ### Pricing, availability, and shop settings
 
@@ -112,11 +121,16 @@ Before saving, check that every `Item Code` is unique in the row list and is not
 5. Assign the item to the correct category and department.
 6. Apply any required special behavior switches.
 7. Review pricing and availability for the target shops.
-8. Save the item.
+8. In `Item Relationships`, turn `Auto-show modifier groups on POS` on or off for the item.
+9. Save the item.
+10. Select `Manage Relationships` and attach the required modifier groups or meal set groups.
+11. Save the relationship changes.
 
 ## What changes after you save
 
 These changes affect the shared item record and may also affect shop availability, POS browsing, reporting, and checkout behavior depending on what you changed.
+
+Relationship changes affect how POS guides staff after the item is added. Modifier groups should appear immediately when `Auto-show modifier groups on POS` is on. Meal-set groups still appear for set items that require combo choices.
 
 ## How to check your change
 
@@ -124,13 +138,16 @@ These changes affect the shared item record and may also affect shop availabilit
 2. Verify the item sits in the correct category and department.
 3. Check the target shop pricing, availability, or shop settings if those were changed.
 4. Test the affected POS behavior if you changed special switches.
-5. If you copied an item, reopen the copied item and confirm the related setup was copied as expected.
+5. If you changed item relationships, add the item on POS and confirm modifier groups and meal-set groups appear in the expected order.
+6. If you copied an item, reopen the copied item and confirm the related setup was copied as expected.
 
 ## If something goes wrong
 
 - Confirm the wrong result is not caused by category, department, or availability settings.
 - Check the item type first if the POS behavior is unexpected.
 - If the item exists but is missing in one shop, review shop-level price or availability setup.
+- If modifier groups or meal-set groups do not appear correctly on POS, reopen `Manage Relationships` and confirm the current item is linked to the right groups.
+- If POS opens modifier groups when staff do not expect it, check `Auto-show modifier groups on POS`.
 - If a copy fails, check for duplicate `Item Code` values in the copy list or among active items.
 
 ## When to ask owner/admin

@@ -156,6 +156,16 @@ import TabItem from '@theme/TabItem';
 6. 按 `Save`。
 7. 列印一張包含長品項名稱的標籤，確認文字仍然清晰可讀。
 
+## 常見自動重印標籤設定
+
+1. 按 `設定` -> `列印`。
+2. 開啟 `模板`。
+3. 選擇需要恢復標籤的列印模板，例如 `廚房單`、`部門單` 或 `點單號單`。
+4. 如果廚房或取餐櫃台員工需要識別由 spooler 自動重試列印的輸出，請開啟 `自動重印時顯示「自動重印」標籤`。
+5. 如果是顧客可見輸出，而門店不希望列印恢復標籤，請保持關閉。
+6. 按 `Save`。
+7. 如正在測試印表機恢復情況，請確認自動重試輸出有顯示預期的 `自動重印` 標籤。
+
 ## 常見收據自動列印
 
 1. 按 `設定` -> `列印`。
@@ -220,6 +230,7 @@ import TabItem from '@theme/TabItem';
 - `Printing` -> `Setting` 包含 `Show Order Contact On Receipt` 和 `Show Order Contact On Kitchen Output`
 - `Printing` -> `Template` 的收據字體設定包含 `Customer Contact`
 - `列印` -> `模板` 的標籤設定包含 `啟用自適應文字大小`
+- `列印` -> `模板` 包含 `自動重印時顯示「自動重印」標籤`
 - `Report` 包含 `Print Qty`、`Daily Report Sections` 和 `Show advanced sections`
 - `Restore` 操作位於設定底部
 

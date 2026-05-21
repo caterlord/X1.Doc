@@ -103,12 +103,13 @@ import TabItem from '@theme/TabItem';
   <TabItem value="spooler" label="Manage Printer Spooler">
 1. 点按目标打印机列上的 `Manage Spooler`。
 2. 检查分页：`Printing`、`History`、`Error`。
-3. 视需要使用以下动作：
+3. 如需检查任务，请选择该行的信息按钮。详情可显示 `状态`、`重试来源`、`尝试次数`、`自动重印`、`下次重试` 和最后记录的 `错误`。
+4. 视需要使用以下动作：
    - `Refresh`
    - `Clear Selection`
    - `Remove Selected`
    - `Remove All`
-4. 在 `Error` 页签中，使用重试动作：
+5. 在 `Error` 页签中，使用重试动作：
    - `Select All`
    - `Retry Selected`
    - `Retry All`
@@ -116,6 +117,8 @@ import TabItem from '@theme/TabItem';
 要确认的是：
 
 - 重试／移除动作后，队列会减少
+- 标记为 `等待自动重印` 的任务，可能会在打印机恢复正常后自行清除
+- 标记为 `永久错误` 的任务需要人工检查、删除，或重新发送打印请求
 - 新的列印工作会正常处理
 - `Error` 队列清空后，打印机列上的错误数量标记会消失
 
@@ -135,7 +138,7 @@ import TabItem from '@theme/TabItem';
 :::
 
 :::note[队列重试没有清除错误任务]
-先移除失败任务，确认连接正常，再重新送出订单／打印请求。
+请打开打印队列任务详情。如果任务正在等待自动重试，请确认打印机已连接，然后等待下一次重试。如果任务是永久错误，或多次重试仍失败，请删除失败任务、确认连接正常，然后重新发送订单／打印请求。
 :::
 
 :::warning[HQ 管理打印机显示 `尚未配置`]

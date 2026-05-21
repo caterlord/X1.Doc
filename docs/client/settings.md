@@ -156,6 +156,16 @@ Restore now covers more configuration areas in current builds, so verify critica
 6. Tap `Save`.
 7. Print a label with a long item name and confirm the text is still readable.
 
+## Common automatic reprint label task
+
+1. Tap `Settings` -> `Printing`.
+2. Open `Template`.
+3. Select the print template that needs recovery labels, such as `Kitchen Slip`, `Department Slip`, or `Item Order Slip`.
+4. Turn `Show AUTO REPRINT label on automatic retries` on when kitchen or counter staff need to identify output that was printed again by the automatic spooler retry.
+5. Leave it off for customer-facing output where your store does not want the recovery label printed.
+6. Tap `Save`.
+7. If you are testing a printer recovery case, confirm automatic retry output shows the expected `AUTO REPRINT` label.
+
 ## Common receipt auto print task
 
 1. Tap `Settings` -> `Printing`.
@@ -236,6 +246,7 @@ If you increase `Local Transaction Retention (Days)` later, POS does not restore
 - `Printing` -> `Setting` includes `Show Order Contact On Receipt` and `Show Order Contact On Kitchen Output`
 - `Printing` -> `Template` receipt font settings include `Customer Contact`
 - `Printing` -> `Template` label settings include `Enable adaptive text size`
+- `Printing` -> `Template` includes `Show AUTO REPRINT label on automatic retries`
 - `General` -> `Clearing` includes `Local Transaction Retention (Days)` and the warning text about older closed workdays being removed from this device
 - `Report` includes `Print Qty`, `Daily Report Sections`, and `Show advanced sections`
 - `Restore` action at the bottom of settings

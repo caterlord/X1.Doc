@@ -103,12 +103,13 @@ import TabItem from '@theme/TabItem';
   <TabItem value="spooler" label="管理印表機佇列">
 1. 點選目標印表機那一列的 `Manage Spooler`。
 2. 檢查分頁：`Printing`、`History`、`Error`。
-3. 使用需要的動作：
+3. 如需檢查工作，請選擇該列的資訊按鈕。詳情可顯示 `狀態`、`重試來源`、`嘗試次數`、`自動重印`、`下次重試` 及最後記錄的 `錯誤`。
+4. 使用需要的動作：
    - `Refresh`
    - `Clear Selection`
    - `Remove Selected`
    - `Remove All`
-4. 在 `Error` 分頁使用重試動作：
+5. 在 `Error` 分頁使用重試動作：
    - `Select All`
    - `Retry Selected`
    - `Retry All`
@@ -116,6 +117,8 @@ import TabItem from '@theme/TabItem';
 要確認的內容：
 
 - 重試或移除後，佇列數量會減少
+- 標示為 `等待自動重印` 的工作，可能會在印表機恢復正常後自行清除
+- 標示為 `永久錯誤` 的工作需要人工檢查、移除，或重新送出列印請求
 - 新的列印工作會正常處理
 - `Error` 佇列清空後，印表機列上的錯誤數量標記會消失
 
@@ -135,7 +138,7 @@ import TabItem from '@theme/TabItem';
 :::
 
 :::note[佇列重試未清除錯誤工作]
-先移除失敗工作，確認連線正常，然後重新送出訂單或列印請求。
+請開啟 spooler 工作詳情。如果工作正在等待自動重試，請確認印表機已連線，然後等候下一次重試。如果工作是永久錯誤，或多次重試仍失敗，請移除失敗工作、確認連線正常，然後重新送出訂單或列印請求。
 :::
 
 :::warning[HQ 管理印表機顯示 `尚未設定`]

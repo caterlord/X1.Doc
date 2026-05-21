@@ -59,11 +59,14 @@ Escalate to manager/admin when:
 3. Run `Test Print`.
 4. Check paper, cover, and network.
 5. Use `Manage Spooler` if queue is stuck.
+6. Open the spooler job details and check `Status`, `Attempts`, `Next retry`, and `Error`.
+7. If the job is `Waiting for auto retry`, bring the printer back online and wait for the retry. If it is `Permanent error`, remove the failed job and resend the print request after the printer is ready.
 
 Escalate to manager/admin when:
 
 1. Test print keeps failing.
 2. Printer remains offline after local checks.
+3. Spooler jobs keep returning to `Error` after automatic or manual retry.
 
 </details>
 
