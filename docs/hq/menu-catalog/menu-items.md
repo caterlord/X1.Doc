@@ -112,6 +112,16 @@ The destination `Category` and `Department` are shared by all rows in the same s
 
 Before saving, check that every `Item Code` is unique in the row list and is not already used by an active item. If one target item cannot be saved, none of the target items are created.
 
+### Restore a recently removed item
+
+Use the restore icon in the list toolbar when an item was removed by mistake. This icon-only control turns the recently removed view on or off.
+
+- The control only shows items removed in the last 24 hours. Items removed longer ago are not included.
+- Recently removed rows use a light gray background.
+- A recently removed row only shows the restore action. The settings, edit, copy, and delete actions are hidden.
+- Select the restore icon in the row to make the item active again.
+- HQ blocks the restore if the item's category or department is not active, or if another active item already has the same `Item Code`.
+
 ## Steps
 
 1. Open `Menu Management` -> `Menu Items`.
@@ -125,6 +135,9 @@ Before saving, check that every `Item Code` is unique in the row list and is not
 9. Save the item.
 10. Select `Manage Relationships` and attach the required modifier groups or meal set groups.
 11. Save the relationship changes.
+12. If you removed an item by mistake, select the restore icon in the toolbar to show recently removed items.
+13. Find the light gray row and select the row restore icon.
+14. If HQ blocks the restore, review the item's category, department, and any active item with the same `Item Code` before trying again.
 
 ## What changes after you save
 
@@ -149,6 +162,7 @@ Relationship changes affect how POS guides staff after the item is added. Modifi
 - If modifier groups or meal-set groups do not appear correctly on POS, reopen `Manage Relationships` and confirm the current item is linked to the right groups.
 - If POS opens modifier groups when staff do not expect it, check `Auto-show modifier groups on POS`.
 - If a copy fails, check for duplicate `Item Code` values in the copy list or among active items.
+- If restore is blocked, check whether the category and department are active and whether another active item is using the same `Item Code`.
 
 ## When to ask owner/admin
 

@@ -53,6 +53,17 @@ These definitions are created at brand level and then enabled per shop.
 
 Use the shop settings area to enable the rule only for the shops that should apply it.
 
+### Restore a recently removed tax or surcharge
+
+Use `Show recently removed` on the relevant list when a tax or surcharge rule was removed by mistake.
+
+- The `Taxation` list and the `Surcharge` list each have their own recently removed toggle.
+- The toggle only shows taxations or surcharges removed in the last 24 hours. Records removed longer ago are not included.
+- Recently removed rows use a light gray background.
+- A recently removed row only shows the restore action. The edit and delete actions are hidden.
+- Select the restore icon to make the taxation or surcharge active again.
+- HQ blocks the restore if another active taxation or surcharge already has the same `Code` or `Name`.
+
 ## Steps
 
 1. Open `POS Settings` -> `Tax & Surcharge`.
@@ -64,6 +75,9 @@ Use the shop settings area to enable the rule only for the shops that should app
 7. Turn `Auto Calculate` or `Open Amount` on only if required.
 8. Enable the rule for the target shops.
 9. Save the rule.
+10. If you removed a tax or surcharge rule by mistake, turn on `Show recently removed` in the relevant list.
+11. Find the light gray row and select the restore icon.
+12. If HQ blocks the restore, review any active taxation or surcharge with the same `Code` or `Name` before trying again.
 
 ## What changes after you save
 
@@ -80,6 +94,7 @@ Saving the rule updates the brand-level definition. The rule only affects the sh
 - Confirm the issue is not caused by shop enablement.
 - Check `Priority` if multiple rules are interacting unexpectedly.
 - Review whether the rule should be automatic or manual before changing the rate itself.
+- If restore is blocked, check whether another active taxation or surcharge is using the same `Code` or `Name`.
 
 ## When to ask owner/admin
 
