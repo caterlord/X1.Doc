@@ -7,6 +7,24 @@ This page tracks manual changes by release and update batch across the full X1 d
 
 It is not limited to the POS app manual. Use it for POS, HQ, shared workflow, and documentation-structure updates.
 
+## 2026-05-27 (v1.7.16 POS Re-spin, HQ Fixes, and HQ Agent Review)
+
+### Updated
+
+- `Settings` and `Function and Feature Map`: documented that template font profiles now include `Octopus Add Value Slip` and `Pay In/Out Slip`, so those slips can follow saved font-size settings.
+- `Connect an AI Assistant`: aligned the ChatGPT setup example with the `X1 HQ Agent` app name used by the HQ Agent submission metadata.
+
+### Screenshot updates
+
+- Added a pending capture for the `Settings` -> `Printing` -> `Template` selector showing `Octopus Add Value Slip` and `Pay In/Out Slip`.
+
+### Reviewed
+
+- Checked the POS `v1.7.16` re-spin release notes and source changes after the 2026-05-21 documentation baseline, including initial/background sync stability, checkout and void crash fixes, table-change fixes, printer timeout/retry behavior, template font routing, roster clock result dialog, report lookup fixes, Android sync upload, Mac camera scanner setup, and browser POS preview fixes.
+- Checked HQ changes after the prior restore-flow documentation update, including the discount rule editor save response and discount serialized-field normalization. Confirmed these are reliability fixes to existing discount steps, not new admin workflow.
+- Checked HQ Agent changes for ChatGPT app submission metadata, MCP CORS handling, and tool annotations. Confirmed the user-facing documentation impact is the app-name wording above; tool annotation and CORS details do not add admin steps.
+- Confirmed broader POS browser sandbox, crash-log analytics, support logging, deployment/runbook, and internal query-tracking updates do not add new cashier/admin manual steps in the online docs.
+
 ## 2026-05-21 (v1.7.16 POS and HQ Alignment)
 
 ### Updated

@@ -146,6 +146,18 @@ Restore now covers more configuration areas in current builds, so verify critica
 5. Tap `Save`.
 6. Print a test receipt/slip and confirm output language.
 
+## Common print template font task
+
+1. Tap `Settings` -> `Printing`.
+2. Open `Template`.
+3. Select the target print template.
+4. Adjust the font size rows for that template.
+5. Use `Preview` to confirm the output is readable.
+6. Tap `Save`.
+7. Print a test receipt/slip and confirm the printed output follows the saved font settings.
+
+Current template font profiles include `Receipt / Checklist / Invoice`, `Kitchen Slip`, `Label`, `Pickup Slip`, `Department Slip`, `Item Order Slip`, `ODO QR Code Slip`, `Octopus Add Value Slip`, and `Pay In/Out Slip`.
+
 ## Common label text fitting task
 
 1. Tap `Settings` -> `Printing`.
@@ -245,6 +257,7 @@ If you increase `Local Transaction Retention (Days)` later, POS does not restore
 - `Printing` -> `Setting` includes `Auto Print Receipt`
 - `Printing` -> `Setting` includes `Show Order Contact On Receipt` and `Show Order Contact On Kitchen Output`
 - `Printing` -> `Template` receipt font settings include `Customer Contact`
+- `Printing` -> `Template` includes font profiles for `Octopus Add Value Slip` and `Pay In/Out Slip`
 - `Printing` -> `Template` label settings include `Enable adaptive text size`
 - `Printing` -> `Template` includes `Show AUTO REPRINT label on automatic retries`
 - `General` -> `Clearing` includes `Local Transaction Retention (Days)` and the warning text about older closed workdays being removed from this device
@@ -257,6 +270,10 @@ Needed file: `client/cl-40-settings-language-configuration-grid.png`
 
 :::note[Screenshot pending]
 Needed file: `client/cl-45-settings-print-order-contact-toggles.png`
+:::
+
+:::note[Screenshot pending]
+Needed file: `client/cl-53-settings-template-font-profiles.png`
 :::
 
 :::note[Screenshot pending]

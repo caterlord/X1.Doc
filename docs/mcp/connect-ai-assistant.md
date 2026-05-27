@@ -25,7 +25,7 @@ ChatGPT labels may vary by workspace. Some workspaces show `Apps & Connectors`; 
 3. Open `Apps & Connectors`.
 4. If needed, open `Advanced settings` and turn on developer mode for your workspace.
 5. Select `Create`.
-6. Enter a clear name such as `X1 HQ`.
+6. Enter a clear name such as `X1 HQ Agent`.
 7. Enter a description that explains the app can help inspect and manage X1 HQ data.
 8. Enter the MCP server URL: `https://mcp.x1.tech/mcp`.
 9. Select `Create`.
@@ -37,7 +37,7 @@ ChatGPT labels may vary by workspace. Some workspaces show `Apps & Connectors`; 
 1. Open a new chat.
 2. Select the `+` button near the message box.
 3. Select `More`.
-4. Choose the X1 app or connector.
+4. Choose `X1 HQ Agent` or the X1 app/connector name shown in your workspace.
 5. Ask a read-only question first, such as "List the brands and shops I can access."
 6. Confirm the assistant returns only brands and shops you expect to see.
 

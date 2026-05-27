@@ -146,6 +146,18 @@ import TabItem from '@theme/TabItem';
 5. 点击 `保存`。
 6. 打印测试收据 / 单据，并确认输出语言正确。
 
+## 常见打印模板字体设置任务
+
+1. 点击 `设置` -> `打印`。
+2. 打开 `模板`。
+3. 选择目标打印模板。
+4. 调整该模板的字体大小行。
+5. 使用 `即时预览` 确认输出容易阅读。
+6. 点击 `保存`。
+7. 打印测试收据 / 单据，并确认打印结果按已保存的字体设置输出。
+
+当前模板字体设置包含 `收据 / 清单 / 发票`、`厨房单`、`标签`、`取餐单`、`部门单`、`点单号单`、`ODO 二维码单据`、`八达通增值单` 和 `入账 / 出账单`。
+
 ## 常见标签文字适配任务
 
 1. 点击 `设置` -> `打印`。
@@ -229,6 +241,7 @@ import TabItem from '@theme/TabItem';
 - `打印` -> `设置` 包含 `自动打印收据`
 - `打印` -> `设置` 包含 `在收据上显示订单联络资料` 和 `在厨房输出上显示订单联络资料`
 - `打印` -> `模板` 的收据字体设置包含 `Customer Contact`
+- `打印` -> `模板` 包含 `八达通增值单` 和 `入账 / 出账单` 的字体设置
 - `打印` -> `模板` 的标签设置包含 `启用自适应文字大小`
 - `打印` -> `模板` 包含 `自动重印时显示「自动重印」标签`
 - `报表` 包含 `打印数量`、`日报表打印部分` 和 `显示进阶部分`
@@ -252,6 +265,10 @@ Needed files: `client/cl-48-settings-print-auto-print-receipt.png`, `client/cl-4
 
 :::note[Screenshot pending]
 Needed file: `client/cl-51-settings-template-label-adaptive-text-size.png`
+:::
+
+:::note[Screenshot pending]
+Needed file: `client/cl-53-settings-template-font-profiles.png`
 :::
 
 ## 出现问题时
