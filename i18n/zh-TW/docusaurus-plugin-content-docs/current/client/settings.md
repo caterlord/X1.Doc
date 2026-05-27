@@ -145,6 +145,18 @@ import TabItem from '@theme/TabItem';
 5. 點選 `Save`。
 6. 列印測試收據或單據，確認輸出語言正確。
 
+## 常見列印範本字型設定任務
+
+1. 點選 `Settings` -> `Printing`。
+2. 開啟 `Template`。
+3. 選擇目標列印範本。
+4. 調整該範本的字型大小列。
+5. 使用 `即時預覽` 確認輸出容易閱讀。
+6. 點選 `Save`。
+7. 列印測試收據或單據，確認列印結果依照已儲存的字型設定輸出。
+
+目前的範本字型設定包含 `收據 / 清單 / 發票`、`廚房單`、`標籤`、`取餐單`、`部門單`、`點單號單`、`ODO QR Code 單據`、`八達通增值單` 和 `入賬 / 出賬單`。
+
 ## 常見標籤文字適配任務
 
 1. 點選 `設定` -> `列印`。
@@ -228,6 +240,7 @@ import TabItem from '@theme/TabItem';
 - `Printing` -> `Setting` 包含 `Auto Print Receipt`
 - `Printing` -> `Setting` 包含 `Show Order Contact On Receipt` 與 `Show Order Contact On Kitchen Output`
 - `Printing` -> `Template` 的收據字型設定包含 `Customer Contact`
+- `Printing` -> `Template` 包含 `八達通增值單` 和 `入賬 / 出賬單` 的字型設定
 - `列印` -> `模板` 的標籤設定包含 `啟用自適應文字大小`
 - `列印` -> `模板` 包含 `自動重印時顯示「自動重印」標籤`
 - `Report` 包含 `Print Qty`、`Daily Report Sections` 與 `Show advanced sections`
@@ -251,6 +264,10 @@ import TabItem from '@theme/TabItem';
 
 :::note[截圖待補]
 需要檔案：`client/cl-51-settings-template-label-adaptive-text-size.png`
+:::
+
+:::note[截圖待補]
+需要檔案：`client/cl-53-settings-template-font-profiles.png`
 :::
 
 ## 如發生問題

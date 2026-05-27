@@ -25,7 +25,7 @@ ChatGPT 的标签可能因工作区而不同。部分工作区显示 `Apps & Con
 3. 打开 `Apps & Connectors`。
 4. 如有需要，打开 `Advanced settings`，并为工作区启用 developer mode。
 5. 选择 `Create`。
-6. 输入清楚名称，例如 `X1 HQ`。
+6. 输入清楚名称，例如 `X1 HQ Agent`。
 7. 输入描述，说明此应用可以协助检查和管理 X1 HQ 数据。
 8. 输入 MCP 服务器地址：`https://mcp.x1.tech/mcp`。
 9. 选择 `Create`。
@@ -37,7 +37,7 @@ ChatGPT 的标签可能因工作区而不同。部分工作区显示 `Apps & Con
 1. 打开新对话。
 2. 选择消息输入框旁边的 `+` 按钮。
 3. 选择 `More`。
-4. 选择 X1 app 或 connector。
+4. 选择 `X1 HQ Agent`，或工作区中显示的 X1 app/connector 名称。
 5. 先提出只读问题，例如“列出我可以访问的品牌和门店。”
 6. 确认助理只返回你预期可见的品牌和门店。
 
