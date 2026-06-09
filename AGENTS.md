@@ -6,6 +6,9 @@ Build and maintain the online user manual for **POS X1** using Docusaurus.
 ## Product Scope
 - Product behavior may be verified against companion application codebases when access is available.
 - Do not commit local machine paths, private repository URLs, or environment-specific internal references.
+- Exclude **X1 Control Plane** changes from the online user manual. The Control Plane is an internal/partner administration surface and must not be documented in public user-facing POS X1 or HQ manuals.
+- When asked to review diffs from another X1 repository and prepare documentation updates, ignore changes that belong to the X1 Control Plane, including partner control-plane pages, routes, APIs, authorization, billing, subscriptions, redeem-code, audit-log, dashboard, client-perspective, or internal-admin workspace behavior.
+- Only document HQ/POS behavior that is intended for online user documentation; do not convert X1 Control Plane release notes, screenshots, or implementation changes into user manual pages.
 
 ## Documentation Structure
 - `docs/getting-started/`: onboarding, login, roles, navigation

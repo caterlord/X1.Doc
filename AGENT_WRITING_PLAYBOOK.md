@@ -8,6 +8,8 @@ It applies to:
 - HQ web portal documentation
 - supporting reference pages
 
+It does not apply to **X1 Control Plane**. Do not include X1 Control Plane changes in the online user manual. When reviewing diffs from X1 product repositories to prepare documentation updates, exclude Control Plane changes such as partner control-plane UI, APIs, authorization, dashboard, clients, subscriptions, redeem codes, billing, audit logs, and internal-admin workspace behavior.
+
 The manual is operational training, not developer documentation.
 
 ## 1) Objective
