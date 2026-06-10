@@ -26,6 +26,7 @@ title: 工作区管理
 
 它控制：
 
+- `Workspace region`
 - `Companies`
 - `Brands`
 - `Shops`
@@ -72,6 +73,18 @@ _`Business Access` 会显示工作区成员、待处理邀请，以及他们的�
 4. 如果 HQ 要求，选择上层 `Company` 或 `Brand`。
 5. 如有需要，输入选填的 `Description` 或 `Address`。
 6. 保存记录。
+
+### 设置第一个公司、品牌和门店
+
+1. 在新工作区打开 `Dashboard`。
+2. 选择 `Start guided setup`。
+3. 保持选中 `New Company`。
+4. 选择 `Next`。
+5. 输入公司资料。
+6. 继续完成 `Brand` 和 `Shop`。
+7. 检查 `Confirmation`。
+8. 只有在公司、品牌和门店名称正确时才保存。
+9. 返回 `Dashboard`，确认正常仪表板已显示。
 
 ### 邀请工作区成员并分配存取权限
 

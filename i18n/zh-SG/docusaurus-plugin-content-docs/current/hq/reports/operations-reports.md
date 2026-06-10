@@ -51,6 +51,8 @@ title: 营运报表
 - `Operations Essentials`
 - `Deposits`
 - `Returned Orders`
+- `Voided Orders`
+- `Item Sold Out Report`
 - `KDS Summary`
 
 ### 外送与派单

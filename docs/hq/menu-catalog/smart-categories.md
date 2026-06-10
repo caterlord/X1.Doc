@@ -27,6 +27,8 @@ Use this page when you need to:
 - manage shop display settings
 - manage order-channel settings
 
+![Smart Categories](/img/hq/menu-catalog/smart_categories_page.png)
+
 ## Main sections
 
 ### Main list
@@ -41,10 +43,14 @@ The main list includes fields such as:
 
 Key actions include:
 
+- `Search`
 - `Refresh`
+- `Show recently removed`
 - `Reorder`
 - `Copy from Existing`
 - `New Smart Category`
+
+The table now also shows the current row count and keeps the main tools grouped above the list, so you can search, refresh, restore, reorder, copy, or create without leaving the page.
 
 ### Category editor
 

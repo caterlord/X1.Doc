@@ -45,6 +45,7 @@ Examples:
 - `Annual Turnover`
 - `Hourly Report`
 - `Revenue Attainment`
+- `Transaction Overview`
 
 ### Breakdown analysis
 
@@ -56,6 +57,7 @@ Examples:
 - `Sales by Section`
 - `Sales by Department`
 - `Sales by Discount`
+- `Sales by Modifier`
 - `Payment Methods`
 
 ### Detailed records
@@ -65,8 +67,9 @@ Use these reports when you need record-level or audit-style detail.
 Examples:
 
 - `Transaction List`
+- `Order Details`
+- `Payment Details`
 - `Food Cost`
-- `Item Sold Out`
 
 ### Customers and partners
 
@@ -74,7 +77,19 @@ Use this area when you need member or customer-linked analysis.
 
 Example:
 
-- `Members`
+- `Members Analysis`
+
+## Key table actions
+
+Many Sales Reports use a shared table toolbar.
+
+- Select the search icon to filter rows in the current report.
+- Select the sort icon to change the report order.
+- Select the columns icon to show, hide, reset, or show all table columns.
+- Select `Export CSV` when you need a spreadsheet-friendly copy of the current table.
+- Use the page controls and `Refresh` before comparing exported data.
+
+Some detail reports also link to a fuller view. For example, `Transaction List` can open related `Order Details`, and payment amounts can open `Payment Details`.
 
 ## How to use this page
 
@@ -82,7 +97,8 @@ Start broad, then move into detail:
 
 1. Use summary reports to confirm the overall result.
 2. Use breakdown reports to locate the source of the change.
-3. Use detailed records when you need receipt-level or item-level confirmation.
+3. Use `Transaction Overview`, `Transaction List`, `Order Details`, or `Payment Details` when you need receipt-level confirmation.
+4. Export only after confirming the scope, date range, filters, and visible columns.
 
 ## What changes after you save
 

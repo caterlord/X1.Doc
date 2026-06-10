@@ -27,6 +27,8 @@ title: 智能分類
 - 管理店舖顯示設定
 - 管理訂單渠道設定
 
+![智能分類](/img/hq/menu-catalog/smart_categories_page.png)
+
 ## 主要分區
 
 ### 主清單
@@ -42,9 +44,12 @@ title: 智能分類
 常見操作包括：
 
 - `Refresh`
+- `Show recently removed`
 - `Reorder`
 - `Copy from Existing`
 - `New Smart Category`
+
+表格也會顯示目前列數，並把主要工具集中在清單上方，方便你搜尋、重新整理、還原、重新排序、複製或新增智能分類。
 
 ### 分類編輯器
 

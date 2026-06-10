@@ -45,6 +45,7 @@ title: 銷售報表
 - `Annual Turnover`
 - `Hourly Report`
 - `Revenue Attainment`
+- `Transaction Overview`
 
 ### 分項分析
 
@@ -56,6 +57,7 @@ title: 銷售報表
 - `Sales by Section`
 - `Sales by Department`
 - `Sales by Discount`
+- `Sales by Modifier`
 - `Payment Methods`
 
 ### 詳細記錄
@@ -65,6 +67,8 @@ title: 銷售報表
 例子：
 
 - `Transaction List`
+- `Order Details`
+- `Payment Details`
 - `Food Cost`
 - `Item Sold Out`
 
@@ -74,7 +78,19 @@ title: 銷售報表
 
 例子：
 
-- `Members`
+- `Members Analysis`
+
+## 主要表格操作
+
+很多銷售報表共用同一組表格工具。
+
+- 選擇搜尋圖示，在目前報表內篩選列。
+- 選擇排序圖示，改變報表順序。
+- 選擇欄位圖示，顯示、隱藏、重設或顯示全部欄位。
+- 需要在試算表查看目前表格時，選擇 `Export CSV`。
+- 比較匯出資料前，先使用分頁控制和 `Refresh` 確認資料已更新。
+
+部分明細報表可開啟更完整的視圖。例如 `Transaction List` 可連到相關 `Order Details`，付款金額可連到 `Payment Details`。
 
 ## 如何使用本頁
 

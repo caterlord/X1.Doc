@@ -51,6 +51,8 @@ Examples:
 - `Operations Essentials`
 - `Deposits`
 - `Returned Orders`
+- `Voided Orders`
+- `Item Sold Out Report`
 - `KDS Summary`
 
 ### Delivery and dispatch
@@ -66,8 +68,17 @@ Example:
 Start with the report that matches the operational question:
 
 - use staff reports for people and attendance questions
-- use audit-style reports for voids, returns, or deposits
+- use audit-style reports for voids, returned orders, item sold-out records, or deposits
 - use kitchen or delivery reports for fulfillment timing questions
+
+## Key table actions
+
+Many Operations Reports use the same table tools as Sales Reports.
+
+- Use search to narrow the current report.
+- Use sort and column controls to prepare the table for review.
+- Select `Export CSV` when the current filtered table needs to be reviewed outside HQ.
+- Use `Refresh` after changing the date range or shop scope.
 
 ## What changes after you save
 

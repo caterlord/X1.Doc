@@ -51,6 +51,8 @@ title: 營運報表
 - `Operations Essentials`
 - `Deposits`
 - `Returned Orders`
+- `Voided Orders`
+- `Item Sold Out Report`
 - `KDS Summary`
 
 ### 外送與派送

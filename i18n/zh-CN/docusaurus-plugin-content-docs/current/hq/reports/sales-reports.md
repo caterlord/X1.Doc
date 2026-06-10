@@ -45,6 +45,7 @@ title: 销售报表
 - `Annual Turnover`
 - `Hourly Report`
 - `Revenue Attainment`
+- `Transaction Overview`
 
 ### 拆分分析
 
@@ -56,6 +57,7 @@ title: 销售报表
 - `Sales by Section`
 - `Sales by Department`
 - `Sales by Discount`
+- `Sales by Modifier`
 - `Payment Methods`
 
 ### 详细纪录
@@ -65,6 +67,8 @@ title: 销售报表
 例如：
 
 - `Transaction List`
+- `Order Details`
+- `Payment Details`
 - `Food Cost`
 - `Item Sold Out`
 
@@ -74,15 +78,28 @@ title: 销售报表
 
 例如：
 
-- `Members`
+- `Members Analysis`
 
-## 如何使用本页
+## 主要表格操作
+
+很多销售报表共用同一组表格工具。
+
+- 选择搜索图标，在当前报表内筛选行。
+- 选择排序图标，改变报表顺序。
+- 选择栏位图标，显示、隐藏、重置或显示全部栏位。
+- 需要在电子表格查看当前表格时，选择 `Export CSV`。
+- 比较导出数据前，先使用分页控制和 `Refresh` 确认数据已更新。
+
+部分明细报表可打开更完整的视图。例如 `Transaction List` 可连到相关 `Order Details`，付款金额可连到 `Payment Details`。
+
+## 如何使用本頁
 
 先看大方向，再往细节钻：
 
 1. 先用摘要报表确认整体结果。
 2. 再用拆分报表找出变化来源。
 3. 如果需要收据层级或商品层级确认，再用详细纪录报表。
+4. 导出前确认范围、日期、筛选条件和显示栏位。
 
 ## 保存后的影响
 

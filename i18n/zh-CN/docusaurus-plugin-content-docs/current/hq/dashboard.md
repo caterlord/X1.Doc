@@ -24,9 +24,10 @@ title: 仪表板
 
 ## 主要分区
 
-- **Active Locations**：显示当前哪些门店在线或处于启用状态。
-- **Top-level summaries**：显示每日或当前期间的关键汇总指标。
-- **Navigation shortcuts**：提供前往主要 HQ 设置区块的快捷入口。
+- **每日 KPI 卡**：显示所选日期的 `Gross Sales`、`Net Sales`、`Total Orders` 和 `Avg Service Time`。
+- **表现图表**：显示销售趋势、最佳／最差项目、门店、分类、每小时、部门、付款方式和堂食／外带数据。
+- **页首工具**：搜索、语言切换、支持、通知和设置。
+- **工作区和品牌选择器**：左上角选择器决定仪表板当前显示的工作区和品牌。
 
 ## 如何使用本页
 
@@ -40,6 +41,18 @@ title: 仪表板
 
 如果您要更新自己的登录资料，或在不同公司／组织之间切换，请点击导航栏中的个人头像。
 
+## 新工作区引导设置
+
+如果工作区还没有公司、品牌或门店，HQ 会显示设置提示，而不是仪表板指标。
+
+![空白工作区设置提示](/img/hq/getting-started/empty_workspace_onboarding_prompt.png)
+
+准备好建立第一个运营结构时，选择 `Start guided setup`。如果想先检查成员和访问权，选择 `Workspace Administration`。
+
+引导设置会从 `What would you like to add?` 开始，并依次处理 `Choose Type`、`Company`、`Brand`、`Shop` 和 `Confirmation`。
+
+![引导工作区设置起点](/img/hq/getting-started/guided_workspace_setup_start.png)
+
 ## 保存后的影响
 
 `Dashboard` 主要用于监控和导航。本页一般不会直接修改数据，而是帮助您先找到正确的设置区块，再到对应页面处理。
@@ -48,6 +61,7 @@ title: 仪表板
 
 - 确认您当前所在的是正确的组织或品牌。
 - 如果数字看起来不正确，请先打开相关报表或设置页面，再决定是否修改数据。
+- 如果看到 `Set up this workspace`，请先建立第一个公司、品牌和门店，然后才会看到正常报表或 POS 设置数据。
 
 ## 何时需要找老板／管理员
 

@@ -20,6 +20,8 @@ title: 报表总览
 
 请先用正确的报表类别，这样可以节省时间，也可以减少报表错误。
 
+如果您想用互动图表探索趋势，而不是查看固定表格，请使用 [洞察](../insights.md)。
+
 ## 如何使用本节
 
 ### 需要 Sales Reports 时
@@ -28,18 +30,22 @@ title: 报表总览
 - 每小时或年度表现
 - 按商品、区块、部门、折扣或付款方式的销售
 - 交易历史
+- 订单与付款明细
+- 从报表表格导出 CSV
 - 食材成本或会员分析
 
 ### 需要 Operations Reports 时
 
 - 员工出勤或员工活动
 - 存款或退单审计纪录
+- 已作废订单和商品售罄纪录
 - 厨房或外送营运
 - 非营收营运监控
 
 ## 常见工作
 
 - 比较不同时间的表现：使用 [Sales Reports](./sales-reports.md)。
+- 用图表探索趋势：使用 [洞察](../insights.md)。
 - 追查折扣、退单或员工操作：使用 [Operations Reports](./operations-reports.md)。
 - 核对结帐组合：使用 [Sales Reports](./sales-reports.md)。
 - 检视服务或厨房流程行为：使用 [Operations Reports](./operations-reports.md)。

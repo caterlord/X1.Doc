@@ -27,6 +27,8 @@ title: 智能分类
 - 管理门店显示设置
 - 管理订单渠道设置
 
+![智能分类](/img/hq/menu-catalog/smart_categories_page.png)
+
 ## 主要分区
 
 ### 主清单
@@ -41,10 +43,14 @@ title: 智能分类
 
 常见动作包括：
 
+- `Search`
 - `Refresh`
+- `Show recently removed`
 - `Reorder`
 - `Copy from Existing`
 - `New Smart Category`
+
+表格也会显示当前行数，并把主要工具集中在清单上方，方便您搜索、刷新、还原、重新排序、复制或新增智能分类。
 
 ### 分类编辑器
 
