@@ -7,6 +7,24 @@ This page tracks manual changes by release and update batch across the full X1 d
 
 It is not limited to the POS app manual. Use it for POS, HQ, shared workflow, and documentation-structure updates.
 
+## 2026-06-10 (HQ Merchant Portal Documentation Refresh)
+
+### Updated
+
+- `Dashboard`: documented empty-workspace onboarding prompts, guided setup, the current metric cards, date controls, and dashboard performance sections.
+- `Insights`: added the new HQ guide for cross-store findings, presets, date comparisons, chart drilldowns, and table review.
+- `Reports`, `Sales Reports`, and `Operations Reports`: documented refreshed report navigation, export actions, sales trend views, payment/table/dine-in and takeaway breakdowns, attendance, and staff cost efficiency.
+- `Smart Categories`, `Organization`, and `HQ Overview`: aligned smart category management, workspace/member guidance, onboarding sequence, and sidebar structure with the deployed merchant HQ.
+
+### Screenshot updates
+
+- Added or replaced HQ screenshots for empty-workspace onboarding, guided workspace setup, `Insights`, `Smart Categories`, `Sales Reports`, and `Operations Reports`.
+
+### Reviewed
+
+- Checked the merchant HQ documentation against the deployed HQ merchant portal on 2026-06-10 and excluded X1 Control Plane/internal partner administration changes from public user documentation.
+- Re-captured and verified HQ screenshots after page load so the published images show final page content instead of loading states.
+
 ## 2026-05-27 (v1.7.16 POS Re-spin, HQ Fixes, and HQ Agent Review)
 
 ### Updated
