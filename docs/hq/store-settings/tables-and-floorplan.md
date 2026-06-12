@@ -63,6 +63,17 @@ Use it to:
 - resize table objects
 - hide internal-only tables from the visual floorplan
 
+### Restore a recently removed table
+
+Use `Show recently removed` in the table list when a table was removed by mistake. This restore flow applies to table records only. It does not restore removed table sections.
+
+- The toggle only shows tables removed in the last 24 hours. Tables removed longer ago are not included.
+- Recently removed rows use a light gray background.
+- A recently removed row only shows the restore action. The edit and delete actions are hidden.
+- Select the restore icon to make the table active again.
+- HQ restores the table with its child or split-table mappings when those mappings are still valid.
+- HQ blocks the restore if the table's section is not active for the shop, the table type is not active, the linked printer is not active for the shop, or another active table in the same shop already has the same `Table Code`.
+
 ## Steps
 
 1. Open `Store Settings` -> `Tables & Sections`.
@@ -72,6 +83,9 @@ Use it to:
 5. Create or update the table records for that shop.
 6. Open the floorplan view and place the tables visually.
 7. Save the changes.
+8. If you removed a table by mistake, turn on `Show recently removed` in the table list.
+9. Find the light gray row and select the restore icon.
+10. If HQ blocks the restore, review the table's section, table type, printer, and any active table with the same `Table Code` in the same shop before trying again.
 
 ## What changes after you save
 
@@ -88,6 +102,7 @@ These changes affect how the selected shop's table layout is presented in the PO
 - Confirm you edited the correct shop and section.
 - Check whether the issue is in the section link, the table record, or the floorplan placement.
 - If the table map looks wrong, verify the table visibility and section assignment before changing more records.
+- If restore is blocked, check whether the section, table type, and printer are still active for the selected shop, and whether another active table is using the same `Table Code`.
 
 ## When to ask owner/admin
 

@@ -41,7 +41,7 @@ Start with the section that matches the job you are doing, not just the feature 
 
 - [Dashboard](./dashboard.md): understand the landing page and where to go next.
 - [Account and Profile](./account-and-profile.md): manage your own login and security settings.
-- [Workspace Administration](./organization.md): manage workspace members, business structure, and HQ business access.
+- [Workspace Administration](./organization.md): manage workspace members, business structure, HQ business access, and first workspace setup.
 
 ### Store Settings
 
@@ -66,6 +66,7 @@ Use this section for shop-specific configuration such as `Info Settings`, `Workd
 
 - [Logs](./logs.md): review POS log uploads and choose log-related tools.
 - [Reports Overview](./reports/overview.md): choose the correct report family for sales, operations, or audit questions.
+- [Insights](./insights.md): explore sales patterns with interactive charts and proactive findings.
 
 ### Ecosystem & Integrations
 
@@ -81,9 +82,10 @@ Use this section for shop-specific configuration such as `Info Settings`, `Workd
 
 1. Read [Brand, Shop, and Channel Scope](./brand-shop-and-channel-scope.md).
 2. Read [Making Safe HQ Changes](./making-safe-hq-changes.md).
-3. Read [Store Settings Overview](./store-settings/overview.md) and [POS Settings Overview](./pos-settings/overview.md).
-4. Read [Menu & Catalog Overview](./menu-catalog/overview.md) before editing menus or online ordering.
-5. Use the task pages linked from each section overview for the change you need to make.
+3. If the workspace is new, use [Workspace Administration](./organization.md) to create the first company, brand, and shop.
+4. Read [Store Settings Overview](./store-settings/overview.md) and [POS Settings Overview](./pos-settings/overview.md).
+5. Read [Menu & Catalog Overview](./menu-catalog/overview.md) before editing menus or online ordering.
+6. Use the task pages linked from each section overview for the change you need to make.
 
 ## What changes after you save
 

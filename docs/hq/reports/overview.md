@@ -20,6 +20,8 @@ The `Reports` area is split into two main families:
 
 Use the correct report family first. That will save time and reduce reporting mistakes.
 
+Use [Insights](../insights.md) when you want interactive visual exploration instead of a fixed report table.
+
 ## How to use this section
 
 ### Use Sales Reports when you need
@@ -28,18 +30,22 @@ Use the correct report family first. That will save time and reduce reporting mi
 - hourly or annual performance
 - sales by item, section, department, discount, or payment method
 - transaction history
+- order and payment detail drill-down
+- CSV export from report tables
 - food cost or member analysis
 
 ### Use Operations Reports when you need
 
 - staff attendance or staff activity
 - deposits or returned order audit records
+- voided orders and item sold-out records
 - kitchen or delivery operations
 - non-revenue operational monitoring
 
 ## Common tasks
 
 - Compare performance over time: use [Sales Reports](./sales-reports.md).
+- Explore trends visually: use [Insights](../insights.md).
 - Investigate discounts, returns, or staff actions: use [Operations Reports](./operations-reports.md).
 - Check tender mix for reconciliation: use [Sales Reports](./sales-reports.md).
 - Review service or kitchen process behavior: use [Operations Reports](./operations-reports.md).

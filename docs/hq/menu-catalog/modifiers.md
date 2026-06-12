@@ -45,7 +45,7 @@ Key fields include:
 
 ### Group contents
 
-After the group is created, open the detail area to add the actual modifier items and any override prices.
+After the group is created, HQ focuses the new row and expands its detail area. Use `Add Items` to link existing modifier items, or use `Create Item` to create a new modifier item and add it to the group.
 
 ### Copy a group
 
@@ -58,6 +58,16 @@ Use the row-level copy action when you need a similar modifier setup without reb
 - In `Beast Mode`, you can set `Max Selection`, `Min Selection`, `Display in POS`, and `Display in Online Ordering` for each copied row.
 - The copy action also brings over the linked modifier items and shop pricing details.
 
+### Restore a recently removed group
+
+Use `Show recently removed` when a modifier group was removed by mistake.
+
+- The toggle only shows groups removed in the last 24 hours. Groups removed longer ago are not included.
+- Recently removed rows use a light gray background.
+- A recently removed row only shows the restore action. The edit, copy, and delete actions are hidden.
+- Select the restore icon to make the group active again.
+- HQ blocks the restore if another active modifier group already has the same name. Rename or remove the active duplicate before you restore.
+
 ## Steps
 
 1. Open `Menu Management` -> `Modifiers`.
@@ -66,13 +76,17 @@ Use the row-level copy action when you need a similar modifier setup without reb
 4. Set `Min Selection` and `Max Selection`.
 5. Choose the channels where the group should appear.
 6. Save the group.
-7. Open the row action for the group you want to copy.
-8. Review the source group at the top of the copy modal.
-9. Turn on `Beast Mode` if you need multiple target rows.
-10. Enter the copied group details and shared display settings.
-11. Save the copy.
-12. Open the group details and attach the modifier items.
-13. Set any required override prices.
+7. Check that the new group row is selected and expanded.
+8. Select `Add Items` to link existing modifier items, or select `Create Item` to create a new modifier item for this group.
+9. Set any required override prices.
+10. Open the row action for the group you want to copy.
+11. Review the source group at the top of the copy modal.
+12. Turn on `Beast Mode` if you need multiple target rows.
+13. Enter the copied group details and shared display settings.
+14. Save the copy.
+15. If you removed a group by mistake, turn on `Show recently removed`.
+16. Find the light gray row and select the restore icon.
+17. If HQ says a group with the same name already exists, review the active groups before trying again.
 
 ## What changes after you save
 
@@ -89,6 +103,7 @@ These changes affect how items present selectable options or required choices on
 - Confirm the modifier items exist and are attached to the group.
 - Check whether the selection rule is too strict or too loose.
 - If the group does not appear, review the parent item attachment and channel settings.
+- If restore is blocked, check whether another active modifier group is using the same name.
 
 ## When to ask owner/admin
 

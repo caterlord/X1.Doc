@@ -7,6 +7,59 @@ This page tracks manual changes by release and update batch across the full X1 d
 
 It is not limited to the POS app manual. Use it for POS, HQ, shared workflow, and documentation-structure updates.
 
+## 2026-06-10 (HQ Merchant Portal Documentation Refresh)
+
+### Updated
+
+- `Dashboard`: documented empty-workspace onboarding prompts, guided setup, the current metric cards, date controls, and dashboard performance sections.
+- `Insights`: added the new HQ guide for cross-store findings, presets, date comparisons, chart drilldowns, and table review.
+- `Reports`, `Sales Reports`, and `Operations Reports`: documented refreshed report navigation, export actions, sales trend views, payment/table/dine-in and takeaway breakdowns, attendance, and staff cost efficiency.
+- `Smart Categories`, `Organization`, and `HQ Overview`: aligned smart category management, workspace/member guidance, onboarding sequence, and sidebar structure with the deployed merchant HQ.
+
+### Screenshot updates
+
+- Added or replaced HQ screenshots for empty-workspace onboarding, guided workspace setup, `Insights`, `Smart Categories`, `Sales Reports`, and `Operations Reports`.
+
+### Reviewed
+
+- Checked the merchant HQ documentation against the deployed HQ merchant portal on 2026-06-10 and excluded X1 Control Plane/internal partner administration changes from public user documentation.
+- Re-captured and verified HQ screenshots after page load so the published images show final page content instead of loading states.
+
+## 2026-05-27 (v1.7.16 POS Re-spin, HQ Fixes, and HQ Agent Review)
+
+### Updated
+
+- `Settings` and `Function and Feature Map`: documented that template font profiles now include `Octopus Add Value Slip` and `Pay In/Out Slip`, so those slips can follow saved font-size settings.
+- `Connect an AI Assistant`: aligned the ChatGPT setup example with the `X1 HQ Agent` app name used by the HQ Agent submission metadata.
+
+### Screenshot updates
+
+- Added a pending capture for the `Settings` -> `Printing` -> `Template` selector showing `Octopus Add Value Slip` and `Pay In/Out Slip`.
+
+### Reviewed
+
+- Checked the POS `v1.7.16` re-spin release notes and source changes after the 2026-05-21 documentation baseline, including initial/background sync stability, checkout and void crash fixes, table-change fixes, printer timeout/retry behavior, template font routing, roster clock result dialog, report lookup fixes, Android sync upload, Mac camera scanner setup, and browser POS preview fixes.
+- Checked HQ changes after the prior restore-flow documentation update, including the discount rule editor save response and discount serialized-field normalization. Confirmed these are reliability fixes to existing discount steps, not new admin workflow.
+- Checked HQ Agent changes for ChatGPT app submission metadata, MCP CORS handling, and tool annotations. Confirmed the user-facing documentation impact is the app-name wording above; tool annotation and CORS details do not add admin steps.
+- Confirmed broader POS browser sandbox, crash-log analytics, support logging, deployment/runbook, and internal query-tracking updates do not add new cashier/admin manual steps in the online docs.
+
+## 2026-05-21 (v1.7.16 POS and HQ Alignment)
+
+### Updated
+
+- `Sales Flow`: documented the current modifier and meal-set prompt behavior after adding an item.
+- `Menu Items`: documented `Auto-show modifier groups on POS`, `Item Relationships`, and the `Manage Relationships` check for modifier groups and meal-set groups.
+- `Modifiers` and `Meal Set`: documented `Show recently removed`, the 24-hour restore window, restore-only removed rows, and duplicate-name restore blocking.
+- `Categories`, `Smart Categories`, `Menu Items`, `POS Menus`, `Payment Methods`, `Tax & Surcharge`, and `Tables & Sections`: documented recently removed restore flows, 24-hour visibility, restore-only removed rows, and backend validation before restore.
+- `Manage Printers`, `Settings`, `Troubleshooting`, and `Function and Feature Map`: documented printer spooler retry details, automatic retry states, and `Show AUTO REPRINT label on automatic retries`.
+- `Info Settings`: documented receipt logo printout type coverage for `ODO Slip`.
+
+### Reviewed
+
+- Checked POS source changes from `v1.7.13` through `v1.7.16`, including release notes, print spooler auto retry, ODO slip logo printing, browser sandbox work, macOS camera scanner setup, sync fixes, and modifier/meal-set ordering flow.
+- Checked HQ source changes after the prior subscription-seat documentation update, including POS logs, ODO slip logo settings, modifier relationship fixes, modifier printer assignment handling, `Auto-show modifier groups on POS`, POS log filename handling, promotion save handling, Neon channel binding, and deployment docs.
+- Confirmed browser sandbox, deployment, dependency-warning, channel-binding, and general stability fixes do not add new cashier/admin manual steps beyond the updates above.
+
 ## 2026-05-09 (v1.7.13 POS Rebuild)
 
 ### Updated

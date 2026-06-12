@@ -13,6 +13,7 @@ title: 工作區管理
 
 - 確認左上角工作區及品牌選擇器顯示正確的工作區。
 - 先分清楚你要更新業務架構、邀請工作區成員，還是分配 HQ 業務存取權。
+- 如果是新工作區，建立第一個公司、品牌或店舖前，先確認永久的 `Workspace region`。
 - 發出邀請前，先準備好成員的電郵地址。
 - 確認對方應該存取哪一個 `Company`、`Brand` 或 `Shop`，以及應取得甚麼角色。
 
@@ -26,6 +27,7 @@ title: 工作區管理
 
 它控制：
 
+- `Workspace region`
 - `Companies`
 - `Brands`
 - `Shops`
@@ -62,6 +64,20 @@ _`Business Access` 會顯示工作區成員、待處理邀請，以及他們的�
 
 標記為 `Workspace admin` 的成員已擁有目前工作區的完整存取權。他們不需要先取得直接的公司、品牌或店舖分配，也可以開啟 HQ 頁面。
 
+### 新工作區的引導設定
+
+當工作區尚未有公司、品牌或店舖時，使用 `Start guided setup`。
+
+精靈共有五步：
+
+- `Choose Type`
+- `Company`
+- `Brand`
+- `Shop`
+- `Confirmation`
+
+首次設定時會選中 `New Company`；在建立必要的上層記錄前，`New Brand` 和 `New Shop` 會保持停用。
+
 ## 主要操作
 
 ### 建立公司、品牌或店舖
@@ -72,6 +88,18 @@ _`Business Access` 會顯示工作區成員、待處理邀請，以及他們的�
 4. 如果 HQ 要求，選擇上層 `Company` 或 `Brand`。
 5. 如有需要，輸入選填的 `Description` 或 `Address`。
 6. 儲存記錄。
+
+### 設定第一個公司、品牌及店舖
+
+1. 在新工作區開啟 `Dashboard`。
+2. 選擇 `Start guided setup`。
+3. 保持選中 `New Company`。
+4. 選擇 `Next`。
+5. 輸入公司資料。
+6. 繼續完成 `Brand` 及 `Shop`。
+7. 檢查 `Confirmation`。
+8. 只有在公司、品牌及店舖名稱正確時才儲存。
+9. 返回 `Dashboard`，確認正常儀表板已顯示。
 
 ### 邀請工作區成員並分配存取權
 

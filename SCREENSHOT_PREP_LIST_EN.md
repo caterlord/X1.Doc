@@ -80,6 +80,7 @@ Use these subfolders:
 | `functions/fn-printer-spooler-error-retry-actions.png` | `docs/functions/manage-printers.md` | Spooler `Error` tab with `Retry Selected` / `Retry All` |
 | `functions/fn-payment-octopus-v3-reader-dialog.png` | `docs/functions/configure-payment-devices.md` | Octopus V3 reader edit dialog (`Device ID`, `API ID`, `API Token`, toggles) |
 | `client/cl-51-settings-template-label-adaptive-text-size.png` | `docs/client/settings.md` | `Settings` -> `Printing` -> `Template` with `Template` set to `Label` and `Enable adaptive text size` visible |
+| `client/cl-53-settings-template-font-profiles.png` | `docs/client/settings.md` | `Settings` -> `Printing` -> `Template` with the template selector showing `Octopus Add Value Slip` and `Pay In/Out Slip`, plus preview/font-size rows for one selected profile |
 | `functions/fn-octopus-settlement-function-menu.png` | `docs/functions/octopus-settlement.md`, `docs/client/sales-flow.md` | `Select Function` dialog showing `Octopus Settlement` when Octopus V3 is enabled and available |
 | `functions/fn-octopus-settlement-success.png` | `docs/functions/octopus-settlement.md` | `Octopus Settle Success` dialog showing deduct/add-value counts, totals, and settlement file name |
 | `functions/fn-payment-linkly-terminal-dialog.png` | `docs/functions/configure-payment-devices.md` | Linkly EFTPOS terminal settings dialog (`Environment`, `Username`, `Password`, `Pair Code`, `Pair`) |

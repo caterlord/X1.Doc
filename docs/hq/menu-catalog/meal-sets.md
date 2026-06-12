@@ -43,7 +43,7 @@ Typical settings include:
 
 ### Group contents
 
-After creating the group, add the actual menu items that belong to that choice group.
+After the group is created, HQ focuses the new row and expands its detail area. Use `Add Items` to link existing menu items, or use `Create Item` to create a new item and add it to the group.
 
 ### Parent item linkage
 
@@ -60,22 +60,36 @@ Use the row-level copy action when you need a similar meal set without rebuildin
 - In `Beast Mode`, you can set `Max Selection`, `Min Selection`, `Display in POS`, and `Display in Online Ordering` for each copied row.
 - The copy action also brings over the linked set items and shop pricing details.
 
+### Restore a recently removed group
+
+Use `Show recently removed` when a meal set group was removed by mistake.
+
+- The toggle only shows groups removed in the last 24 hours. Groups removed longer ago are not included.
+- Recently removed rows use a light gray background.
+- A recently removed row only shows the restore action. The edit, copy, and delete actions are hidden.
+- Select the restore icon to make the group active again.
+- HQ blocks the restore if another active meal set group already has the same name. Rename or remove the active duplicate before you restore.
+
 ## Steps
 
 1. Open `Menu Management` -> `Meal Set`.
 2. Create the required choice groups.
 3. Set the minimum and maximum selection rules for each group.
 4. Save the groups.
-5. Open the row action for the group you want to copy.
-6. Review the source group at the top of the copy modal.
-7. Turn on `Beast Mode` if you need multiple target rows.
-8. Enter the copied group details and shared display settings.
-9. Save the copy.
-10. Add the relevant menu items to each group.
-11. Set override prices where an item should add an upcharge.
-12. Open the parent set item in [Menu Items](./menu-items.md).
-13. Attach the meal set groups to the parent item.
-14. Save the parent item.
+5. Check that the new group row is selected and expanded.
+6. Select `Add Items` to link existing menu items, or select `Create Item` to create a new item for this group.
+7. Set override prices where an item should add an upcharge.
+8. Open the row action for the group you want to copy.
+9. Review the source group at the top of the copy modal.
+10. Turn on `Beast Mode` if you need multiple target rows.
+11. Enter the copied group details and shared display settings.
+12. Save the copy.
+13. Open the parent set item in [Menu Items](./menu-items.md).
+14. Attach the meal set groups to the parent item.
+15. Save the parent item.
+16. If you removed a group by mistake, turn on `Show recently removed`.
+17. Find the light gray row and select the restore icon.
+18. If HQ says a group with the same name already exists, review the active groups before trying again.
 
 ## What changes after you save
 
@@ -92,6 +106,7 @@ These changes affect how the combo item prompts for choices during ordering. The
 - Confirm the component items were added to the correct groups.
 - Check whether the parent set item was linked to the groups.
 - Review selection limits if the flow is too strict or too open.
+- If restore is blocked, check whether another active meal set group is using the same name.
 
 ## When to ask owner/admin
 

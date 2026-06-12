@@ -24,9 +24,10 @@ Open `Dashboard`.
 
 ## Main sections
 
-- **Active Locations**: which stores are currently online or active.
-- **Top-level summaries**: quick daily or current-period indicators.
-- **Navigation shortcuts**: links to the main HQ setup areas.
+- **Daily KPI cards**: `Gross Sales`, `Net Sales`, `Total Orders`, and `Avg Service Time` for the selected date.
+- **Performance charts**: sales trend, best/worst items, store, category, hourly, department, payment method, and dine-in/takeaway views.
+- **Header tools**: search, language switch, support, notifications, and settings.
+- **Workspace and brand selector**: the upper-left selector controls which workspace and brand the dashboard is showing.
 
 ## How to use this page
 
@@ -40,6 +41,18 @@ Use the dashboard to decide which section you need next:
 
 To update your own personal login details, click your profile avatar in the navigation bar. To switch workspace or brand, use the selector in the upper-left corner.
 
+## New workspace onboarding
+
+When a workspace has no company, brand, or shop yet, HQ shows a setup prompt instead of dashboard metrics.
+
+![Empty workspace setup prompt](/img/hq/getting-started/empty_workspace_onboarding_prompt.png)
+
+Use `Start guided setup` if you are ready to create the first operating structure. Use `Workspace Administration` if you want to review members and access first.
+
+The guided setup starts with `What would you like to add?` and walks through `Choose Type`, `Company`, `Brand`, `Shop`, and `Confirmation`.
+
+![Guided workspace setup start](/img/hq/getting-started/guided_workspace_setup_start.png)
+
 ## What changes after you save
 
 The dashboard is mainly a monitoring and navigation page. Use it to locate the correct setup section before you edit data elsewhere.
@@ -48,6 +61,7 @@ The dashboard is mainly a monitoring and navigation page. Use it to locate the c
 
 - Confirm you are in the correct workspace and brand.
 - If the numbers look wrong, open the related report or setup section before editing anything.
+- If you see `Set up this workspace`, create the first company, brand, and shop before expecting reports or POS settings to show normal data.
 
 ## When to ask owner/admin
 

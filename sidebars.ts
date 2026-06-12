@@ -187,6 +187,7 @@ const sidebars: SidebarsConfig = {
       label: 'Reports & Analytics',
       items: [
         'hq/logs',
+        'hq/insights',
         'hq/reports/overview',
         'hq/reports/sales-reports',
         'hq/reports/operations-reports',

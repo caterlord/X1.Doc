@@ -13,6 +13,7 @@ Workspace admins, owners, and managers who maintain the HQ business structure or
 
 - Confirm the correct workspace is selected in the top-left workspace and brand selector.
 - Decide whether you need to update business structure, invite a workspace member, or assign HQ business access.
+- For a new workspace, confirm the permanent `Workspace region` before creating the first company, brand, or shop.
 - Prepare the member email address before sending an invitation.
 - Confirm which `Company`, `Brand`, or `Shop` the person should access, and what role they should receive.
 
@@ -26,6 +27,7 @@ Open the workspace and brand selector in the upper-left corner, then select `Wor
 
 It controls:
 
+- `Workspace region`
 - `Companies`
 - `Brands`
 - `Shops`
@@ -62,6 +64,20 @@ This tab separates two jobs:
 
 Members marked `Workspace admin` already have access across the active workspace. They do not need direct company, brand, or shop assignments before they can open HQ pages.
 
+### Guided setup for a new workspace
+
+Use `Start guided setup` when a workspace has no company, brand, or shop yet.
+
+The wizard shows five steps:
+
+- `Choose Type`
+- `Company`
+- `Brand`
+- `Shop`
+- `Confirmation`
+
+For the first setup, `New Company` is selected and `New Brand` and `New Shop` stay disabled until the required parent records exist.
+
 ## Key actions
 
 ### Create a company, brand, or shop
@@ -72,6 +88,18 @@ Members marked `Workspace admin` already have access across the active workspace
 4. Select the parent `Company` or `Brand` if HQ asks for one.
 5. Enter the optional `Description` or `Address` if needed.
 6. Save the record.
+
+### Set up the first company, brand, and shop
+
+1. Open `Dashboard` in the new workspace.
+2. Select `Start guided setup`.
+3. Keep `New Company` selected.
+4. Select `Next`.
+5. Enter the company details.
+6. Continue through `Brand` and `Shop`.
+7. Review `Confirmation`.
+8. Save only when the company, brand, and shop names are correct.
+9. Return to `Dashboard` and confirm the normal dashboard appears.
 
 ### Invite a workspace member and assign access
 

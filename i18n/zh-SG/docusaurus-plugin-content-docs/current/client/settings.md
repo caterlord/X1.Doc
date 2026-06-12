@@ -145,6 +145,18 @@ import TabItem from '@theme/TabItem';
 5. 点按 `Save`。
 6. 列印测试收据／单据，并确认输出语言。
 
+## 常见打印模板字体设置任务
+
+1. 点按 `设置` -> `打印`。
+2. 打开 `模板`。
+3. 选择目标打印模板。
+4. 调整该模板的字体大小列。
+5. 使用 `即时预览` 确认输出容易阅读。
+6. 点按 `Save`。
+7. 列印测试收据／单据，并确认打印结果按已保存的字体设定输出。
+
+当前模板字体设定包含 `收据 / 清单 / 发票`、`厨房单`、`标签`、`取餐单`、`部门单`、`点单号单`、`ODO 二维码单据`、`八达通增值单` 和 `入账 / 出账单`。
+
 ## 常见标签文字适配任务
 
 1. 点按 `设置` -> `打印`。
@@ -154,6 +166,16 @@ import TabItem from '@theme/TabItem';
 5. 如果门市希望标签文字保持已设定的正文字号，请关闭 `启用自适应文字大小`。
 6. 点按 `Save`。
 7. 列印一个包含长品项名称的标签，并确认文字仍然清晰可读。
+
+## 常见自动重印标签设置任务
+
+1. 点按 `设置` -> `打印`。
+2. 打开 `模板`。
+3. 选择需要恢复标签的打印模板，例如 `厨房单`、`部门单` 或 `点单号单`。
+4. 如果厨房或取餐柜台员工需要识别由打印队列自动重试打印的输出，请打开 `自动重印时显示「自动重印」标签`。
+5. 如果是顾客可见输出，而门市不希望打印恢复标签，请保持关闭。
+6. 点按 `Save`。
+7. 如正在测试打印机恢复情况，请确认自动重试输出显示预期的 `自动重印` 标签。
 
 ## 常见收据自动列印任务
 
@@ -218,7 +240,9 @@ import TabItem from '@theme/TabItem';
 - `Printing` -> `Setting` 包含 `Auto Print Receipt`
 - `Printing` -> `Setting` 包含 `Show Order Contact On Receipt` 与 `Show Order Contact On Kitchen Output`
 - `Printing` -> `Template` 的收据字体设定包含 `Customer Contact`
+- `Printing` -> `Template` 包含 `八达通增值单` 和 `入账 / 出账单` 的字体设定
 - `打印` -> `模板` 的标签设定包含 `启用自适应文字大小`
+- `打印` -> `模板` 包含 `自动重印时显示「自动重印」标签`
 - `Report` 包含 `Print Qty`、`Daily Report Sections` 与 `Show advanced sections`
 - 设定页面底部有 `Restore` 动作
 
@@ -240,6 +264,10 @@ import TabItem from '@theme/TabItem';
 
 :::note[待补截图]
 需要文件：`client/cl-51-settings-template-label-adaptive-text-size.png`
+:::
+
+:::note[待补截图]
+需要文件：`client/cl-53-settings-template-font-profiles.png`
 :::
 
 ## 如果出现问题
