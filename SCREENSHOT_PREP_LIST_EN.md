@@ -68,7 +68,7 @@ Use these subfolders:
 | `client/cl-35-devices-input-devices-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-input-devices.md` | `Devices` `Input Devices` tab list with status + info/edit actions |
 | `client/cl-36-devices-x1-products-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-x1-products.md` | `Devices` `X1 Products` tab list with status + info/edit actions |
 | `client/cl-52-devices-alert-badges.png` | `docs/client/devices.md` | Left menu `Devices` badge and `Devices` tab badges when at least one printer or device needs attention |
-| `client/cl-53-reservations-board.png` | `docs/client/reservations.md` | POS `Reservations` board opened from `More Tools`, with counters and at least one booking row showing action buttons |
+| `client/cl-53-reservations-board.png` | `docs/client/reservations.md` | POS `Reservations` board opened from `More Tools`, with counters, the `Refresh` button, and at least one booking row showing the `Arrived`, `Seat`, `No-show`, and `Cancel` buttons |
 | `functions/fn-printer-hq-managed-not-configured.png` | `docs/functions/manage-printers.md` | `Devices` -> `Printer` row showing `HQ` and `Not configured` badges for an HQ-managed printer that still needs local POS setup |
 | `functions/fn-printer-failed-job-badge.png` | `docs/functions/manage-printers.md` | `Devices` -> `Printer` row showing a failed-job badge such as `1 error` or `3 errors` before the spooler error queue is cleared |
 | `functions/fn-change-table-view-toggle-floorplan-tablelist.png` | `docs/functions/change-table.md` | `Change Table` dialog showing the lower-right view toggle for `Floor Plan` / `Table List` |
@@ -94,5 +94,7 @@ Use these subfolders:
 
 | Filename (relative to `static/img/hq/`) | Document placement | What to capture |
 |---|---|---|
-| `store-settings/reservations_board.png` | `docs/hq/store-settings/reservations.md` | HQ `Store Settings` -> `Reservations` with `Booking board`, date selector, counters, and reservation actions visible |
-| `store-settings/reservations_settings.png` | `docs/hq/store-settings/reservations.md` | HQ `Store Settings` -> `Reservations` with `Settings` tab showing public booking controls and policy text |
+| `store-settings/reservations_board.png` | `docs/hq/store-settings/reservations.md` | HQ `Bookings` -> `Booking Board` with shop and date selectors, counters, and at least one row showing the quick actions |
+| `store-settings/reservations_settings.png` | `docs/hq/store-settings/reservations.md` | HQ `Bookings` -> `Booking Settings` showing the public booking controls, the `Time zone`, `First slot time`, `Last slot time`, and `Slot interval (minutes)` fields, and the policy text |
+| `store-settings/reservations_detail_history.png` | `docs/hq/store-settings/reservations.md` | HQ `Booking details` dialog showing the state action buttons and the `Status history` timeline with at least one `POS:` entry and one `Guest` entry |
+| `store-settings/reservations_reports.png` | `docs/hq/store-settings/reservations.md` | HQ `Bookings` -> `Booking Reports` showing the range presets, stat cards (`Total bookings`, `Total covers`, `No-show rate`, `Cancellation rate`), and the `Daily breakdown` table |
