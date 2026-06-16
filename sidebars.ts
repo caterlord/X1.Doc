@@ -38,6 +38,7 @@ const sidebars: SidebarsConfig = {
         'client/orders-overview',
         'client/online-orders',
         'client/inventory',
+        'client/reservations',
         'client/devices',
         'client/reports',
         'client/more-tools',
@@ -133,6 +134,7 @@ const sidebars: SidebarsConfig = {
             'hq/integrations/device-settings',
             'hq/store-settings/system-parameters',
             'hq/store-settings/tables-and-floorplan',
+            'hq/store-settings/reservations',
           ],
         },
         {

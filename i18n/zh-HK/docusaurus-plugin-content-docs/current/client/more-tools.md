@@ -26,6 +26,7 @@ title: 更多工具
 - `Open Drawer`
 - `Day-end`
 - `Pay In / Pay Out`
+- `訂位`（如已啟用原生訂位）
 - `Reset Table Counters`（只限 quick-order 模式）
 - `Pickup Controller`（如已啟用）
 - `Queue Controller`（如已啟用）
@@ -59,5 +60,6 @@ title: 更多工具
 ## 相關指南
 
 - [日結](./end-of-day)
+- [訂位](./reservations)
 - [代收 / 代支](../functions/pay-in-pay-out)
 - [日結](../functions/day-end)

@@ -23,6 +23,7 @@ title: 店舖設定總覽
 - 店舖裝置設定
 - 系統參數
 - 檯位、區域與平面圖
+- 餐桌訂位和預約規則
 
 ## 如何使用本節
 
@@ -33,12 +34,14 @@ title: 店舖設定總覽
 - [裝置設定](../integrations/device-settings.md)：登記店舖硬件與終端機相關設定。
 - [系統參數](./system-parameters.md)：管理進階店舖行為與技術設定。
 - [檯位與區域](./tables-and-floorplan.md)：定義區域、檯位與檯位平面圖。
+- [訂位管理](./reservations.md)：管理餐桌訂位規則、公開訂位和每日訂位看板。
 
 ## 常見任務
 
 - 開新店舖：先處理 [店舖資料](./general-info.md)，再處理 [營業時間及時段設定](./workday-schedule.md)，然後設定 [裝置設定](../integrations/device-settings.md)。
 - 修正深夜報表日期：查看 [營業時間及時段設定](./workday-schedule.md)。
 - 更新堂食檯位佈局：使用 [檯位與區域](./tables-and-floorplan.md)。
+- 啟用或查看餐桌訂位：使用 [訂位管理](./reservations.md)。
 - 檢查店舖硬件記錄：使用 [裝置設定](../integrations/device-settings.md)。
 
 ## 儲存後的影響

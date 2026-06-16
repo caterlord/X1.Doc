@@ -26,6 +26,7 @@ For hardware/device setup and printer troubleshooting, use `Devices`.
 - `Open Drawer`
 - `Day-end`
 - `Pay In / Pay Out`
+- `Reservations` (if native booking is enabled)
 - `Reset Table Counters` (quick-order mode only)
 - `Pickup Controller` (if enabled)
 - `Queue Controller` (if enabled)
@@ -59,5 +60,6 @@ Your POS user group does not allow that action. Ask a manager/admin to review yo
 ## Related guides
 
 - [End of Day](./end-of-day)
+- [Reservations](./reservations)
 - [Function: Pay In / Pay Out](../functions/pay-in-pay-out)
 - [Function: Day-end](../functions/day-end)

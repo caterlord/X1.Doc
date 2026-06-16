@@ -23,6 +23,7 @@ title: 店铺设定总览
 - 该店铺的设备设定
 - 店铺层级的营运参数
 - 桌位、区域和平面图配置
+- 餐桌订位和预约规则
 
 ## 如何使用本节
 
@@ -33,12 +34,14 @@ title: 店铺设定总览
 - [设备设定](../integrations/device-settings.md)：登记店内硬件和终端机相关设定。
 - [系统参数](./system-parameters.md)：管理进阶店铺行为和技术设定。
 - [桌位与区域](./tables-and-floorplan.md)：定义区域、桌位和桌位地图。
+- [订位管理](./reservations.md)：管理餐桌订位规则、公开订位和每日订位看板。
 
 ## 常见工作
 
 - 开新店：先设定 [店铺资料](./general-info.md)，再设定 [营业时间及时段设定](./workday-schedule.md)，最后检查 [设备设定](../integrations/device-settings.md)。
 - 修正深夜报表日期：查看 [营业时间及时段设定](./workday-schedule.md)。
 - 更新堂食桌位布局：使用 [桌位与区域](./tables-and-floorplan.md)。
+- 启用或查看餐桌订位：使用 [订位管理](./reservations.md)。
 - 检查店铺硬件资料：使用 [设备设定](../integrations/device-settings.md)。
 
 ## 保存后的影响

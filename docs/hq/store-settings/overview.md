@@ -23,6 +23,7 @@ Use this section when you need to manage:
 - device setup for the location
 - system-level operating parameters
 - tables, sections, and floorplan layout
+- table booking and reservation rules
 
 ## How to use this section
 
@@ -33,12 +34,14 @@ Start with the page that matches the operational problem:
 - [Device Settings](../integrations/device-settings.md): register store hardware and terminal-related setup.
 - [System Parameters](./system-parameters.md): manage advanced shop behavior and technical configuration.
 - [Tables & Floorplan](./tables-and-floorplan.md): define sections, tables, and the table map.
+- [Reservations](./reservations.md): manage table booking rules, public booking, and the daily booking board.
 
 ## Common tasks
 
 - Open a new shop: start with [Info Settings](./general-info.md), then [Workday Schedule](./workday-schedule.md), then [Device Settings](../integrations/device-settings.md).
 - Fix late-night reporting dates: review [Workday Schedule](./workday-schedule.md).
 - Update table layout for dine-in service: use [Tables & Floorplan](./tables-and-floorplan.md).
+- Enable or review table booking: use [Reservations](./reservations.md).
 - Check store hardware records: use [Device Settings](../integrations/device-settings.md).
 
 ## What changes after you save
