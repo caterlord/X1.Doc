@@ -49,6 +49,10 @@ title: HQ 使用手冊
 
 本節適用於店舖層級設定，例如 `店舖資料`、`營業時間及時段設定`、`裝置設定`、`系統參數` 及 `檯位與區域`。
 
+### 增長
+
+- [訂位管理](./store-settings/reservations.md)：管理訂位看板、公開訂位頁、訂位報表及 `X1 Floor 權限`。
+
 ### POS 設定
 
 - [POS 設定總覽](./pos-settings/overview.md)：管理結帳行為、員工存取權限及 POS 財務設定。

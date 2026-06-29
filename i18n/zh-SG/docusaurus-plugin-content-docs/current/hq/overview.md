@@ -49,6 +49,10 @@ title: HQ 用户手册
 
 本节用于店铺专属设定，例如 `店铺资料`、`营业时间及时段设定`、`设备设定`、`系统参数` 和 `桌位与区域`。
 
+### 增长
+
+- [订位管理](./store-settings/reservations.md)：管理订位看板、公开订位页、订位报表和 `X1 Floor 权限`。
+
 ### POS 设定
 
 - [POS 设定总览](./pos-settings/overview.md)：管理结帐行为、员工存取和 POS 财务设定。
