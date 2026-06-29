@@ -49,6 +49,10 @@ Start with the section that matches the job you are doing, not just the feature 
 
 Use this section for shop-specific configuration such as `Info Settings`, `Workday Schedule`, `Device Settings`, `System Parameters`, and `Tables & Sections`.
 
+### Growth
+
+- [Reservations](./store-settings/reservations.md): manage the booking board, public booking page, booking reports, and `X1 Floor access`.
+
 ### POS Settings
 
 - [POS Settings Overview](./pos-settings/overview.md): manage checkout behavior, staff access, and POS financial setup.
