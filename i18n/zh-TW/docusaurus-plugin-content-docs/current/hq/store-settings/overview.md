@@ -23,7 +23,7 @@ title: 店舖設定總覽
 - 該店舖的裝置設定
 - 系統層級的營運參數
 - 桌台、區塊與平面圖版面
-- 餐桌訂位和預約規則
+- 餐桌訂位、預約規則及 `X1 Floor` 權限
 
 ## 如何使用本節
 
@@ -34,7 +34,7 @@ title: 店舖設定總覽
 - [裝置設定](../integrations/device-settings.md)：登錄店舖硬體與終端機相關設定。
 - [系統參數](./system-parameters.md)：管理進階店舖行為與技術設定。
 - [桌台與區塊](./tables-and-floorplan.md)：設定區塊、桌台與桌台地圖。
-- [訂位管理](./reservations.md)：管理餐桌訂位規則、公開訂位和每日訂位看板。
+- [訂位管理](./reservations.md)：管理餐桌訂位規則、公開訂位、每日訂位看板及前場 `X1 Floor` 權限。
 
 ## 常見工作
 
@@ -42,6 +42,7 @@ title: 店舖設定總覽
 - 如果晚班報表日期不對，先檢查 [工作日排程](./workday-schedule.md)。
 - 要更新堂食版面時，使用 [桌台與區塊](./tables-and-floorplan.md)。
 - 要啟用或查看餐桌訂位時，使用 [訂位管理](./reservations.md)。
+- 要授予接待台員工 `X1 Floor` 權限時，使用 [訂位管理](./reservations.md) -> `X1 Floor 權限`。
 - 要檢查店舖硬體記錄時，使用 [裝置設定](../integrations/device-settings.md)。
 
 ## 儲存後的影響
