@@ -51,7 +51,7 @@ title: HQ 用户手册
 
 ### 增长
 
-- [订位管理](./store-settings/reservations.md)：管理订位看板、公开订位页、订位报表和 `X1 Floor 权限`。
+- [订位管理](./store-settings/reservations.md)：管理订位看板、公开订位页、订位报表和 `X1 Floor access`。
 
 ### POS 设置
 

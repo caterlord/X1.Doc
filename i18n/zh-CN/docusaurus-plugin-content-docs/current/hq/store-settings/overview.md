@@ -23,7 +23,7 @@ title: 门店设置总览
 - 该门店的设备设置
 - 门店层级的运营参数
 - 桌位、区域和平面图配置
-- 餐桌订位、预约规则和 `X1 Floor` 权限
+- 餐桌订位、预约规则和 `X1 Floor access`
 
 ## 如何使用本节
 
@@ -34,7 +34,7 @@ title: 门店设置总览
 - [设备设置](../integrations/device-settings.md)：登记店内硬件和终端机相关设置。
 - [系统参数](./system-parameters.md)：管理进阶门店行为和技术设置。
 - [桌位与区域](./tables-and-floorplan.md)：定义区域、桌位和桌位地图。
-- [订位管理](./reservations.md)：管理餐桌订位规则、公开订位、每日订位看板和前场 `X1 Floor` 权限。
+- [订位管理](./reservations.md)：管理餐桌订位规则、公开订位、每日订位看板和前场 `X1 Floor access`。
 
 ## 常见工作
 
@@ -42,7 +42,7 @@ title: 门店设置总览
 - 修正深夜报表日期：查看 [营业时间及时段设置](./workday-schedule.md)。
 - 更新堂食桌位布局：使用 [桌位与区域](./tables-and-floorplan.md)。
 - 启用或查看餐桌订位：使用 [订位管理](./reservations.md)。
-- 授予接待台员工 `X1 Floor` 权限：使用 [订位管理](./reservations.md) -> `X1 Floor 权限`。
+- 授予接待台员工 `X1 Floor access`：使用 [订位管理](./reservations.md) -> `X1 Floor access`。
 - 检查门店硬件资料：使用 [设备设置](../integrations/device-settings.md)。
 
 ## 保存后的影响
