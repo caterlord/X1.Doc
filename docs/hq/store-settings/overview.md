@@ -23,7 +23,7 @@ Use this section when you need to manage:
 - device setup for the location
 - system-level operating parameters
 - tables, sections, and floorplan layout
-- table booking and reservation rules
+- table booking, reservation rules, and `X1 Floor` access
 
 ## How to use this section
 
@@ -34,7 +34,7 @@ Start with the page that matches the operational problem:
 - [Device Settings](../integrations/device-settings.md): register store hardware and terminal-related setup.
 - [System Parameters](./system-parameters.md): manage advanced shop behavior and technical configuration.
 - [Tables & Floorplan](./tables-and-floorplan.md): define sections, tables, and the table map.
-- [Reservations](./reservations.md): manage table booking rules, public booking, and the daily booking board.
+- [Reservations](./reservations.md): manage table booking rules, public booking, the daily booking board, and front-of-house `X1 Floor` access.
 
 ## Common tasks
 
@@ -42,6 +42,7 @@ Start with the page that matches the operational problem:
 - Fix late-night reporting dates: review [Workday Schedule](./workday-schedule.md).
 - Update table layout for dine-in service: use [Tables & Floorplan](./tables-and-floorplan.md).
 - Enable or review table booking: use [Reservations](./reservations.md).
+- Give host-stand staff access to `X1 Floor`: use [Reservations](./reservations.md) -> `X1 Floor access`.
 - Check store hardware records: use [Device Settings](../integrations/device-settings.md).
 
 ## What changes after you save

@@ -22,6 +22,7 @@ Open `Bookings` in the main menu, then choose the page you need:
 - `Booking Board`: review and act on bookings for a selected date.
 - `Booking Reports`: review booking volume, covers, and outcome rates for a date range.
 - `Booking Settings`: control public booking rules and the booking slot grid for the shop.
+- `X1 Floor access`: grant or revoke host-stand access for the selected shop.
 
 The `Bookings` menu also includes `Calendar` (demand by week), `Guest Book` (booking history per guest contact), `Public Booking Page` (the public link and policy preview), and `Availability Rules` (a read-only view of the timing and table rules).
 
@@ -43,6 +44,7 @@ Use it to:
 - set booking limits such as party size, lead time, and advance booking window
 - set the time zone and slot grid used by the public booking page
 - review booking volume, covers, no-show rate, and cancellation rate in `Booking Reports`
+- grant `Host` or `Manager` access to staff who use the `X1 Floor` host-stand app
 
 Screenshot pending: `static/img/hq/store-settings/reservations_board.png`
 
@@ -120,6 +122,21 @@ Screenshot pending: `static/img/hq/store-settings/reservations_settings.png`
 
 Screenshot pending: `static/img/hq/store-settings/reservations_reports.png`
 
+### X1 Floor access
+
+`X1 Floor access` controls who can open the `X1 Floor` host-stand app for the selected shop.
+
+Use this page when front-of-house staff need to manage table flow, waitlist, blocked tables, table turns, or floor-side open-table actions without giving them full HQ admin access.
+
+![X1 Floor access](/img/hq/store-settings/floor_access_page.png)
+
+The page includes:
+
+- `Invite by email`: the staff email address that should receive access.
+- `Role`: choose `Host` for normal host-stand use or `Manager` for staff who can manage higher-impact floor actions.
+- `Grant access`: saves the access grant for the selected shop.
+- the access table, showing `Email`, `Role`, `Invited by`, and a `Revoke` action for existing users.
+
 ## Booking states and who can change them
 
 A booking moves through states: `Pending`, `Confirmed`, `Arrived`, `Seated`, and the final outcomes `Rejected`, `Cancelled`, and `No-show`.
@@ -149,6 +166,18 @@ A booking moves through states: `Pending`, `Confirmed`, `Arrived`, `Seated`, and
 13. Open `Bookings` -> `Booking Board`.
 14. Select the service `Date`.
 15. Review the list and use `Confirm` or `Mark arrived` when the reservation reaches that stage, or open `Booking details` for other actions.
+
+## Grant X1 Floor access
+
+Use this when a host or floor manager needs access to the host-stand app for one shop.
+
+1. Open `Bookings` -> `X1 Floor access`.
+2. Confirm the correct `Shop` is selected when the shop selector is shown.
+3. Enter the staff member's email in `Invite by email`.
+4. Choose `Host` or `Manager` in `Role`.
+5. Select `Grant access`.
+6. Check that the staff member appears in the access table.
+7. If access was granted to the wrong person, select `Revoke` on that row.
 
 ## Create a staff-entered reservation
 
@@ -191,6 +220,8 @@ If `Enable public booking` is on, guests can use the public booking page for tha
 
 Reservation board actions are operational records. They change what HQ, POS, and connected assistant tools show for that booking, and each action is added to the booking's `Status history`. Status changes made on the POS sync back to HQ automatically, normally within a minute while the POS is online.
 
+`X1 Floor access` changes only who can open the host-stand app for the selected shop. It does not create a normal HQ workspace member by itself, and it does not change booking rules, public booking availability, or table layout.
+
 ## How to check your change
 
 1. Reopen `Bookings` -> `Booking Settings`.
@@ -200,6 +231,7 @@ Reservation board actions are operational records. They change what HQ, POS, and
 5. Create a test booking if the shop is not live.
 6. Check that the POS `Reservations` board shows the same booking for the same shop.
 7. After staff or guest actions, open `Booking details` and confirm `Status history` recorded them.
+8. If you granted `X1 Floor access`, ask the staff member to sign in to `X1 Floor` and confirm the venue appears in their venue picker.
 
 ## If something goes wrong
 
@@ -211,6 +243,8 @@ Reservation board actions are operational records. They change what HQ, POS, and
 - If a booking appears under the wrong shop, stop and check the selected brand and shop before editing more reservations.
 - If POS does not show the booking, refresh the POS `Reservations` board and confirm the terminal is using the same shop.
 - If a report range warning appears, the range was longer than 366 days and the end date was adjusted.
+- If `Grant access` is disabled, check that `Invite by email` contains a valid email address.
+- If a staff member cannot see the shop in `X1 Floor`, confirm they were granted access for the same shop and email address they used to sign in.
 
 ## When to ask owner/admin
 
@@ -219,6 +253,7 @@ Reservation board actions are operational records. They change what HQ, POS, and
 - A customer dispute depends on the booking's `Status history`.
 - The public booking page should use a different URL or policy text for brand reasons.
 - No-show or cancellation rates in `Booking Reports` look unusual and may need a policy change.
+- You are not sure whether a floor staff member should receive `Host` or `Manager` access.
 
 ## Related guides
 

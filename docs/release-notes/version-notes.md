@@ -7,6 +7,27 @@ This page tracks manual changes by release and update batch across the full X1 d
 
 It is not limited to the POS app manual. Use it for POS, HQ, shared workflow, and documentation-structure updates.
 
+## 2026-06-29 (HQ Merchant Portal Follow-up)
+
+### Updated
+
+- `Reservations`: documented the new `X1 Floor access` page under `Bookings`, including `Invite by email`, `Role`, `Grant access`, the access table, and `Revoke`.
+- `Store Settings Overview` and `HQ Overview`: added `X1 Floor access` to the relevant navigation and task guidance.
+- `Menu Items`: documented `Available in meal set groups` and the `Loop` safety state in item relationships.
+- `Meal Set`: documented mandatory/channel columns, loop blocking when adding items, and the warning shown before removing groups already linked to items.
+
+### Screenshot updates
+
+- Added the `X1 Floor access` screenshot.
+- Re-captured the `Meal Set` screenshot from the live HQ portal.
+
+### Reviewed
+
+- Found the last HQ documentation update at `85332fa` on 2026-06-14 for native booking manuals, with the broader merchant portal refresh at `b409e82` on 2026-06-10.
+- Reviewed X1.HQ merchant-portal changes after 2026-06-14, including `X1 Floor access`, booking/Floor POS integration, onboarding default seeding and range validation fixes, and meal-set loop/removal safeguards.
+- Excluded X1 Control Plane/internal partner administration work from the public manual, following the X1.Doc guidance.
+- Treated onboarding transaction/retry and seed-backfill fixes as reliability improvements unless they changed visible setup guidance.
+
 ## 2026-06-10 (HQ Merchant Portal Documentation Refresh)
 
 ### Updated

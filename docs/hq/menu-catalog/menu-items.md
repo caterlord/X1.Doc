@@ -71,14 +71,19 @@ Examples include:
 - non-taxable
 - receipt visibility options
 - `Auto-show modifier groups on POS`
+- `Available in meal set groups`
 
 When `Auto-show modifier groups on POS` is on, POS opens the linked modifier groups immediately after staff add this item. When it is off, POS skips straight to any linked meal-set groups; staff can still select the item row later to adjust modifiers manually.
+
+Turn on `Available in meal set groups` only for items that should be selectable inside a combo or set-meal group. HQ may keep this enabled automatically for mandatory seed items that POS needs for a complete default setup.
 
 ### Item relationships
 
 Use `Item Relationships` to attach modifier groups and meal set groups to the item. Select `Manage Relationships` after the item has been saved, then add the required `Modifier Groups` and `Meal Set Groups`.
 
 If a modifier group or meal set group looks stale, reopen `Manage Relationships` and check that the correct group is still linked to the current item. A group that is no longer linked should not continue to appear in the item relationship graph.
+
+HQ blocks meal-set loops. If a candidate group or item shows `Loop`, it already connects back to the current item through another meal-set path. Do not force that relationship; choose a different group or adjust the existing combo structure first.
 
 ### Pricing, availability, and shop settings
 
@@ -132,12 +137,14 @@ Use the restore icon in the list toolbar when an item was removed by mistake. Th
 6. Apply any required special behavior switches.
 7. Review pricing and availability for the target shops.
 8. In `Item Relationships`, turn `Auto-show modifier groups on POS` on or off for the item.
-9. Save the item.
-10. Select `Manage Relationships` and attach the required modifier groups or meal set groups.
-11. Save the relationship changes.
-12. If you removed an item by mistake, select the restore icon in the toolbar to show recently removed items.
-13. Find the light gray row and select the row restore icon.
-14. If HQ blocks the restore, review the item's category, department, and any active item with the same `Item Code` before trying again.
+9. Turn `Available in meal set groups` on only if the item should be selectable inside meal-set groups.
+10. Save the item.
+11. Select `Manage Relationships` and attach the required modifier groups or meal set groups.
+12. If a candidate relationship shows `Loop`, stop and review the existing combo links before choosing another relationship.
+13. Save the relationship changes.
+14. If you removed an item by mistake, select the restore icon in the toolbar to show recently removed items.
+15. Find the light gray row and select the row restore icon.
+16. If HQ blocks the restore, review the item's category, department, and any active item with the same `Item Code` before trying again.
 
 ## What changes after you save
 
@@ -161,6 +168,7 @@ Relationship changes affect how POS guides staff after the item is added. Modifi
 - If the item exists but is missing in one shop, review shop-level price or availability setup.
 - If modifier groups or meal-set groups do not appear correctly on POS, reopen `Manage Relationships` and confirm the current item is linked to the right groups.
 - If POS opens modifier groups when staff do not expect it, check `Auto-show modifier groups on POS`.
+- If a meal-set candidate is marked `Loop`, review the parent item and group links. The relationship would create a circular combo path.
 - If a copy fails, check for duplicate `Item Code` values in the copy list or among active items.
 - If restore is blocked, check whether the category and department are active and whether another active item is using the same `Item Code`.
 
