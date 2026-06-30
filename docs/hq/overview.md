@@ -62,6 +62,10 @@ Use this section for shop-specific configuration such as `Info Settings`, `Workd
 
 - [Online Ordering Overview](./online-ordering/overview.md): manage customer-facing menu display and channel behavior.
 
+### Loyalty
+
+- [Loyalty](./loyalty/overview.md): prepare wallet-first loyalty programs, shop rollout, and POS key sync.
+
 ### Reports & Analytics
 
 - [Logs](./logs.md): review POS log uploads and choose log-related tools.
