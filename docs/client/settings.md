@@ -39,7 +39,7 @@ If one source is blank for an item, POS falls back to the other available name.
 Includes language configuration (`Item Mapping`, `Login Quick Switch`), required codes (`POS Code`, `Cash Register Code`), and `Clearing` controls such as `Local Transaction Retention (Days)`.
   </TabItem>
   <TabItem value="operation" label="Operation">
-Includes `Terminal` mode plus order/payment behavior toggles and service workflow controls.
+Includes `Terminal` mode plus order/payment behavior toggles, table controls, and service workflow settings.
   </TabItem>
   <TabItem value="system" label="System">
 Includes `Number` controls such as `Rounding Method`, `Decimal Places`, and `Round For Cash Only`.
@@ -110,6 +110,25 @@ Includes report-related output settings such as `Print Qty` and `Daily Report Se
 
 :::tip[Quick-order tools]
 `Reset Table Counters` in `More Tools` is used with Quick Order mode when your store uses the rotating quick-order counters.
+:::
+
+## Keep a paid dine-in table active
+
+Use this option when customers pay before they finish using the table.
+
+1. Tap `Settings` -> `Operation`.
+2. Find the `Table` section.
+3. Turn `Keep Table Active After Payment` on.
+4. Tap `Save`.
+5. Complete a fully paid dine-in order and confirm the table remains occupied.
+6. Open the paid order to review it. Confirm the warning before you make any further changes.
+7. Settle any new outstanding balance after an adjustment.
+8. Tap `Release Table` when the customer leaves.
+
+`Release Table` is available only after the order balance is fully settled. Turn this setting off if the table should become available immediately after full payment.
+
+:::note[Screenshot pending]
+Needed file: `client/cl-54-settings-keep-table-active-after-payment.png`
 :::
 
 ## Common rounding tasks
@@ -251,6 +270,7 @@ If you increase `Local Transaction Retention (Days)` later, POS does not restore
 
 - `Language Configuration` grid with `Item Mapping` and `Login Quick Switch`
 - `Operation` -> `Terminal` includes `Mode` with `Restaurant` and `Quick Order`
+- `Operation` -> `Table` includes `Keep Table Active After Payment`
 - `General` includes the auto-open and auto-assign settings that control table-first vs direct-order flow
 - `System` -> `Number` with `Rounding Method`, `Decimal Places` (when shown), and `Round For Cash Only`
 - `Printing` with `Mapping`, `Setting`, and `Template` tabs

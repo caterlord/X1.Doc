@@ -60,6 +60,12 @@ Each platform card can show one of these states:
 
 Some cards show editable fields. Some show `No configuration required — this integration is managed by the partner platform.`
 
+The `MeiTuan` card includes its payment, discount, service-charge, webhook, and menu-sync settings. When webhook access is supplied by the partner, also enter `API URL`, `Shop ID`, `Access Token`, `Refresh Token`, and `Token expiry date/time`. Treat both token fields as confidential credentials.
+
+:::note[Screenshot pending]
+Needed file: `hq/online-ordering/meituan-webhook-settings.png`
+:::
+
 ### Save action
 
 Changes on the card do not fully apply until you use the page-level `Save Settings` button in `Shop Settings`.
@@ -74,7 +80,8 @@ Changes on the card do not fully apply until you use the page-level `Save Settin
 6. Select `Subscribe` for the platform you need.
 7. Expand the platform card if fields are available.
 8. Enter the required shop-level values.
-9. Select `Save Settings`.
+9. For `MeiTuan`, enter the partner-provided `API URL`, `Shop ID`, `Access Token`, `Refresh Token`, and `Token expiry date/time` before enabling `Webhook enabled`.
+10. Select `Save Settings`.
 
 ## What changes after you save
 
@@ -97,6 +104,7 @@ The subscription itself also affects other HQ areas:
 
 - Confirm the platform was actually subscribed from `Add Platform`.
 - Confirm you edited the correct store, not only the correct brand.
+- For `MeiTuan`, confirm the API URL, shop ID, tokens, and expiry date/time came from the integration partner. Do not guess or reuse credentials from another store.
 - If the card shows `Unsubscribed`, subscribe again before you try to edit it.
 - If the card has no fields, do not keep retrying. The integration may be partner-managed.
 - If the platform disappeared after unsubscribe, return to `Marketplace` or `Add Platform` and subscribe again before re-entering values.

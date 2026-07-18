@@ -60,6 +60,12 @@ HQ 會把平台卡片分組為：
 
 有些卡片會顯示可編輯欄位。有些則只會顯示 `無需設定 — 此整合由合作夥伴平台管理。`
 
+`MeiTuan` 卡片包含付款、折扣、服務費、Webhook 和菜單同步設定。如果合作夥伴提供 Webhook 存取資料，還要填寫 `API URL`、`Shop ID`、`Access Token`、`Refresh Token` 和 `Token 到期日期／時間`。請把兩個 Token 欄位視為機密憑證。
+
+:::note[截圖待補]
+需要檔案：`hq/online-ordering/meituan-webhook-settings.png`
+:::
+
 ### 儲存動作
 
 卡片上的變更，必須在 `店舖設定` 頁面層級按下 `儲存設定` 後才會完整生效。
@@ -74,7 +80,8 @@ HQ 會把平台卡片分組為：
 6. 對需要的平台選擇 `訂閱`。
 7. 如果有欄位可填，展開平台卡片。
 8. 輸入所需的店舖層級資料。
-9. 選擇 `儲存設定`。
+9. 對於 `MeiTuan`，先填寫合作夥伴提供的 `API URL`、`Shop ID`、`Access Token`、`Refresh Token` 和 `Token 到期日期／時間`，再開啟 `啟用 Webhook`。
+10. 選擇 `儲存設定`。
 
 ## 儲存後的影響
 

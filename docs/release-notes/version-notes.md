@@ -7,6 +7,28 @@ This page tracks manual changes by release and update batch across the full X1 d
 
 It is not limited to the POS app manual. Use it for POS, HQ, shared workflow, and documentation-structure updates.
 
+## 2026-07-19 (POS v1.7.19 and HQ Production Alignment)
+
+### Updated
+
+- `Settings`: documented `Keep Table Active After Payment`, paid-order review and adjustment, balance settlement, and `Release Table`.
+- `Reports`: documented `14. Voided Order Report`, including operator, cancellation reason, item detail, and original-total review.
+- `Modifiers` and `Meal Set`: documented the new `Used by Items` tab and the relationship action for checking or changing parent-item links.
+- `Promotions`: documented `Save and continue`, `Save and close`, and the remembered rule-editor save action.
+- `3rd Party Platforms`: documented the restored `MeiTuan` webhook fields, including `API URL`, `Shop ID`, confidential token fields, and `Token expiry date/time`.
+
+### Screenshot updates
+
+- Updated the pending POS reports capture to show `14. Voided Order Report` and its audit columns.
+- Added pending captures for the paid-table setting and release action, group usage tabs, promotion save menu, and MeiTuan webhook settings.
+
+### Reviewed
+
+- Confirmed the previous deployed documentation baseline was 2026-06-29, with POS release guidance last fully reviewed at `v1.7.16` and later reservation guidance already incorporated.
+- Reviewed POS releases `v1.7.17`, `v1.7.18`, and `v1.7.19`. The latest source release is `v1.7.19`, published on 2026-07-18.
+- Checked the HQ merchant portal against the production environment updated on 2026-07-18. The review covered merchant-facing source changes through that deployment and excluded X1 Control Plane/internal partner administration work.
+- Confirmed the remaining POS and HQ changes in the reviewed range are reliability, sync, diagnostics, packaging, seeding, or data-normalization fixes that do not add operator or merchant-admin steps.
+
 ## 2026-06-29 (HQ Merchant Portal Follow-up)
 
 ### Updated

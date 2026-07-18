@@ -31,8 +31,8 @@ title: 功能與特性索引
 | 付款恢復 | 重試邏輯、取消保護原則、回報資料 | [付款錯誤與重試](../client/payment-errors-and-retry), [疑難排解](./troubleshooting) |
 | 已完成交易 | 作廢、退回、重新開啟、修改付款、重印收據 | [退款與作廢](../client/refunds-and-voids), [作廢與退回](../functions/void-vs-return) |
 | 裝置 | 印表機新增／編輯／刪除、資訊／狀態、測試列印、spooler、列印失敗警示標記、自動重試詳情、HQ 管理印表機設定狀態、進階印表機輸出設定、付款／輸入／X1 裝置設定（包含掃描輸入來源選擇、Linkly EFTPOS 配對及 Octopus V3 `裝置編號`） | [裝置](../client/devices), [管理印表機](../functions/manage-printers), [設定付款裝置](../functions/configure-payment-devices), [設定輸入裝置](../functions/configure-input-devices), [設定 X1 產品](../functions/configure-x1-products), [疑難排解](./troubleshooting) |
-| 報表 | 報表選擇、日期篩選、列印輸出 | [畫面指南：報表](../client/reports) |
-| 設定 | 語言設定、品項名稱對應（`Main`／`Alt`）、登入快速切換啟用、POS 代碼、現金收銀機代碼、終端機 `Mode`（`Restaurant`／`Quick Order`）、一般訂單流程切換（`Enable Dine In Auto Open Order`、`Enable Takeaway Auto Open Order`、`Enable Default Takeaway Mode`、可選的自動指派桌台代碼）、還原備份動作、四捨五入控制（`Rounding Method`、`Decimal Places`、`Round For Cash Only`）、列印控制（`Mapping`、`設定`、`模板`）、`Auto Print Receipt`、訂單聯絡人列印切換、收據 `Customer Contact` 字型區塊、包含 `八達通增值單` 和 `入賬 / 出賬單` 的模板字體設定、標籤 `啟用自適應文字大小`、`自動重印時顯示「自動重印」標籤`、列印語言覆寫、報表列印數量、`Daily Report Sections`、進階日結報表區塊切換、第三方整合（僅列出已啟用項目）、ODO 渠道對應（僅列出已對應項目） | [設定](../client/settings), [疑難排解](./troubleshooting) |
+| 報表 | 報表選擇、日期篩選、列印輸出、`全單取消報表` 稽核明細 | [畫面指南：報表](../client/reports) |
+| 設定 | 語言設定、品項名稱對應（`Main`／`Alt`）、登入快速切換啟用、POS 代碼、現金收銀機代碼、終端機 `Mode`（`Restaurant`／`Quick Order`）、一般訂單流程切換（`Enable Dine In Auto Open Order`、`Enable Takeaway Auto Open Order`、`Enable Default Takeaway Mode`、可選的自動指派桌台代碼）、已付款餐檯流程（`付款後保留餐檯`、餘額結清、`釋放餐檯`）、還原備份動作、四捨五入控制（`Rounding Method`、`Decimal Places`、`Round For Cash Only`）、列印控制（`Mapping`、`設定`、`模板`）、`Auto Print Receipt`、訂單聯絡人列印切換、收據 `Customer Contact` 字型區塊、包含 `八達通增值單` 和 `入賬 / 出賬單` 的模板字體設定、標籤 `啟用自適應文字大小`、`自動重印時顯示「自動重印」標籤`、列印語言覆寫、報表列印數量、`Daily Report Sections`、進階日結報表區塊切換、第三方整合（僅列出已啟用項目）、ODO 渠道對應（僅列出已對應項目） | [設定](../client/settings), [疑難排解](./troubleshooting) |
 | 資訊 | 版本、除錯模式、離線重新啟用、日誌匯出／上傳／移除 | [資訊](../client/info), [資料保留與儲存](./data-retention-and-storage) |
 | 更多工具 | 開啟抽屜、日結、現金收付、排隊控制器 | [更多工具](../client/more-tools), [日結](../functions/day-end), [代收 / 代支](../functions/pay-in-pay-out) |
 

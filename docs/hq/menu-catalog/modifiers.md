@@ -47,6 +47,16 @@ Key fields include:
 
 After the group is created, HQ focuses the new row and expands its detail area. Use `Add Items` to link existing modifier items, or use `Create Item` to create a new modifier item and add it to the group.
 
+### Used by Items
+
+Open `Used by Items` in the expanded group to see every menu item that currently uses the group. The table shows the item code, item name, link type, and enabled status.
+
+Select the relationship action on a row to open `Manage Relationships` for that item. Use this check before removing or changing a group so you do not break a live item flow.
+
+:::note[Screenshot pending]
+Needed file: `hq/menu-catalog/modifiers-used-by-items.png`
+:::
+
 ### Copy a group
 
 Use the row-level copy action when you need a similar modifier setup without rebuilding every option from scratch.
@@ -79,14 +89,16 @@ Use `Show recently removed` when a modifier group was removed by mistake.
 7. Check that the new group row is selected and expanded.
 8. Select `Add Items` to link existing modifier items, or select `Create Item` to create a new modifier item for this group.
 9. Set any required override prices.
-10. Open the row action for the group you want to copy.
-11. Review the source group at the top of the copy modal.
-12. Turn on `Beast Mode` if you need multiple target rows.
-13. Enter the copied group details and shared display settings.
-14. Save the copy.
-15. If you removed a group by mistake, turn on `Show recently removed`.
-16. Find the light gray row and select the restore icon.
-17. If HQ says a group with the same name already exists, review the active groups before trying again.
+10. Open `Used by Items` and confirm the expected parent items are listed.
+11. Select the relationship action if you need to review or change a parent item's links.
+12. Open the row action for the group you want to copy.
+13. Review the source group at the top of the copy modal.
+14. Turn on `Beast Mode` if you need multiple target rows.
+15. Enter the copied group details and shared display settings.
+16. Save the copy.
+17. If you removed a group by mistake, turn on `Show recently removed`.
+18. Find the light gray row and select the restore icon.
+19. If HQ says a group with the same name already exists, review the active groups before trying again.
 
 ## What changes after you save
 
@@ -96,7 +108,8 @@ These changes affect how items present selectable options or required choices on
 
 1. Reopen the group and confirm the rules and items.
 2. Verify the modifier items are attached in the correct order.
-3. Test the parent item flow where the modifier group should appear.
+3. Open `Used by Items` and confirm every expected parent item is listed.
+4. Test the parent item flow where the modifier group should appear.
 
 ## If something goes wrong
 

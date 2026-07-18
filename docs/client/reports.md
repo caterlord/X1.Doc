@@ -23,10 +23,21 @@ Use `Reports` to select a report type, choose date/context, view results, and pr
 4. Wait for report to load.
 5. Tap `Print` if a print copy is needed.
 
+## Review voided orders
+
+1. Tap `Reports`.
+2. Select `14. Voided Order Report`.
+3. Choose the required date or reporting context.
+4. Review `Cancelled At`, `Transaction`, `Table`, `Operator`, `Operator ID`, `Cancellation Reason`, `Item Details`, and `Original Item Total`.
+5. Tap `Print` if you need a printed audit copy.
+
+Use this report when you need to confirm who voided a complete order, why it was voided, and which items and original value were involved.
+
 ## What you should see
 
 - Report selector, date controls, and `Print` button
 - Report content panel updates based on selected report
+- `Voided Order Report` shows the operator, reason, original item total, and item details for each fully voided order
 
 :::note[Screenshot pending]
 Needed file: `client/cl-32-reports-selector-and-print.png`

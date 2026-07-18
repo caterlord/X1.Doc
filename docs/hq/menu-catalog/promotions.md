@@ -58,6 +58,17 @@ Use the rule editor to define:
 - condition items or categories
 - action items or categories
 
+Use the save menu at the bottom of the rule editor to choose:
+
+- `Save and continue`: save the rule and keep the editor open
+- `Save and close`: save the rule and return to the promotion list
+
+HQ remembers the last save action you chose on this device and uses it for the main save button the next time you open the rule editor.
+
+:::note[Screenshot pending]
+Needed file: `hq/menu-catalog/promotions-rule-editor-save-actions.png`
+:::
+
 ## Steps
 
 1. Open `POS Settings` -> `Promotions`.
@@ -68,7 +79,8 @@ Use the rule editor to define:
 6. Open the rules editor.
 7. Configure the condition items or categories.
 8. Configure the action items or categories.
-9. Save the promotion.
+9. Open `Choose save action` beside the main save button.
+10. Select `Save and continue` if you have more rules to review, or select `Save and close` when you are finished.
 
 ## What changes after you save
 
@@ -83,6 +95,7 @@ These changes affect automatic discount logic in the selling flow where the prom
 ## If something goes wrong
 
 - Confirm the rule editor was configured, not just the shell record.
+- If the editor closes when you expected to continue, open `Choose save action` and select `Save and continue` for the next save.
 - Check whether the condition items are too broad or too narrow.
 - Review promotion priority if more than one promotion can apply.
 

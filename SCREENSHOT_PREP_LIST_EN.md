@@ -48,7 +48,7 @@ Use these subfolders:
 | `client/cl-29-online-orders-pickup-actions.png` | `docs/client/online-orders.md` | `Online Orders` `Pickup` tab showing action buttons (`View`, `Reject`, `Accept`, `Prepare`, `Pick up`, `Create`) |
 | `client/cl-30-inventory-sold-out-tab.png` | `docs/client/inventory.md` | `Inventory` `Sold Out` tab list and controls |
 | `client/cl-31-inventory-limited-item-tab.png` | `docs/client/inventory.md` | `Inventory` `Limited Item` tab with quota/remain |
-| `client/cl-32-reports-selector-and-print.png` | `docs/client/reports.md` | `Reports` screen with report selector, date picker, and `Print` |
+| `client/cl-32-reports-selector-and-print.png` | `docs/client/reports.md` | `Reports` screen with `14. Voided Order Report` selected, date controls, audit detail columns, and `Print` |
 | `client/cl-33-info-page-version-debug-offline-export.png` | `docs/client/info.md` | `Info` screen showing app version, debug mode, offline status, and `Export Logs` |
 | `client/cl-37-ordering-table-view-toggle-floorplan-tablelist.png` | `docs/client/sales-flow.md` | Table screen showing the round view toggle button for `Floor Plan` / `Table List` |
 | `client/cl-38-info-log-file-selection-export-upload-remove.png` | `docs/client/info.md` | `Select Log Files` dialog showing selected files and all actions: `Export`, `Upload`, `Remove` |
@@ -81,6 +81,7 @@ Use these subfolders:
 | `functions/fn-payment-octopus-v3-reader-dialog.png` | `docs/functions/configure-payment-devices.md` | Octopus V3 reader edit dialog (`Device ID`, `API ID`, `API Token`, toggles) |
 | `client/cl-51-settings-template-label-adaptive-text-size.png` | `docs/client/settings.md` | `Settings` -> `Printing` -> `Template` with `Template` set to `Label` and `Enable adaptive text size` visible |
 | `client/cl-53-settings-template-font-profiles.png` | `docs/client/settings.md` | `Settings` -> `Printing` -> `Template` with the template selector showing `Octopus Add Value Slip` and `Pay In/Out Slip`, plus preview/font-size rows for one selected profile |
+| `client/cl-54-settings-keep-table-active-after-payment.png` | `docs/client/settings.md` | `Settings` -> `Operation` -> `Table` with `Keep Table Active After Payment` visible, plus a paid dine-in order showing `Release Table` |
 | `functions/fn-octopus-settlement-function-menu.png` | `docs/functions/octopus-settlement.md`, `docs/client/sales-flow.md` | `Select Function` dialog showing `Octopus Settlement` when Octopus V3 is enabled and available |
 | `functions/fn-octopus-settlement-success.png` | `docs/functions/octopus-settlement.md` | `Octopus Settle Success` dialog showing deduct/add-value counts, totals, and settlement file name |
 | `functions/fn-payment-linkly-terminal-dialog.png` | `docs/functions/configure-payment-devices.md` | Linkly EFTPOS terminal settings dialog (`Environment`, `Username`, `Password`, `Pair Code`, `Pair`) |
@@ -98,3 +99,7 @@ Use these subfolders:
 | `store-settings/reservations_settings.png` | `docs/hq/store-settings/reservations.md` | HQ `Bookings` -> `Booking Settings` showing the public booking controls, the `Time zone`, `First slot time`, `Last slot time`, and `Slot interval (minutes)` fields, and the policy text |
 | `store-settings/reservations_detail_history.png` | `docs/hq/store-settings/reservations.md` | HQ `Booking details` dialog showing the state action buttons and the `Status history` timeline with at least one `POS:` entry and one `Guest` entry |
 | `store-settings/reservations_reports.png` | `docs/hq/store-settings/reservations.md` | HQ `Bookings` -> `Booking Reports` showing the range presets, stat cards (`Total bookings`, `Total covers`, `No-show rate`, `Cancellation rate`), and the `Daily breakdown` table |
+| `menu-catalog/modifiers-used-by-items.png` | `docs/hq/menu-catalog/modifiers.md` | Expanded modifier group with `Used by Items` selected and linked item rows visible |
+| `menu-catalog/meal-sets-used-by-items.png` | `docs/hq/menu-catalog/meal-sets.md` | Expanded meal-set group with `Used by Items` selected and linked parent items visible |
+| `menu-catalog/promotions-rule-editor-save-actions.png` | `docs/hq/menu-catalog/promotions.md` | Promotion rule editor with `Choose save action` open, showing `Save and continue` and `Save and close` |
+| `online-ordering/meituan-webhook-settings.png` | `docs/hq/online-ordering/third-party-platforms.md` | `MeiTuan` card showing `API URL`, `Shop ID`, masked token fields, `Token expiry date/time`, and webhook/menu-sync switches |

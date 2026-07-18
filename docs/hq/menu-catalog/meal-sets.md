@@ -50,6 +50,16 @@ After the group is created, HQ focuses the new row and expands its detail area. 
 
 HQ prevents circular meal-set relationships. If a candidate item shows `Loop`, that item already connects back to this group through another set-meal path. Leave it unselected and review the parent item links before changing the structure.
 
+### Used by Items
+
+Open `Used by Items` in the expanded group to see every menu item that currently uses the meal-set group. The table shows the item code, item name, link type, and enabled status.
+
+Select the relationship action on a row to open `Manage Relationships` for that item. Use this check before removing or changing a group so you do not break a live meal-set flow.
+
+:::note[Screenshot pending]
+Needed file: `hq/menu-catalog/meal-sets-used-by-items.png`
+:::
+
 ### Parent item linkage
 
 The meal set groups do not work by themselves. They must be linked back to a parent set item in [Menu Items](./menu-items.md).
@@ -87,17 +97,19 @@ If you remove an active group that is already linked to items, HQ warns that tho
 6. Select `Add Items` to link existing menu items, or select `Create Item` to create a new item for this group.
 7. If a candidate item shows `Loop`, do not select it. Review the existing meal-set structure first.
 8. Set override prices where an item should add an upcharge.
-9. Open the row action for the group you want to copy.
-10. Review the source group at the top of the copy modal.
-11. Turn on `Beast Mode` if you need multiple target rows.
-12. Enter the copied group details and shared display settings.
-13. Save the copy.
-14. Open the parent set item in [Menu Items](./menu-items.md).
-15. Attach the meal set groups to the parent item.
-16. Save the parent item.
-17. If you removed a group by mistake, turn on `Show recently removed`.
-18. Find the light gray row and select the restore icon.
-19. If HQ says a group with the same name already exists, review the active groups before trying again.
+9. Open `Used by Items` and confirm the expected parent items are listed.
+10. Select the relationship action if you need to review or change a parent item's links.
+11. Open the row action for the group you want to copy.
+12. Review the source group at the top of the copy modal.
+13. Turn on `Beast Mode` if you need multiple target rows.
+14. Enter the copied group details and shared display settings.
+15. Save the copy.
+16. Open the parent set item in [Menu Items](./menu-items.md).
+17. Attach the meal set groups to the parent item.
+18. Save the parent item.
+19. If you removed a group by mistake, turn on `Show recently removed`.
+20. Find the light gray row and select the restore icon.
+21. If HQ says a group with the same name already exists, review the active groups before trying again.
 
 ## What changes after you save
 
@@ -109,7 +121,8 @@ Removing a group that is linked to items also removes those meal-set links from 
 
 1. Reopen the meal set groups and confirm the correct items are attached.
 2. Reopen the parent set item and confirm the meal set groups are linked.
-3. Test the combo ordering flow to confirm the expected selection wizard appears.
+3. Open `Used by Items` and confirm every expected parent item is listed.
+4. Test the combo ordering flow to confirm the expected selection wizard appears.
 
 ## If something goes wrong
 

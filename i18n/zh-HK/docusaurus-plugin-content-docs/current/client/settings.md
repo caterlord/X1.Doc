@@ -112,6 +112,25 @@ import TabItem from '@theme/TabItem';
 在 `More Tools` 的 `Reset Table Counters` 會配合 Quick Order 模式使用，適合使用輪換 quick-order counters 的門店。
 :::
 
+## 付款後保留堂食餐檯
+
+當顧客付款後仍要繼續使用餐檯時，啟用此選項。
+
+1. 按 `設定` -> `操作`。
+2. 找到 `餐檯` 區塊。
+3. 開啟 `付款後保留餐檯`。
+4. 按 `儲存`。
+5. 完成一張已全額付款的堂食訂單，確認餐檯仍為佔用狀態。
+6. 打開已付款訂單查看。如需修改，先確認警告訊息。
+7. 修改訂單後，先結清任何新增的未結餘額。
+8. 顧客離開時，按 `釋放餐檯`。
+
+只有訂單餘額已完全結清時，才可使用 `釋放餐檯`。如果全額付款後應立即釋放餐檯，請關閉此設定。
+
+:::note[截圖待補]
+需要檔案：`client/cl-54-settings-keep-table-active-after-payment.png`
+:::
+
 ## 常見四捨五入設定
 
 1. 按 `Settings` -> `System`。
@@ -235,6 +254,7 @@ import TabItem from '@theme/TabItem';
 
 - `Language Configuration` 網格會顯示 `Item Mapping` 和 `Login Quick Switch`
 - `Operation` -> `Terminal` 包含 `Mode`，以及 `Restaurant` 和 `Quick Order`
+- `操作` -> `餐檯` 包含 `付款後保留餐檯`
 - `General` 包含控制桌台先開還是直接開單流程的自動開單和自動分配設定
 - `System` -> `Number` 包含 `Rounding Method`、`Decimal Places`（如有顯示）和 `Round For Cash Only`
 - `Printing` 包含 `Mapping`、`Setting` 和 `Template` 分頁

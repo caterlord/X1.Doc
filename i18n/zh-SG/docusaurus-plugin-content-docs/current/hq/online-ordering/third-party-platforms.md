@@ -60,6 +60,12 @@ HQ 会将平台卡片分组为：
 
 有些卡片会显示可编辑字段。有些则只会显示 `无需设置 — 此集成由合作伙伴平台管理。`
 
+`MeiTuan` 卡片包含付款、折扣、服务费、Webhook 和菜单同步设置。如果合作伙伴提供 Webhook 存取资料，还要填写 `API URL`、`Shop ID`、`Access Token`、`Refresh Token` 和 `Token 到期日期/时间`。请把两个 Token 字段视为机密凭证。
+
+:::note[待补截图]
+需要文件：`hq/online-ordering/meituan-webhook-settings.png`
+:::
+
 ### 保存操作
 
 卡片上的更改，必须在 `门店设置` 页面级点击 `保存设置` 后才会完整生效。
@@ -74,7 +80,8 @@ HQ 会将平台卡片分组为：
 6. 对需要的平台选择 `订阅`。
 7. 如果有字段可填，展开平台卡片。
 8. 输入所需的门店级信息。
-9. 选择 `保存设置`。
+9. 对于 `MeiTuan`，先填写合作伙伴提供的 `API URL`、`Shop ID`、`Access Token`、`Refresh Token` 和 `Token 到期日期/时间`，再开启 `启用 Webhook`。
+10. 选择 `保存设置`。
 
 ## 保存后的影响
 
