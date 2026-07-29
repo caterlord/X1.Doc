@@ -140,3 +140,9 @@ Saving the base method creates or updates the tender definition. The tender stil
 - The change affects live payment flow.
 - You are not sure whether a new vendor or linked gateway is required.
 - The tender affects finance, surcharge policy, or multi-shop rollout.
+
+## Brand-wide partial payments
+
+The `Payment behaviour` card appears above the payment-method list. Turn on `Enable partial payments`, select `Save`, and confirm the named brand to let dine-in table orders save a payment before the full balance is settled. The setting applies to every outlet in the brand after POS synchronization and is off by default.
+
+Turning the setting off prevents new partial-payment sessions. Existing part-paid orders remain visible and can still be completed, printed, or reversed. Because this changes live checkout behavior for every outlet, verify the selected brand before confirming.

@@ -53,3 +53,7 @@ Confirm date/range first, then retry once.
 
 - Required report type is missing
 - Printed report does not match on-screen result
+
+## Partial-payment timing
+
+Tender reports assign each saved payment to the workday, period, cashier, and drawer that received it. Sales revenue and the final transaction header are assigned only when the order is completed. For example, an $80 payment received Wednesday appears in Wednesday tender totals; if a $70 payment completes the $150 order Thursday, Thursday shows the $70 tender and the $150 sale.

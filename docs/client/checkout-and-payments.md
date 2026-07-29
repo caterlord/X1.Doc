@@ -96,3 +96,19 @@ Leave checkout and reopen the order once. If table remains locked, escalate with
 - Payment result is unclear (possible duplicate charge risk)
 - Third-party linked payment cannot be modified
 - Required payment method is blocked by configuration
+
+## Partial payments for dine-in tables
+
+When an administrator enables `Enable partial payments` for the brand, an authorized cashier can save less than the full balance from `Split By Amount`.
+
+1. Add the amount and payment method, then select `Take partial payment`.
+2. Confirm the saved row appears in `Payment history` with its received time and reference number.
+3. Print the `Balance Statement — Not Final Receipt` for the guest, or return to the order and continue service.
+4. Reopen checkout later. Review `Paid` and `Balance due`, then collect the remainder.
+5. Select `Complete payment` to close the transaction and print the final receipt.
+
+The order stays in the open views after a partial payment. You may add items, but you cannot reduce the order below the amount already paid. Split by item, transaction split, and merge are unavailable after the first saved payment; changing tables is still allowed. If the balance reaches zero after an edit, an authorized operator must still explicitly complete the transaction.
+
+:::warning[Captured payment with an uncertain save result]
+If the POS says a gateway payment may have been captured, do not charge again. Record the displayed reference and ask a manager to reconcile or reverse it.
+:::

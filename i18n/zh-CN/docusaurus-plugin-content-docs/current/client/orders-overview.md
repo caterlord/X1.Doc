@@ -62,3 +62,7 @@ Needed files: `client/cl-26-orders-overview-tabs-list.png`, `client/cl-27-orders
 
 - 在切换选项卡和搜索后仍然找不到交易
 - 已完成订单的操作受到制度限制
+
+## 部分付款订单
+
+已保存部分付款的堂食订单仍显示在 `Open`。`Part-paid` 标记和 `Balance due` 表示仍有余额待付。打开订单可继续收款或重印非最终余额结单；获授权员工完成交易前，不会显示在 `Closed`。

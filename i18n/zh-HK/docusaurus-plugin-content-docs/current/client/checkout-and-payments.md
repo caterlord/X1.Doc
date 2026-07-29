@@ -96,3 +96,19 @@ import TabItem from '@theme/TabItem';
 - 付款結果不清楚（可能有重複扣款風險）
 - 無法修改第三方連結付款
 - 必要付款方式被設定阻擋
+
+## 堂食餐桌的部分付款
+
+管理員為品牌啟用 `Enable partial payments` 後，獲授權的收銀員可在 `Split By Amount` 中儲存低於帳單總額的付款。
+
+1. 輸入金額並選擇付款方式，然後按 `Take partial payment`。
+2. 確認記錄顯示於 `Payment history`，並包含收款時間及參考編號。
+3. 列印 `Balance Statement — Not Final Receipt`，或返回訂單繼續服務。
+4. 稍後重新開啟結賬，核對 `Paid` 與 `Balance due`，再收取餘額。
+5. 按 `Complete payment` 完成交易並列印最終收據。
+
+部分付款後，訂單仍留在未結檢視。可以加單，但訂單金額不能低於已收金額。儲存首筆付款後不可按項目拆分、拆單或合併交易，但仍可轉檯。若編輯後餘額為零，獲授權的員工仍須明確完成交易。
+
+:::warning[付款可能已扣款但儲存結果不明確]
+若 POS 提示閘道付款可能已扣款，請勿再次收款。記錄參考編號，並請經理核對或沖正。
+:::

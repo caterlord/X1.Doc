@@ -62,3 +62,7 @@ Switch tab first (`Open` vs `Closed`), then retry with search filters.
 
 - Transaction appears missing after tab/search checks
 - Completed-order actions are restricted by policy
+
+## Part-paid orders
+
+A dine-in order with a saved partial payment remains under `Open`. Its `Part-paid` badge and `Balance due` show that the order still needs settlement. Open it to continue payment or reprint its non-final balance statement. Do not look for it under `Closed` until an authorized operator completes the transaction.
