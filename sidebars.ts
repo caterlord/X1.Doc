@@ -118,6 +118,7 @@ const sidebars: SidebarsConfig = {
         'hq/organization',
         'hq/brand-shop-and-channel-scope',
         'hq/making-safe-hq-changes',
+        'hq/copilot',
       ],
     },
     {
