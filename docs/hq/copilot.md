@@ -15,13 +15,14 @@ HQ Copilot is controlled per workspace and is disabled by default. A workspace o
 
 1. Select the correct merchant workspace and brand.
 2. Select **Open HQ Copilot** in the top bar.
-3. Describe the outcome. Include dates, shops, channels, and exceptions when they matter.
-4. Choose Luna, Terra, or Sol. Sol Fast is shown only when an administrator allows it.
-5. Set a goal credit budget. Copilot pauses before it can exceed this amount.
-6. Optionally attach up to five CSV, XLS, XLSX, PDF, JPG, PNG, or WebP files. Each file can be up to 2 MB.
-7. Select **Create plan**, edit step titles if needed, then select **Start goal**.
+3. Enter what you want in the message box. Include dates, shops, channels, and exceptions when they matter.
+4. Select **Send**. Copilot replies in the same conversation and asks follow-up questions when details are missing.
+5. If needed, select the attachment button to add up to five CSV, XLS, XLSX, PDF, JPG, PNG, or WebP files. Each file can be up to 2 MB.
+6. If needed, select the current model name under the message box to choose Luna, Terra, Sol, speed, and the goal credit budget.
+7. Review the plan in the conversation. Reply with more information or edit a step title before you start.
+8. Select **Start goal** when the plan is correct.
 
-Use the message box while a goal is running to add information or change direction. You can also **Pause**, **Resume**, or **Cancel goal**. Up to three active goals per user are allowed when the workspace policy uses the maximum setting.
+The Copilot panel stays beside the current HQ page while you work. Use the message box to add information or change direction. Use **Goal actions** to **Pause**, **Resume**, or **Cancel goal**. Select **New conversation** for another request, or **Goal history** to reopen earlier work. Up to three active goals per user are allowed when the workspace policy uses the maximum setting.
 
 ## Review and confirm actions
 
