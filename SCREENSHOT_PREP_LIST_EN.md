@@ -49,6 +49,7 @@ Use these subfolders:
 | `client/cl-30-inventory-sold-out-tab.png` | `docs/client/inventory.md` | `Inventory` `Sold Out` tab list and controls |
 | `client/cl-31-inventory-limited-item-tab.png` | `docs/client/inventory.md` | `Inventory` `Limited Item` tab with quota/remain |
 | `client/cl-32-reports-selector-and-print.png` | `docs/client/reports.md` | `Reports` screen with `14. Voided Order Report` selected, date controls, audit detail columns, and `Print` |
+| `client/cl-55-reports-sales-dashboard-charts.png` | `docs/client/reports.md` | v1.8.0 `Sales Dashboard` showing summary cards, `Hourly Sales Trend`, `Payment Mix`, `Sales by Category`, `Sales by Department`, and a `DETAILS` table |
 | `client/cl-33-info-page-version-debug-offline-export.png` | `docs/client/info.md` | `Info` screen showing app version, debug mode, offline status, and `Export Logs` |
 | `client/cl-37-ordering-table-view-toggle-floorplan-tablelist.png` | `docs/client/sales-flow.md` | Table screen showing the round view toggle button for `Floor Plan` / `Table List` |
 | `client/cl-38-info-log-file-selection-export-upload-remove.png` | `docs/client/info.md` | `Select Log Files` dialog showing selected files and all actions: `Export`, `Upload`, `Remove` |
@@ -76,8 +77,9 @@ Use these subfolders:
 | `functions/fn-order-contact-dialog-result.png` | `docs/functions/order-contact.md` | `Order Contact` dialog and the saved name/phone shown under the takeaway order header |
 | `functions/fn-printer-remove-confirm-dialog.png` | `docs/functions/manage-printers.md` | Remove printer confirmation dialog (`Are you sure you want to remove printer...`) |
 | `functions/fn-printer-dot-matrix-advanced-settings.png` | `docs/functions/manage-printers.md` | Edit/Add Printer dialog with `Printer Type` set to `Dot Matrix`, `Show advanced settings` on, and `Dot matrix density` / `Dot matrix color` visible |
-| `functions/fn-printer-spooler-manager-dialog.png` | `docs/functions/manage-printers.md` | Printer spooler manager main dialog with tabs/actions |
-| `functions/fn-printer-spooler-error-retry-actions.png` | `docs/functions/manage-printers.md` | Spooler `Error` tab with `Retry Selected` / `Retry All` |
+| `functions/fn-printer-spooler-manager-dialog.png` | `docs/functions/manage-printers.md` | Printer spooler manager main dialog with `Queue`, `History`, and `Needs attention` tabs plus `Refresh`, `Clear Selection`, `Remove Selected`, and `Remove All` |
+| `functions/fn-printer-spooler-preview-dialog.png` | `docs/functions/manage-printers.md` | `Open print preview` dialog showing the rendered job, `Pinch or scroll to zoom. Drag to pan.`, `Reset`, and `Close` |
+| `functions/fn-printer-spooler-needs-attention-actions.png` | `docs/functions/manage-printers.md` | `Needs attention` tab showing `Select All`, `Retry selected safe jobs`, `Retry all safe jobs`, an `Outcome unknown` warning, and individual retry/cancel actions |
 | `functions/fn-payment-octopus-v3-reader-dialog.png` | `docs/functions/configure-payment-devices.md` | Octopus V3 reader edit dialog (`Device ID`, `API ID`, `API Token`, toggles) |
 | `client/cl-51-settings-template-label-adaptive-text-size.png` | `docs/client/settings.md` | `Settings` -> `Printing` -> `Template` with `Template` set to `Label` and `Enable adaptive text size` visible |
 | `client/cl-53-settings-template-font-profiles.png` | `docs/client/settings.md` | `Settings` -> `Printing` -> `Template` with the template selector showing `Octopus Add Value Slip` and `Pay In/Out Slip`, plus preview/font-size rows for one selected profile |
@@ -103,3 +105,9 @@ Use these subfolders:
 | `menu-catalog/meal-sets-used-by-items.png` | `docs/hq/menu-catalog/meal-sets.md` | Expanded meal-set group with `Used by Items` selected and linked parent items visible |
 | `menu-catalog/promotions-rule-editor-save-actions.png` | `docs/hq/menu-catalog/promotions.md` | Promotion rule editor with `Choose save action` open, showing `Save and continue` and `Save and close` |
 | `online-ordering/meituan-webhook-settings.png` | `docs/hq/online-ordering/third-party-platforms.md` | `MeiTuan` card showing `API URL`, `Shop ID`, masked token fields, `Token expiry date/time`, and webhook/menu-sync switches |
+| `menu-catalog/menu-items-shop-takeaway-surcharge.png` | `docs/hq/menu-catalog/menu-items.md` | Menu item `Shop Settings`/availability area showing per-shop `Price`, `Takeaway Surcharge`, and expandable `Additional Settings` |
+| `menu-catalog/smart-categories-odo-public-display.png` | `docs/hq/menu-catalog/smart-categories.md` | Smart category shop display details showing `Published`, `Public Display`, and the `Publish` switch |
+| `menu-catalog/discount-percent-multiplier.png` | `docs/hq/menu-catalog/discounts.md` | Discount rule editor showing `Discount: Percent`, `Discount Percent`, the retained-price multiplier example/help, and `Applied On Item Level` |
+| `online-ordering/online-categories-publication-status.png` | `docs/hq/online-ordering/categories-and-items.md` | `Online Categories` list showing `Published` and `Show unpublished`, plus the selected category's shop publication state |
+| `online-ordering/online-menu-publication-and-shop-schedule.png` | `docs/hq/online-ordering/menus-and-combinations.md` | `Online Menus` editor showing `Published`, `Categories ({count})`, `Shop Schedule ({count})`, `Public`, `Public Display`, and `Visible in ODO` |
+| `online-ordering/foodpanda-settings-and-menu-sync.png` | `docs/hq/online-ordering/third-party-platforms.md` | Foodpanda card showing `Connect Foodpanda`, store details, searchable `Payment method`/`Discount`, `Container charge item`, `More order options`, `Save Settings`, and `Menu synchronization`/`Sync Menu` |

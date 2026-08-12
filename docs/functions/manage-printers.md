@@ -102,28 +102,34 @@ What to verify:
   </TabItem>
   <TabItem value="spooler" label="Manage Printer Spooler">
 1. Tap `Manage Spooler` on target printer row.
-2. Review tabs: `Printing`, `History`, `Error`.
-3. Select the row info button when you need to inspect a job. The details can show `Status`, `Retry source`, `Attempts`, `Auto reprint`, `Next retry`, and the last recorded `Error`.
-4. Use required actions:
+2. Review tabs: `Queue`, `History`, `Needs attention`.
+3. Select the job thumbnail to use `Open print preview`. In the preview, pinch or scroll to zoom and drag to pan, then tap `Close`.
+4. Select the row info button when you need to inspect a job. The details can show `Status`, `Driver`, `Delivery`, `Retry source`, `Attempts`, `Vendor job ID`, `Next retry`, and `Printer message`.
+5. Use required actions:
    - `Refresh`
    - `Clear Selection`
    - `Remove Selected`
    - `Remove All`
-5. In `Error` tab, use retry actions:
-   - `Select All`
-   - `Retry Selected`
-   - `Retry All`
+6. In `Needs attention`, use the bulk actions `Select All`, `Retry selected safe jobs`, and `Retry all safe jobs` when appropriate.
+7. For an individual job, use the action that matches its state:
+   - `Retry now` for a job that is confirmed not sent
+   - `Retry anyway` only after reviewing the duplicate-risk warning
+   - `Mark as printed` when the job was already printed elsewhere and must not be sent again
+   - `Cancel` to cancel a queued job
 
 What to verify:
 
 - Queue decreases after retry/remove actions
-- Jobs marked `Waiting for auto retry` may clear by themselves after the printer is ready again
-- Jobs marked `Permanent error` need manual review, removal, or a fresh print request
+- A job marked `Waiting for auto retry` may clear by itself after the printer is ready again
+- A job marked `Permanent error` needs manual review, removal, or a fresh print request
+- A job marked `Outcome unknown` may already have printed; review it individually before retrying or marking it as printed
 - New print jobs are processed normally
-- The failed-job badge on the printer row clears after the error queue is empty
+- Removing jobs from `Needs attention` cancels them and keeps them in `History`
+- The failed-job badge on the printer row clears after the `Needs attention` queue is empty
 
 > Screenshot pending: `functions/fn-printer-spooler-manager-dialog.png`
-> Screenshot pending: `functions/fn-printer-spooler-error-retry-actions.png`
+> Screenshot pending: `functions/fn-printer-spooler-preview-dialog.png`
+> Screenshot pending: `functions/fn-printer-spooler-needs-attention-actions.png`
   </TabItem>
 </Tabs>
 

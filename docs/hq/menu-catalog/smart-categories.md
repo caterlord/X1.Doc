@@ -39,6 +39,7 @@ The main list includes fields such as:
 - `Category Name (Alt)`
 - `Display Order`
 - `Button Style`
+- `Published`
 - `Public Display`
 
 Key actions include:
@@ -83,6 +84,10 @@ The page can show tabs for:
 
 Use these tabs to control what the smart category contains and where it appears.
 
+`Published` and `Public Display` are separate checks. `Published` is the category/shop schedule state used for availability. `Public Display` controls whether the category is shown to customers. In `Shop Display Settings`, edit a shop and use the `Publish` switch to update the shop's public state; saving it also keeps the shop enabled for that published setting.
+
+When a category is added to online ordering or a new online shop mapping is created, HQ defaults the new mapping to published/public. Review each shop before saving if the category should not appear at every shop.
+
 ### Restore a recently removed smart category
 
 Use `Show recently removed` when a smart category was removed by mistake.
@@ -102,12 +107,13 @@ Use `Show recently removed` when a smart category was removed by mistake.
 5. Select `Parent Category` if this category should sit under another category.
 6. Set `Display Order`.
 7. Select `Button Style` if you want a specific appearance.
-8. Turn `Public Display` on or off as needed.
+8. Review `Published` and turn `Public Display` on or off as needed.
 9. Save the category.
 10. Open the detail tabs to manage `Items`, `Shop Display Settings`, or `Order Channels`.
-11. If you removed a smart category by mistake, turn on `Show recently removed`.
-12. Find the light gray row and select the restore icon.
-13. If HQ blocks the restore, review the parent category and any active smart category with the same name before trying again.
+11. In `Shop Display Settings`, review each shop's `Published` value and use `Edit` -> `Publish` when the customer-facing state needs to change.
+12. If you removed a smart category by mistake, turn on `Show recently removed`.
+13. Find the light gray row and select the restore icon.
+14. If HQ blocks the restore, review the parent category and any active smart category with the same name before trying again.
 
 ## Create several smart categories at once
 
@@ -127,13 +133,15 @@ Saving the category updates the smart category record, but you may still need to
 
 1. Return to the main list and confirm the category is present.
 2. Check the `Display Order` and `Public Display` values.
-3. Review the relevant detail tab to confirm the expected items, shop settings, or channels are attached.
+3. Check `Published` in the list and in each relevant shop's `Shop Display Settings`.
+4. Review the relevant detail tab to confirm the expected items, shop settings, or channels are attached.
 
 ## If something goes wrong
 
 - Confirm you edited the correct smart category type.
 - Check whether the issue is in the category record or in the tab-level settings.
 - If the category does not appear, review `Public Display` and the target channel or shop settings.
+- If the category is visible in HQ but not online, check both the category `Published` state and the shop-level `Public Display`/`Published` state.
 - If restore is blocked, check whether the parent category is still active and whether another active smart category at the same level has the same name.
 
 ## When to ask owner/admin
@@ -141,3 +149,7 @@ Saving the category updates the smart category record, but you may still need to
 - You are unsure whether the category should be standard or smart.
 - The category needs to appear in multiple channels and you cannot verify each one.
 - You are changing live navigation for active POS or online ordering users.
+
+:::note[Screenshot pending]
+Needed file: `hq/menu-catalog/smart-categories-odo-public-display.png`
+:::

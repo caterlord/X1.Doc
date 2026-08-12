@@ -89,6 +89,8 @@ HQ blocks meal-set loops. If a candidate group or item shows `Loop`, it already 
 
 Use the item's pricing, availability, and shop settings areas to control branch-specific selling price, per-shop enablement, and whether the item is enabled or out of stock.
 
+In the shop settings area, `Takeaway Surcharge` is a per-shop amount added when the item is sold as takeaway. Enter a non-negative amount within the field limit, then save the item. Use `Additional Settings` to expand less frequently changed controls such as `Out of Stock`, `Limited`, `Group Print`, and additional printer assignments.
+
 ### Copy an existing item
 
 Use the copy action when a new item should start from an existing item's setup.
@@ -136,15 +138,21 @@ Use the restore icon in the list toolbar when an item was removed by mistake. Th
 5. Assign the item to the correct category and department.
 6. Apply any required special behavior switches.
 7. Review pricing and availability for the target shops.
-8. In `Item Relationships`, turn `Auto-show modifier groups on POS` on or off for the item.
-9. Turn `Available in meal set groups` on only if the item should be selectable inside meal-set groups.
-10. Save the item.
-11. Select `Manage Relationships` and attach the required modifier groups or meal set groups.
-12. If a candidate relationship shows `Loop`, stop and review the existing combo links before choosing another relationship.
-13. Save the relationship changes.
-14. If you removed an item by mistake, select the restore icon in the toolbar to show recently removed items.
-15. Find the light gray row and select the row restore icon.
-16. If HQ blocks the restore, review the item's category, department, and any active item with the same `Item Code` before trying again.
+8. In each target shop, set `Takeaway Surcharge` if takeaway pricing needs an item-specific amount.
+9. Expand `Additional Settings` when you need `Out of Stock`, `Limited`, `Group Print`, or additional printer controls.
+10. In `Item Relationships`, turn `Auto-show modifier groups on POS` on or off for the item.
+11. Turn `Available in meal set groups` on only if the item should be selectable inside meal-set groups.
+12. Save the item.
+13. Select `Manage Relationships` and attach the required modifier groups or meal set groups.
+14. If a candidate relationship shows `Loop`, stop and review the existing combo links before choosing another relationship.
+15. Save the relationship changes.
+16. If you removed an item by mistake, select the restore icon in the toolbar to show recently removed items.
+17. Find the light gray row and select the row restore icon.
+18. If HQ blocks the restore, review the item's category, department, and any active item with the same `Item Code` before trying again.
+
+:::note[Screenshot pending]
+Needed file: `hq/menu-catalog/menu-items-shop-takeaway-surcharge.png`
+:::
 
 ## What changes after you save
 

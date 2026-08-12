@@ -26,6 +26,8 @@ Use this page to:
 - subscribe to a new delivery or integration platform with `Add Platform`
 - review which subscribed platforms are available for this store
 - enter or update shop-level platform values
+- configure Foodpanda connection, order-total, and automatic-update settings
+- send a saved menu to Foodpanda or MeiTuan with `Sync Menu`
 - remove a platform card from the store's saved settings
 
 This page is shop-level. Subscription happens at brand/company level, but the fields you enter here apply to the store you opened.
@@ -70,6 +72,29 @@ Needed file: `hq/online-ordering/meituan-webhook-settings.png`
 
 Changes on the card do not fully apply until you use the page-level `Save Settings` button in `Shop Settings`.
 
+### Foodpanda
+
+The Foodpanda card starts with `Connect Foodpanda`. Enter the partner-provided `API URL`, `API Username`, and `API Password`, then complete `Foodpanda store details` with `Chain Code`, `Remote ID`, and `Vendor ID`.
+
+In `Order totals`, choose the `Payment method` and optional `Discount` from the searchable selectors. The selectors can be cleared. If a saved ID is no longer available, HQ keeps it as `Unavailable ID ({id})` so you can identify and replace it.
+
+The same section contains `Include discount in order total` and `Include container charge in order total`. When the container charge switch is on, choose one sellable item in the `Container charge item` picker. The picker supports `Search Items` and `Browse by Category`; search by item code, name, or alternate name, then select the item.
+
+Expand `More order options` only when the partner requires them. The available controls are `Don't round discount amount`, `Only include selected discount to total`, and `Discounts to include`. Enter discount names exactly as they appear in X1, separated by commas.
+
+Under `Automatic updates`, use `Receive order updates` and `Sync menu automatically` to choose which updates Foodpanda exchanges with X1.
+
+### Manual menu synchronization
+
+Foodpanda and MeiTuan show a `Menu synchronization` section with `Sync Menu`. Save the page first. While there are unsaved changes, the button is disabled and the page shows `Save the settings before syncing the menu.` After saving, select `Sync Menu` to send the latest saved menu. A successful request shows `Menu sync request sent.`
+
+:::note[Screenshot pending]
+Needed files:
+
+- `hq/online-ordering/foodpanda-settings-and-menu-sync.png`
+- `hq/online-ordering/meituan-webhook-settings.png`
+:::
+
 ## Steps
 
 1. Open `Online Ordering` -> `General Settings`.
@@ -80,8 +105,10 @@ Changes on the card do not fully apply until you use the page-level `Save Settin
 6. Select `Subscribe` for the platform you need.
 7. Expand the platform card if fields are available.
 8. Enter the required shop-level values.
-9. For `MeiTuan`, enter the partner-provided `API URL`, `Shop ID`, `Access Token`, `Refresh Token`, and `Token expiry date/time` before enabling `Webhook enabled`.
-10. Select `Save Settings`.
+9. For `Foodpanda`, complete `Connect Foodpanda`, `Foodpanda store details`, and the required `Order totals` mappings.
+10. For `MeiTuan`, enter the partner-provided `API URL`, `Shop ID`, `Access Token`, `Refresh Token`, and `Token expiry date/time` before enabling `Webhook enabled`.
+11. Select `Save Settings`.
+12. If the platform shows `Menu synchronization`, select `Sync Menu` after the settings have saved.
 
 ## What changes after you save
 
@@ -105,6 +132,8 @@ The subscription itself also affects other HQ areas:
 - Confirm the platform was actually subscribed from `Add Platform`.
 - Confirm you edited the correct store, not only the correct brand.
 - For `MeiTuan`, confirm the API URL, shop ID, tokens, and expiry date/time came from the integration partner. Do not guess or reuse credentials from another store.
+- For `Foodpanda`, replace any `Unavailable ID ({id})`, confirm the selected `Container charge item`, and save before selecting `Sync Menu`.
+- If `Sync Menu` is disabled, save the page first. Do not use a partially edited menu as the sync source.
 - If the card shows `Unsubscribed`, subscribe again before you try to edit it.
 - If the card has no fields, do not keep retrying. The integration may be partner-managed.
 - If the platform disappeared after unsubscribe, return to `Marketplace` or `Add Platform` and subscribe again before re-entering values.

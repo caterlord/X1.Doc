@@ -7,6 +7,31 @@ This page tracks manual changes by release and update batch across the full X1 d
 
 It is not limited to the POS app manual. Use it for POS, HQ, shared workflow, and documentation-structure updates.
 
+## 2026-08-09 (POS v1.8.0 and HQ Public Portal Alignment)
+
+### Updated
+
+- `Reports`: documented the v1.8.0 dashboard cards, bar and donut charts, chart value inspection, and `DETAILS` tables.
+- `Devices` and `Manage Printers`: aligned the printer spooler tabs with `Queue`, `History`, and `Needs attention`; documented print preview, zoom/pan, safe retry, duplicate-risk retry, `Mark as printed`, `Cancel`, and the new job details.
+- `Payment Methods`: documented the 100-row `Beast Mode` limit and all-or-nothing batch validation.
+- `Menu Items`: documented per-shop `Takeaway Surcharge` and the expandable `Additional Settings` controls.
+- `Smart Categories`, `Online Categories`, and `Online Menus`: documented `Published`, `Public Display`, `Show unpublished`, `Visible in ODO`, and the default publication state for new shop mappings.
+- `3rd Party Platforms`: documented the Foodpanda merchant-first form, searchable ID selectors, `Unavailable ID ({id})`, the item picker, saved-settings requirement, and manual `Menu synchronization`.
+- `Discounts`: documented the canonical `Discount: Percent` retained-price multiplier and `Applied On Item Level` behavior.
+
+### Screenshot updates
+
+- Added pending captures for the POS dashboard charts, printer preview, and `Needs attention` actions.
+- Added pending captures for HQ takeaway surcharge, ODO publication state, discount percentage input, online-menu shop schedule, online-category publication status, and Foodpanda menu synchronization.
+- Kept the existing MeiTuan webhook screenshot request and linked it with the new third-party-platform guidance.
+
+### Reviewed
+
+- Audited POS tag `v1.8.0` (`ce1b6414`) against the previous manual baseline, using the `v1.7.19..v1.8.0` source range. The printer workflow and report dashboards changed the public steps above.
+- Reviewed POS `0a95d8fe` (PAX split/merge stability), `a78e431e` (bill-discount revalidation), and the runtime, network, diagnostic, crash, and packaging changes. They do not add public recovery steps beyond the existing guides.
+- Audited X1.HQ merchant-facing changes after the 2026-07-18 baseline through `8ae01e6`, including `f3b1292`, `4df3dfe`, `60625ac`, `20c7990`, `9984145` through `01ab06a`, `22d58b3`, and `f051f5f` through `b72e483`.
+- Excluded X1 Control Plane, internal-admin, partner, seeder-only, repair-only, default-only, and data-normalization changes from operational public documentation.
+
 ## 2026-07-19 (POS v1.7.19 and HQ Production Alignment)
 
 ### Updated

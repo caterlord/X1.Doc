@@ -102,28 +102,26 @@ import TabItem from '@theme/TabItem';
   </TabItem>
   <TabItem value="spooler" label="Manage Printer Spooler">
 1. 点按目标打印机列上的 `Manage Spooler`。
-2. 检查分页：`Printing`、`History`、`Error`。
-3. 如需检查任务，请选择该行的信息按钮。详情可显示 `状态`、`重试来源`、`尝试次数`、`自动重印`、`下次重试` 和最后记录的 `错误`。
-4. 视需要使用以下动作：
-   - `Refresh`
-   - `Clear Selection`
-   - `Remove Selected`
-   - `Remove All`
-5. 在 `Error` 页签中，使用重试动作：
-   - `Select All`
-   - `Retry Selected`
-   - `Retry All`
+2. 检查分页：`队列`、`历史`、`需要处理`。
+3. 如需检查列印结果，请选择任务缩略图并按 `打开打印预览`。在预览中双指捏合或滚动以缩放，拖动以平移，完成后点按 `关闭`。
+4. 如需检查任务，请选择该行的信息按钮。详情可显示 `状态`、`驱动`、`发送状态`、`重试来源`、`尝试次数`、`厂商任务 ID`、`下次重试` 和 `打印机消息`。
+5. 视需要使用以下动作：`刷新`、`清除选择`、`删除已选`、`全部删除`。
+6. 在 `需要处理` 页签中，适当时使用 `全选`、`重试已选安全任务` 和 `重试全部安全任务`。
+7. 单个任务可按状态使用：`立即重试`（确认尚未发送）、`仍然重试`（先查看可能重复警告）、`标记为已打印`（已在其他地方打印）或 `取消`。
 
 要确认的是：
 
 - 重试／移除动作后，队列会减少
 - 标记为 `等待自动重印` 的任务，可能会在打印机恢复正常后自行清除
 - 标记为 `永久错误` 的任务需要人工检查、删除，或重新发送打印请求
+- 标记为 `结果未知` 的任务可能已经打印；重试或标记为已打印前，请逐个检查
 - 新的列印工作会正常处理
-- `Error` 队列清空后，打印机列上的错误数量标记会消失
+- 从 `需要处理` 移除任务会取消任务，并将任务保留在 `历史`
+- `需要处理` 队列清空后，打印机列上的错误数量标记会消失
 
 > 待补截图：`functions/fn-printer-spooler-manager-dialog.png`
-> 待补截图：`functions/fn-printer-spooler-error-retry-actions.png`
+> 待补截图：`functions/fn-printer-spooler-preview-dialog.png`
+> 待补截图：`functions/fn-printer-spooler-needs-attention-actions.png`
   </TabItem>
 </Tabs>
 

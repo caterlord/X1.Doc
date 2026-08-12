@@ -15,13 +15,24 @@ title: 報表
 
 使用 `Reports` 選擇報表類型、日期 / 內容，查看結果，並在需要時列印。
 
+## 儀表板報表
+
+v1.8.0 儀表板將摘要卡、圖表和詳細資料表放在一起，讓您不用只查看長篇列印清單，也能檢視報表。
+
+`Sales Dashboard` 可顯示以下摘要卡：`GROSS SALES`、`NET SALES`、`TOTAL DISCOUNT`、`SERVICE CHARGE`、`DINE-IN SALES`、`TAKEAWAY SALES`、`TRANSACTIONS`、`AVG TICKET SIZE` 和 `CASHIERS ACTIVE`。
+
+圖表包括 `Hourly Sales Trend`、`Payment Mix`、`Sales by Category` 和 `Sales by Department`。將指標移到長條或圓環區段上，可查看標籤和數值；在觸控裝置上，使用裝置支援的圖表操作查看資料點或區段。
+
+儀表板下方的 `DETAILS` 表格提供逐列數值，可能包括 `Period`、`Tx Count`、`Sales`、`Category`、`Department`、`Cashier`、`Discount`、`Amount`、`Hour` 或 `Sales Amount`。
+
 ## 步驟
 
 1. 按 `Reports`。
 2. 從報表清單選擇報表類型。
 3. 選擇日期和任何需要的選項（例如錢箱代碼，如有提示）。
 4. 等待報表載入。
-5. 如需列印副本，按 `Print`。
+5. 如顯示儀表板，查看摘要卡、圖表和 `DETAILS` 表格；將指標移到相關長條或區段上查看數值。
+6. 如需列印副本，按 `Print`。
 
 ## 查看全單取消記錄
 
@@ -37,10 +48,14 @@ title: 報表
 
 - 報表選擇器、日期控制項和 `Print` 按鈕
 - 報表內容面板會按所選報表更新
+- 如所選報表提供儀表板，會顯示摘要卡、圖表和 `DETAILS` 表格
 - `全單取消報表` 會顯示每張全單取消訂單的操作人員、原因、原品項總額和品項明細
 
 :::note[截圖待補]
-需要檔案：`client/cl-32-reports-selector-and-print.png`
+需要檔案：
+
+- `client/cl-32-reports-selector-and-print.png`
+- `client/cl-55-reports-sales-dashboard-charts.png`
 :::
 
 ## 如果出現問題
