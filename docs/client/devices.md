@@ -38,7 +38,7 @@ A badge on `Devices` or on a tab means one or more devices need attention. Open 
   <TabItem value="printer" label="Printer">
 Use this tab for printer lifecycle and queue actions:
 
-`Add Printer`, `Info`, `Test Print`, edit printer, `Manage Spooler`, and remove printer. Printer edit includes advanced output settings such as print scale, line feed, and dot-matrix density/color.
+`Add Printer`, `Info`, `Test Print`, edit printer, `Manage Spooler`, and remove printer. Printer edit includes advanced output settings such as print scale, line feed, and dot-matrix density/color. `Manage Spooler` shows `Queue`, `History`, and `Needs attention`; open a job's `Open print preview` action when you need to inspect the rendered output before retrying.
 
 Printers managed from HQ show an `HQ` badge. If a printer exists in HQ but has not been configured on this POS, the row shows `Not configured`; edit the row to add the local connection details before you test print. Rows can also show a failed-job badge such as `1 error` or `3 errors` when the spooler has error jobs.
   </TabItem>

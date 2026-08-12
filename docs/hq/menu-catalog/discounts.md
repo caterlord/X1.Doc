@@ -34,19 +34,24 @@ Use this page to control:
 
 ### Value type
 
-Choose whether the discount is:
+The rule editor uses these value choices:
 
-- fixed amount
-- percentage
+- `Discount: Fixed`
+- `Discount: Percent`
+- `Discount: Open`
+- `Discount: Fixed Item`
+- `Discount: Percent Item`
+- `Discount: Upgrade Item`
+
+For `Discount: Percent` and `Discount: Percent Item`, `Discount Percent` is a retained-price multiplier, not the percentage written as a whole number. For example, a 10% discount (9 折) is `0.90`. Enter a value from `0` inclusive to less than `1`.
 
 ### Rule type
 
-Common rule scopes include:
+Use the item variants when the discount is evaluated against item-level rules. In the rule editor, `Applied On Item Level` has three effective states:
 
-- `Check Discount`
-- `Item Discount`
-- `Open Discount`
-- `Item Upgrade`
+- For bill-level types (`Discount: Fixed`, `Discount: Percent`, `Discount: Open`), the saved value is not used; the rule applies at bill level.
+- For item-level types, off applies the rule to all eligible matching items.
+- For item-level types, on applies the rule to the selected item.
 
 ### Rule editor
 
@@ -60,8 +65,10 @@ As with promotions, the shell record is only part of the setup. Use the rule edi
 4. Choose the rule type.
 5. Save the shell record.
 6. Open the rule editor.
-7. Define the allowed items, categories, or cart requirements.
-8. Save the discount.
+7. If using a percentage rule, enter the retained-price multiplier in `Discount Percent`.
+8. Set `Applied On Item Level` when the item-level rule should apply only to the selected item; leave it off when it should apply to all eligible matching items.
+9. Define the allowed items, categories, or cart requirements.
+10. Save the discount.
 
 ## What changes after you save
 
@@ -70,14 +77,19 @@ These changes affect the manual discount options available during POS operations
 ## How to check your change
 
 1. Reopen the discount and confirm the type and value.
-2. Review the rule editor setup.
-3. Test the intended discount flow in the POS where practical.
+2. Confirm a percentage value is a multiplier such as `0.90`, not `10` for a 10% discount.
+3. Review the rule editor setup and the `Applied On Item Level` setting.
+4. Test the intended discount flow in the POS where practical.
 
 ## If something goes wrong
 
 - Confirm the rule editor was configured after the shell record was saved.
 - Check whether the issue is in rule scope rather than discount value.
-- Review whether the discount should be whole-check or item-level.
+- Review whether the discount should be bill-level or item-level, and whether `Applied On Item Level` is set correctly.
+
+:::note[Screenshot pending]
+Needed file: `hq/menu-catalog/discount-percent-multiplier.png`
+:::
 
 ## When to ask owner/admin
 

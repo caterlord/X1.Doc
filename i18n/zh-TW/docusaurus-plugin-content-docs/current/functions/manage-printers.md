@@ -102,28 +102,26 @@ import TabItem from '@theme/TabItem';
   </TabItem>
   <TabItem value="spooler" label="管理印表機佇列">
 1. 點選目標印表機那一列的 `Manage Spooler`。
-2. 檢查分頁：`Printing`、`History`、`Error`。
-3. 如需檢查工作，請選擇該列的資訊按鈕。詳情可顯示 `狀態`、`重試來源`、`嘗試次數`、`自動重印`、`下次重試` 及最後記錄的 `錯誤`。
-4. 使用需要的動作：
-   - `Refresh`
-   - `Clear Selection`
-   - `Remove Selected`
-   - `Remove All`
-5. 在 `Error` 分頁使用重試動作：
-   - `Select All`
-   - `Retry Selected`
-   - `Retry All`
+2. 檢查分頁：`佇列`、`歷史`、`需要處理`。
+3. 如需檢查列印結果，選擇工作的縮圖並按 `開啟列印預覽`。在預覽中使用雙指撥動或捲動以縮放，拖曳以平移，完成後按 `關閉`。
+4. 如需檢查工作，請選擇該列的資訊按鈕。詳情可顯示 `狀態`、`驅動程式`、`傳送狀態`、`重試來源`、`嘗試次數`、`廠商工作 ID`、`下次重試` 和 `打印機訊息`。
+5. 使用需要的動作：`重新整理`、`清除選取`、`刪除已選`、`全部刪除`。
+6. 在 `需要處理` 分頁適當時使用 `全選`、`重試已選安全工作` 和 `重試全部安全工作`。
+7. 個別工作可按狀態使用：`立即重試`（確認尚未傳送）、`仍然重試`（先查看可能重複警告）、`標記為已列印`（已在其他地方列印）或 `取消`。
 
 要確認的內容：
 
 - 重試或移除後，佇列數量會減少
 - 標示為 `等待自動重印` 的工作，可能會在印表機恢復正常後自行清除
 - 標示為 `永久錯誤` 的工作需要人工檢查、移除，或重新送出列印請求
+- 標示為 `結果未知` 的工作可能已經列印；重試或標記為已列印前，請逐一檢查
 - 新的列印工作會正常處理
-- `Error` 佇列清空後，印表機列上的錯誤數量標記會消失
+- 從 `需要處理` 移除工作會取消工作，並將工作保留在 `歷史`
+- `需要處理` 佇列清空後，印表機列上的錯誤數量標記會消失
 
 > 截圖待補：`functions/fn-printer-spooler-manager-dialog.png`
-> 截圖待補：`functions/fn-printer-spooler-error-retry-actions.png`
+> 截圖待補：`functions/fn-printer-spooler-preview-dialog.png`
+> 截圖待補：`functions/fn-printer-spooler-needs-attention-actions.png`
   </TabItem>
 </Tabs>
 

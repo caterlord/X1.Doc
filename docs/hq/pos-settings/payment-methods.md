@@ -73,6 +73,8 @@ When `Beast Mode` is on, enter one row for each payment method with:
 
 The shared settings below the row list apply to every payment method created in that save, including `Display Index`, surcharge and charge-rate settings, behavior switches, linked gateway, and shop settings.
 
+`Beast Mode` accepts up to 100 rows in one create action. HQ validates the batch before creating methods. If the batch cannot be saved, no payment methods are created; correct the reported duplicate or invalid row and submit the batch again.
+
 Use normal create mode when each payment method needs different checkout behavior, gateway settings, rates, or shop enablement.
 
 ### Restore a recently removed payment method
@@ -108,6 +110,8 @@ Use `Show recently removed` when a payment method was removed by mistake.
 5. Complete the shared settings below the row list.
 6. Select `Create`.
 7. Review the list and confirm every payment method was created.
+
+If you enter more than 100 rows or a row fails validation, review the message and correct the batch before selecting `Create` again.
 
 ## Linked gateways
 

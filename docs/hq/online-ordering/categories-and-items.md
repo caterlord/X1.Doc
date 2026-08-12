@@ -46,6 +46,10 @@ You can map:
 
 Once a category is mapped for online use, the items inside that category can be sold through online ordering.
 
+The list uses `Published` to show whether an online category is available. Use `Show unpublished` when a category is missing from the default list. Online categories are shared with POS, so changes made here can also affect POS displays.
+
+When a category is added to online ordering, HQ creates the new shop mapping as enabled/public by default. Review the shop display settings before saving if the category should be hidden from a shop.
+
 ### Beast Mode
 
 Use `Beast Mode` when you need to create several online categories with the same shared setup.
@@ -87,6 +91,7 @@ Use the online description field for customer-facing copy such as:
 4. Open the related row or editor panel.
 5. Upload the image, update the description, or change the online price override as needed.
 6. Select `Save`.
+7. If the category is not listed, turn on `Show unpublished` and check its `Published` status.
 
 ## Create several online categories at once
 
@@ -110,6 +115,7 @@ Depending on the change, customers may see a category become available, a new im
 2. Open the target online ordering channel.
 3. Confirm the category is visible and the item content matches what you saved.
 4. If you changed online price, confirm the storefront shows the expected value.
+5. Confirm the category shows `Published` for the intended shops.
 
 ## If something goes wrong
 
@@ -117,9 +123,14 @@ Depending on the change, customers may see a category become available, a new im
 - If an item is missing online, check whether it is in the published category you edited.
 - If the item should stay visible but not sellable temporarily, do not remove it from the online category. Use POS inventory control to mark it sold out instead.
 - If the wrong price appears, re-check whether you changed the online override or only the base POS price.
+- If the category is visible in HQ but not in the storefront, check both `Published` and the shop's `Public Display` setting.
 
 ## When to ask owner/admin
 
 - The category or item change affects a live customer menu during trading hours.
 - You are unsure whether the online price should differ from the in-store price.
 - The content includes compliance, allergen, or brand-copy requirements you do not control.
+
+:::note[Screenshot pending]
+Needed file: `hq/online-ordering/online-categories-publication-status.png`
+:::
