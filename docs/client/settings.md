@@ -177,15 +177,26 @@ Restore now covers more configuration areas in current builds, so verify critica
 
 Current template font profiles include `Receipt / Checklist / Invoice`, `Kitchen Slip`, `Label`, `Pickup Slip`, `Department Slip`, `Item Order Slip`, `ODO QR Code Slip`, `Octopus Add Value Slip`, and `Pay In/Out Slip`.
 
-## Common label text fitting task
+## Set label paper size and text wrapping
 
-1. Tap `Settings` -> `Printing`.
-2. Open `Template`.
-3. Set `Template` to `Label`.
-4. Turn `Enable adaptive text size` on if long item or modifier names should shrink to fit the label width.
-5. Leave `Enable adaptive text size` off if your store wants label text to keep the configured body font size.
-6. Tap `Save`.
-7. Print a label with a long item name and confirm the text is still readable.
+Manager only. Have the label stock dimensions and the printer's network address ready.
+
+1. Open `Settings` -> `Printing` -> `Template`.
+2. Set `Template` to `Label`.
+3. Set `Paper width (mm)` and `Paper height (mm)` to match the stock. New configurations default to 40 × 30 mm; existing saved widths are retained.
+4. Set `Label gap (mm)` to the space between labels. The default is 3 mm; use 0 for continuous stock.
+5. Tap `Save`.
+6. Open `Devices` and edit the network label printer.
+7. Select `TSPL label (203 dpi)` for a TSC DA210 or a compatible 203 dpi TSPL/TSPL2 printer. Confirm its IP address and port, then save.
+8. Use `Test Print` to print one bordered label. Check that the border fits and the next label starts at the gap.
+
+Text wraps automatically at the paper edge. Every item keeps the same page size. If text is too tall, turn on `Enable adaptive text size` in the same template and save. This reduces the font only after wrapping. If content still clips, use a larger label or reduce the body font size.
+
+This driver uses a raw network print connection, including compatible network print servers. It does not support 300 dpi printers or direct USB/Bluetooth connections. If labels skip or drift, confirm the paper dimensions and gap, then ask your manager to calibrate the printer's gap sensor. Preview alone cannot confirm physical alignment.
+
+:::note[Screenshot pending]
+Needed file: `client/cl-label-paper-size-and-tspl.png`
+:::
 
 ## Common automatic reprint label task
 

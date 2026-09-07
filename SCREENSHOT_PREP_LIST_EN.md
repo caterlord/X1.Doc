@@ -22,6 +22,7 @@ Use these subfolders:
 
 | Filename (relative to `static/img/manual/en/`) | Document placement | What to capture |
 |---|---|---|
+| `client/cl-label-paper-size-and-tspl.png` | `docs/client/settings.md` and all translations | Printing > Template > Label with 40 × 30 mm and 3 mm gap; TSPL label (203 dpi) driver selection and bordered test label |
 | `getting-started/gs-10-login-quick-language-switch.png` | `docs/getting-started/access-and-navigation.md`, `docs/functions/sign-in.md` | Login screen with quick language switch button (`EN` / `繁` / `简`) visible |
 | `client/cl-04-devices-pos-code-required.png` | `docs/client/start-shift.md`, `docs/reference/troubleshooting.md` | Actual `POS Code is required` warning/state |
 | `client/cl-13-checkout-payment-methods-more.png` | `docs/client/checkout-and-payments.md` | Checkout payment methods list including `More` |
