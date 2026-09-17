@@ -10,6 +10,8 @@ Admins and finance-aware managers who maintain tax and surcharge rules used by t
 ## Before you start
 
 - Confirm the correct brand.
+- Confirm you have brand-level modify access.
+- Confirm the `Takeaway` table type is configured for the brand.
 - Confirm whether you are creating tax logic, service charge logic, or another surcharge.
 - Verify the expected rate and shop rollout before saving.
 
@@ -64,6 +66,25 @@ Use `Show recently removed` on the relevant list when a tax or surcharge rule wa
 - Select the restore icon to make the taxation or surcharge active again.
 - HQ blocks the restore if another active taxation or surcharge already has the same `Code` or `Name`.
 
+### Takeaway service charges
+
+This brand-level setting affects all tables using the `Takeaway` table type across the selected brand. It is separate from each surcharge rule's shop settings. You need brand-level modify access to save it.
+
+1. Select `Surcharge`.
+2. Find `Takeaway orders`.
+3. Click `Edit` to unlock the checkbox.
+4. Select or clear `Skip service charge for takeaway tables`.
+5. Click `Confirm and save`. Click `Cancel` to discard the change.
+
+The checkbox is locked again after saving. Changing the checkbox alone does not save it. During a new brand's guided setup, the service-charge step also offers this choice, selected by default. Adding a shop to an existing brand preserves the brand's current choice.
+
+After saving, POS devices receive the setting through their normal cloud-to-local background sync. For a POS that has not completed initial setup, the `Data Synchronization` page appears at startup: choose the sync days, select `Sync`, wait for `Completed. Click to login`, and select it to continue. An already-initialized POS does not show that page; allow its background sync to complete instead. Then load or update an active, non-return takeaway order: when selected, the POS clears its service charge; when cleared, normal configured service-charge rules apply. Completed orders and refund reversals keep their original charges. Other table types retain their existing behavior.
+
+:::note[Screenshot pending]
+Needed file: `takeaway_service_charge_settings.png`
+:::
+
+
 ## Steps
 
 1. Open `POS Settings` -> `Tax & Surcharge`.
@@ -95,6 +116,9 @@ Saving the rule updates the brand-level definition. The rule only affects the sh
 - Check `Priority` if multiple rules are interacting unexpectedly.
 - Review whether the rule should be automatic or manual before changing the rate itself.
 - If restore is blocked, check whether another active taxation or surcharge is using the same `Code` or `Name`.
+- If the takeaway setting cannot load, select `Refresh` and confirm the correct brand and connection.
+- If saving fails, retry after confirming brand-level modify access. If HQ reports that the Takeaway table type is not configured, ask an admin to configure it first.
+- If POS still shows the old behavior, first allow its background settings sync to complete. If it has not completed initial setup, use `Data Synchronization`, select the sync days and `Sync`, wait for `Completed. Click to login`, select it, and then reload the active takeaway order.
 
 ## When to ask owner/admin
 
