@@ -113,3 +113,11 @@ Use these subfolders:
 | `online-ordering/online-menu-publication-and-shop-schedule.png` | `docs/hq/online-ordering/menus-and-combinations.md` | `Online Menus` editor showing `Published`, `Categories ({count})`, `Shop Schedule ({count})`, `Public`, `Public Display`, and `Visible in ODO` |
 | `online-ordering/foodpanda-settings-and-menu-sync.png` | `docs/hq/online-ordering/third-party-platforms.md` | Foodpanda card showing `Connect Foodpanda`, store details, searchable `Payment method`/`Discount`, `Container charge item`, `More order options`, `Save Settings`, and `Menu synchronization`/`Sync Menu` |
 | `pos-settings/takeaway_service_charge_settings.png` | `docs/hq/pos-settings/tax-and-surcharge.md` | Tax & Surcharge → Surcharge, showing Takeaway orders in Edit mode with the checkbox, Cancel and Confirm and save. Capture after deployment; component QA images are not full product screenshots. |
+
+## Insights workspace update
+
+- `insights_workspace_overview.png`: replace the long-page overview capture with the five-view navigation and business summary. Capture after the matching HQ release.
+- `insights_item_comparison.png`: show two items, business-date history, comparison cards, and the calculation note. Use a demonstration brand with no customer-sensitive data. Needed by the Insights guide in all five locales.
+- `insights_item_hourly.png`: show Time of day with two items, Units sold, weekdays, previous-period comparison, and matching-day counts using demo data. Needed in all five locales after release.
+- `insights_item_weekday_heatmap.png`: show one item's current and previous Weekday × hour heatmaps on the shared scale, with the exact-value table. Needed in all five locales after release.
+- `insights_item_shop_comparison.png`: show Shop comparison for one item across two demo shops, with separate daily lines, shop totals, and the scoped shop selector. Include an additional Time of day frame with per-shop current/previous lines and matching-day counts. Confirm Apply has refreshed the global shop scope before capturing. Needed by all five locales after release.
