@@ -32,6 +32,8 @@ Screenshot pending: `insights_workspace_overview.png` — the overview with its 
 | `Menu mix` | Review menu performance, revenue and category mix, gainers and losers, and items ordered together. |
 | `Transactions` | Explore check sizes, individual transactions, and sales flows. |
 
+In `Overview`, select `Load leading item` when you need that summary. It also appears after you open an item-based view. Shared data is reused while the date and shop filters stay the same; selecting `Apply` refreshes the data needed by the current view.
+
 ## Compare items
 
 1. Select `Today`, `7D`, `14D`, `1M`, or `3M`.

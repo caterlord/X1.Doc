@@ -121,3 +121,5 @@ Use these subfolders:
 - `insights_item_hourly.png`: show Time of day with two items, Units sold, weekdays, previous-period comparison, and matching-day counts using demo data. Needed in all five locales after release.
 - `insights_item_weekday_heatmap.png`: show one item's current and previous Weekday × hour heatmaps on the shared scale, with the exact-value table. Needed in all five locales after release.
 - `insights_item_shop_comparison.png`: show Shop comparison for one item across two demo shops, with separate daily lines, shop totals, and the scoped shop selector. Include an additional Time of day frame with per-shop current/previous lines and matching-day counts. Confirm Apply has refreshed the global shop scope before capturing. Needed by all five locales after release.
+
+Insights overview refresh: capture `Load leading item` before loading its optional summary, then the populated summary after selection.
