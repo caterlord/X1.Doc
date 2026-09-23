@@ -72,16 +72,17 @@ Screenshot pending: `insights_item_weekday_heatmap.png` — one item's current a
 ## Compare an item across shops
 
 1. Select the required shops in the page filter, or leave it at all shops.
-2. Open `Items` and select the item or items you want to investigate.
-3. Open `Shop comparison`.
-4. Choose one `Item to compare` from the selected items.
-5. Choose `Over time` or `Time of day` in `Comparison view`.
-6. Choose up to four locations in `Shops to compare`. These choices stay within the page's shop filter.
-7. Review the separate shop lines and the exact-value table.
+2. Select `Apply` to refresh the page for those shops.
+3. Open `Items` and select the item or items you want to investigate.
+4. Open `Shop comparison`.
+5. Choose one `Item to compare` from the selected items.
+6. Choose `Over time` or `Time of day` in `Comparison view`.
+7. Choose up to four locations in `Shops to compare`. These choices stay within the page's shop filter. The first available shops are selected initially; check that they are the locations you intend to compare.
+8. Review the separate shop lines and the exact-value table.
 
-`Over time` shows daily quantities, revenue, orders, or average selling price. `Shop totals` lists each shop's totals for the full page date range. Turn on `Compare trends · daily average = 100` to compare the pattern relative to each shop's own average. Turn on `Compare with previous period` to add prior revenue and revenue changes to the shop totals.
+`Over time` shows daily quantities, revenue, orders, or average selling price. `Shop totals` lists each shop's totals for the displayed date range, including any active focus. Turn on `Compare trends · daily average = 100` to compare the pattern relative to each shop's own average. Turn on `Compare with previous period` to add prior revenue and revenue changes to the shop totals.
 
-`Time of day` uses one line per shop. Choose weekdays, weekends, an individual weekday, or a single date using the same time filters described above. Previous-period comparison adds a prior hourly line for each shop. The hourly shares are calculated within each shop, not as shares across locations.
+`Time of day` uses one line per shop. Choose weekdays, weekends, an individual weekday, or a single date using the same time filters described above. Previous-period comparison adds a prior hourly line for each shop. For multiple dates, each shop’s hourly values use the matching calendar-day count, including its no-sale dates. The hourly shares are calculated within each shop, not as shares across locations.
 
 Locations with no eligible sales remain visible with zero totals; this does not prove that the item was unavailable. If only one shop is available, broaden the page's shop filter. Dates and measures are shared, but opening hours, closures, shop size, and stockouts are not adjusted for.
 
@@ -89,7 +90,7 @@ Screenshot pending: `insights_item_shop_comparison.png` — the same item compar
 
 ## Understand the figures
 
-Item analysis includes completed sales and excludes voided tickets, voided lines, returns, and modifiers. `Item revenue` uses line amounts before ticket-level discounts, taxes, and charges. It is not profit and may differ from final receipt totals. `Orders containing item` counts an order once even if it contains several lines for the item. `Average selling price` is item revenue divided by units sold.
+Item analysis includes completed sales and excludes voided tickets, voided lines, returns, and modifiers. `Item revenue` uses line amounts before ticket-level discounts, taxes, and charges. It is not profit and may differ from final receipt totals. `Orders containing item` counts an order once even if it contains several lines for the item. `Average selling price` is item revenue divided by units sold. In hourly views, an order may appear in several hours when more items are added later, so hourly order counts should not be added to find distinct orders for the whole period.
 
 History groups sales by business date. Days without sales show zero; average price is blank when there are no units. The same item stays together when its name changes. The most recent name in the selected period is shown.
 
