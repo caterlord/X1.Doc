@@ -11,20 +11,20 @@ title: MCP 故障排查
 
 ## 开始之前
 
-- 确认 AI 客户端使用 `https://mcp.x1.tech/mcp`。
+- 确认 AI 客户端使用 `https://mcp.posx1.ai/mcp`。
 - 确认你可以用正确 X1 账号登录。
 - 确认你知道目标品牌和门店。
 - 故障排查期间避免批准写入动作。
 
 ## 助理无法连接
 
-1. 确认服务器地址完全是 `https://mcp.x1.tech/mcp`。
+1. 确认服务器地址完全是 `https://mcp.posx1.ai/mcp`。
 2. 确认客户端支持远程 HTTPS MCP 服务器。
 3. 在 AI 客户端中重新连接 MCP 服务器。
 4. 如客户端要求授权，请重新登录。
 5. 尝试只读提示：“列出我可以访问的品牌和门店。”
 
-在浏览器打开 `https://mcp.x1.tech/mcp` 可能会显示 method error。这不一定代表服务器故障，因为 MCP 客户端使用端点的方式与浏览器页面不同。
+在浏览器打开 `https://mcp.posx1.ai/mcp` 可能会显示 method error。这不一定代表服务器故障，因为 MCP 客户端使用端点的方式与浏览器页面不同。
 
 ## 登录或授权失败
 

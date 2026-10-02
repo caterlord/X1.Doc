@@ -13,8 +13,8 @@ Admins who are setting up ChatGPT, Cursor, Claude, or another MCP-capable AI cli
 
 - Use an AI client that supports remote MCP servers over HTTPS.
 - Have an X1 account with the correct brand and shop permissions.
-- Use the MCP server URL `https://mcp.x1.tech/mcp`.
-- Do not use `https://mcp.x1.tech/mcp/openapi.json`. X1 MCP is a remote MCP server, not a Custom GPT Actions OpenAPI endpoint.
+- Use the MCP server URL `https://mcp.posx1.ai/mcp`.
+- Do not use `https://mcp.posx1.ai/mcp/openapi.json`. X1 MCP is a remote MCP server, not a Custom GPT Actions OpenAPI endpoint.
 
 ## Connect from ChatGPT
 
@@ -27,7 +27,7 @@ ChatGPT labels may vary by workspace. Some workspaces show `Apps & Connectors`; 
 5. Select `Create`.
 6. Enter a clear name such as `X1 HQ Agent`.
 7. Enter a description that explains the app can help inspect and manage X1 HQ data.
-8. Enter the MCP server URL: `https://mcp.x1.tech/mcp`.
+8. Enter the MCP server URL: `https://mcp.posx1.ai/mcp`.
 9. Select `Create`.
 10. Complete the X1 sign-in or authorization screen.
 11. Confirm ChatGPT shows the X1 tools after the connection succeeds.
@@ -46,7 +46,7 @@ ChatGPT labels may vary by workspace. Some workspaces show `Apps & Connectors`; 
 Use the client's remote MCP server setup screen. Enter this server URL when the client asks for an MCP endpoint:
 
 ```text
-https://mcp.x1.tech/mcp
+https://mcp.posx1.ai/mcp
 ```
 
 If your client asks for a JSON configuration, start with this shape and adjust it to the client's current MCP documentation:
@@ -55,7 +55,7 @@ If your client asks for a JSON configuration, start with this shape and adjust i
 {
   "mcpServers": {
     "x1-hq": {
-      "url": "https://mcp.x1.tech/mcp"
+      "url": "https://mcp.posx1.ai/mcp"
     }
   }
 }
@@ -74,7 +74,7 @@ After connection, the assistant should be able to:
 
 ## If something goes wrong
 
-- Confirm the URL is exactly `https://mcp.x1.tech/mcp`.
+- Confirm the URL is exactly `https://mcp.posx1.ai/mcp`.
 - Confirm your AI client supports remote MCP servers.
 - Sign out and sign in again if authorization fails.
 - Ask the assistant to list accessible brands and shops before attempting changes.

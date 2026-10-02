@@ -11,20 +11,20 @@ Admins who need to fix MCP connection, sign-in, permission, preview, commit, or 
 
 ## Before you start
 
-- Confirm the AI client is using `https://mcp.x1.tech/mcp`.
+- Confirm the AI client is using `https://mcp.posx1.ai/mcp`.
 - Confirm you can sign in with the correct X1 account.
 - Confirm you know the target brand and shop.
 - Avoid approving write actions while troubleshooting.
 
 ## The assistant cannot connect
 
-1. Confirm the server URL is exactly `https://mcp.x1.tech/mcp`.
+1. Confirm the server URL is exactly `https://mcp.posx1.ai/mcp`.
 2. Confirm the client supports remote MCP servers over HTTPS.
 3. Reconnect the MCP server in the AI client.
 4. Sign in again if the client asks for authorization.
 5. Try a read-only prompt: "List the brands and shops I can access."
 
-Opening `https://mcp.x1.tech/mcp` in a browser may show a method error. That does not by itself mean the server is down, because MCP clients use the endpoint differently from a browser page.
+Opening `https://mcp.posx1.ai/mcp` in a browser may show a method error. That does not by itself mean the server is down, because MCP clients use the endpoint differently from a browser page.
 
 ## Sign-in or authorization fails
 

@@ -11,20 +11,20 @@ title: MCP 疑難排解
 
 ## 開始之前
 
-- 確認 AI 工具使用 `https://mcp.x1.tech/mcp`。
+- 確認 AI 工具使用 `https://mcp.posx1.ai/mcp`。
 - 確認你可以用正確 X1 帳戶登入。
 - 確認你知道目標品牌及店鋪。
 - 疑難排解期間避免批准寫入動作。
 
 ## 助理無法連接
 
-1. 確認伺服器網址完全是 `https://mcp.x1.tech/mcp`。
+1. 確認伺服器網址完全是 `https://mcp.posx1.ai/mcp`。
 2. 確認工具支援遠端 HTTPS MCP 伺服器。
 3. 在 AI 工具中重新連接 MCP 伺服器。
 4. 如工具要求授權，請重新登入。
 5. 嘗試只讀提示：「列出我可存取的品牌及店鋪。」
 
-在瀏覽器開啟 `https://mcp.x1.tech/mcp` 可能會顯示 method error。這不一定代表伺服器故障，因為 MCP 工具使用端點的方式與瀏覽器頁面不同。
+在瀏覽器開啟 `https://mcp.posx1.ai/mcp` 可能會顯示 method error。這不一定代表伺服器故障，因為 MCP 工具使用端點的方式與瀏覽器頁面不同。
 
 ## 登入或授權失敗
 

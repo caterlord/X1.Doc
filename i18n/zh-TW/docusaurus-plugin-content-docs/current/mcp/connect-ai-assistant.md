@@ -13,8 +13,8 @@ title: 連接 AI 助理
 
 - 使用支援遠端 HTTPS MCP 伺服器的 AI 工具。
 - 準備有正確品牌及店鋪權限的 X1 帳戶。
-- 使用 MCP 伺服器網址 `https://mcp.x1.tech/mcp`。
-- 不要使用 `https://mcp.x1.tech/mcp/openapi.json`。X1 MCP 是遠端 MCP 伺服器，不是 Custom GPT Actions OpenAPI 端點。
+- 使用 MCP 伺服器網址 `https://mcp.posx1.ai/mcp`。
+- 不要使用 `https://mcp.posx1.ai/mcp/openapi.json`。X1 MCP 是遠端 MCP 伺服器，不是 Custom GPT Actions OpenAPI 端點。
 
 ## 從 ChatGPT 連接
 
@@ -27,7 +27,7 @@ ChatGPT 的標籤可能因工作區而不同。部分工作區顯示 `Apps & Con
 5. 選擇 `Create`。
 6. 輸入清楚名稱，例如 `X1 HQ Agent`。
 7. 輸入描述，說明此應用可協助檢查及管理 X1 HQ 資料。
-8. 輸入 MCP 伺服器網址：`https://mcp.x1.tech/mcp`。
+8. 輸入 MCP 伺服器網址：`https://mcp.posx1.ai/mcp`。
 9. 選擇 `Create`。
 10. 完成 X1 登入或授權畫面。
 11. 確認連接成功後，ChatGPT 顯示 X1 工具。
@@ -46,7 +46,7 @@ ChatGPT 的標籤可能因工作區而不同。部分工作區顯示 `Apps & Con
 使用該工具的遠端 MCP 伺服器設定畫面。當工具要求 MCP endpoint 時，輸入：
 
 ```text
-https://mcp.x1.tech/mcp
+https://mcp.posx1.ai/mcp
 ```
 
 如果工具要求 JSON 設定，可先使用以下格式，並按該工具目前的 MCP 文件調整：
@@ -55,7 +55,7 @@ https://mcp.x1.tech/mcp
 {
   "mcpServers": {
     "x1-hq": {
-      "url": "https://mcp.x1.tech/mcp"
+      "url": "https://mcp.posx1.ai/mcp"
     }
   }
 }
@@ -74,7 +74,7 @@ https://mcp.x1.tech/mcp
 
 ## 如出現問題
 
-- 確認網址完全是 `https://mcp.x1.tech/mcp`。
+- 確認網址完全是 `https://mcp.posx1.ai/mcp`。
 - 確認 AI 工具支援遠端 MCP 伺服器。
 - 如授權失敗，請登出後重新登入。
 - 嘗試更改前，先要求助理列出可存取品牌及店鋪。

@@ -10,8 +10,8 @@ This repository contains the manuals for:
 
 Official links:
 
-- Documentation: [https://docs.x1.tech/](https://docs.x1.tech/)
-- X1 website: [https://x1.tech/](https://x1.tech/)
+- Documentation: [https://docs.posx1.ai/](https://docs.posx1.ai/)
+- X1 website: [https://posx1.ai/](https://posx1.ai/)
 
 ## What Is In This Repository
 

@@ -13,7 +13,7 @@ Owners, back-office admins, setup staff, and managers who want an AI assistant t
 
 - Confirm your X1 account has permission to view or change the target brand and shop.
 - Confirm your AI client supports remote MCP servers over HTTPS.
-- Use the official X1 MCP server URL: `https://mcp.x1.tech/mcp`.
+- Use the official X1 MCP server URL: `https://mcp.posx1.ai/mcp`.
 - Treat live menu prices, online ordering, device settings, and store settings as high-risk changes.
 
 ## What this section is for

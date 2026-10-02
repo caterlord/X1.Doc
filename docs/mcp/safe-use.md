@@ -11,7 +11,7 @@ Anyone using an AI assistant to inspect or change X1 HQ data through MCP.
 
 ## Before you start
 
-- Confirm the assistant is connected to the official X1 MCP server: `https://mcp.x1.tech/mcp`.
+- Confirm the assistant is connected to the official X1 MCP server: `https://mcp.posx1.ai/mcp`.
 - Confirm the selected brand, shop, and channel before requesting changes.
 - Use read-only requests first.
 - Do not paste passwords, payment credentials, API keys, or private customer information into the chat.

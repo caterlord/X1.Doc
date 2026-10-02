@@ -40,7 +40,7 @@ const normalizeDocsRouteBasePath = (value: string): string => {
   return trimmed.replace(/^\/+|\/+$/g, '');
 };
 
-const siteUrl = resolveEnv('DOCS_SITE_URL', 'https://docs.x1.tech');
+const siteUrl = resolveEnv('DOCS_SITE_URL', 'https://docs.posx1.ai');
 const siteBaseUrl = normalizeBaseUrl(
   resolveEnv('DOCS_BASE_URL', '/'),
 );
@@ -283,7 +283,7 @@ const config: Config = {
         },
         {
           label: 'X1',
-          href: 'https://x1.tech/',
+          href: 'https://posx1.ai/',
           position: 'right',
         },
         {
@@ -320,7 +320,7 @@ const config: Config = {
             },
             {
               label: 'X1 Website',
-              to: 'https://x1.tech/',
+              to: 'https://posx1.ai/',
             },
             {
               label: 'Docs Repository',
