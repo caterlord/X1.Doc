@@ -26,7 +26,7 @@ body:
     attributes:
       label: Page URL
       description: Paste the page URL if you have it.
-      placeholder: https://docs.x1.tech/...
+      placeholder: https://docs.posx1.ai/...
   - type: textarea
     id: problem
     attributes:
