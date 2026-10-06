@@ -151,18 +151,18 @@ A booking moves through states: `Pending`, `Confirmed`, `Arrived`, `Seated`, and
 
 ## Steps
 
-1. Open `Bookings` -> `Booking Settings`.
+1. Open `Bookings` -> `Public Booking Page`.
 2. Select the correct `Shop`.
-3. Turn on `Enable public booking` if customers should be able to request bookings from the public booking page.
-4. Turn on `Require manual approval` if staff must confirm each customer request before it becomes confirmed.
+3. Select `Set up bookings` to open `Booking Settings`.
+4. Turn on `Require manual approval` if staff must confirm each guest request.
 5. Enter a short `Public booking slug` using lowercase letters, numbers, and hyphens.
-6. Set `Maximum party size`.
-7. Set `Booking duration (minutes)` and `Buffer after booking (minutes)`.
-8. Set `Minimum lead time (minutes)` and `Maximum advance window (days)`.
-9. Set `Time zone`. Keep `Shop default` unless this shop needs a different zone.
-10. Set `First slot time`, `Last slot time`, and `Slot interval (minutes)`.
-11. Enter clear `Booking policy text` for guests.
-12. Select `Save`. If the slug is already used by another shop, the save is rejected; choose a different slug.
+6. Set `Maximum party size` and `Booking duration (minutes)`.
+7. Set `First slot time` and `Last slot time` for the times guests can request.
+8. Adjust the other timing rules if your shop needs them.
+9. Add guest-facing policies and page branding if needed.
+10. Turn on `Enable public booking` when you are ready to accept guest requests.
+11. Select `Save and publish`. If another shop uses the slug, choose a different one and save again.
+12. Return to `Public Booking Page`, open the booking link, and check the times guests can choose.
 13. Open `Bookings` -> `Booking Board`.
 14. Select the service `Date`.
 15. Review the list and use `Confirm` or `Mark arrived` when the reservation reaches that stage, or open `Booking details` for other actions.
@@ -235,6 +235,7 @@ Reservation board actions are operational records. They change what HQ, POS, and
 
 ## If something goes wrong
 
+- If `Bookings are temporarily unavailable` appears, select `Try again`. If it continues, contact X1 support.
 - If a guest cannot book online, confirm `Enable public booking` is on and the `Public booking slug` is correct.
 - If saving settings fails with `This public booking link is already used by another shop.`, choose a different `Public booking slug`.
 - If saving settings fails with a slug format message, use only lowercase letters, numbers, and hyphens in the slug.
