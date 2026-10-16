@@ -84,11 +84,12 @@ import TabItem from '@theme/TabItem';
   <TabItem value="edit-remove" label="編輯或移除印表機">
 1. 按編輯圖示，更新 `名稱`、`印表機類型`、`連線`、`IP 位址` 和 `連接埠`。
 2. 需要調整輸出效果時，開啟 `顯示進階設定`。
-3. 只有測試輸出需要調整時，才設定 `列印縮放 (%)`、`頁首額外走紙行數` 或 `頁尾額外走紙行數`。
-4. 如果 `印表機類型` 是 `針式`，設定 `針式列印密度` 和 `針式列印顏色`。
-5. 按 `儲存`。
-6. 如需移除，按刪除圖示。
-7. 確認移除提示。
+3. 對收據印表機，只有測試輸出需要調整時，才設定 `列印縮放 (%)`、`頁首額外走紙行數` 或 `頁尾額外走紙行數`。新印表機的 `頁尾額外走紙行數` 預設為 0。
+4. 對 `TSPL 標籤（203 dpi）`，如列印位置偏移，調整 `標籤 X 位移（點）` 或 `標籤 Y 位移（點）`。正數向右或向下，負數向左或向上。標籤印表機不顯示走紙行數設定。
+5. 如果 `印表機類型` 是 `針式`，設定 `針式列印密度` 和 `針式列印顏色`。
+6. 按 `儲存`，再執行 `測試列印` 檢查位置。超出標籤邊緣的內容會被裁切。
+7. 如需移除，按刪除圖示。
+8. 確認移除提示。
 
 要確認：
 
@@ -99,6 +100,7 @@ import TabItem from '@theme/TabItem';
 
 > Screenshot pending: `functions/fn-printer-remove-confirm-dialog.png`
 > 截圖待補：`functions/fn-printer-dot-matrix-advanced-settings.png`
+> 截圖待補：`functions/fn-printer-label-offset-settings.png`
   </TabItem>
   <TabItem value="spooler" label="管理印表機 spooler">
 1. 在目標印表機列上按 `Manage Spooler`。

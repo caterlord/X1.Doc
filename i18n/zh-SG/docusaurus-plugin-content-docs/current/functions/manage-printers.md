@@ -84,11 +84,12 @@ import TabItem from '@theme/TabItem';
   <TabItem value="edit-remove" label="Edit or Remove Printer">
 1. 点按编辑图示，更新 `名称`、`打印机类型`、`连接`、`IP 地址` 与 `端口`。
 2. 需要调整输出效果时，打开 `显示高级设置`。
-3. 只有测试输出需要调整时，才设置 `打印缩放 (%)`、`页首额外走纸行数` 或 `页尾额外走纸行数`。
-4. 如果 `打印机类型` 是 `针式`，设置 `针式打印密度` 和 `针式打印颜色`。
-5. 点按 `保存`。
-6. 如果要移除，点按删除图示。
-7. 确认移除提示。
+3. 对收据打印机，只有测试输出需要调整时，才设置 `打印缩放 (%)`、`页首额外走纸行数` 或 `页尾额外走纸行数`。新打印机的 `页尾额外走纸行数` 默认为 0。
+4. 对 `TSPL 标签（203 dpi）`，若打印位置偏移，调整 `标签 X 偏移（点）` 或 `标签 Y 偏移（点）`。正数向右或向下，负数向左或向上。标签打印机不显示走纸行数设置。
+5. 如果 `打印机类型` 是 `针式`，设置 `针式打印密度` 和 `针式打印颜色`。
+6. 点按 `保存`，再运行 `测试打印` 检查位置。超出标签边缘的内容会被裁切。
+7. 如果要移除，点按删除图示。
+8. 确认移除提示。
 
 要确认的是：
 
@@ -99,6 +100,7 @@ import TabItem from '@theme/TabItem';
 
 > 待补截图：`functions/fn-printer-remove-confirm-dialog.png`
 > 待补截图：`functions/fn-printer-dot-matrix-advanced-settings.png`
+> 待补截图：`functions/fn-printer-label-offset-settings.png`
   </TabItem>
   <TabItem value="spooler" label="Manage Printer Spooler">
 1. 点按目标打印机列上的 `Manage Spooler`。

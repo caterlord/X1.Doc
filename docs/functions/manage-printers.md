@@ -84,11 +84,12 @@ What to verify:
   <TabItem value="edit-remove" label="Edit or Remove Printer">
 1. Tap edit icon to update `Name`, `Printer Type`, `Connection`, `IP Address`, and `Port`.
 2. Turn `Show advanced settings` on when you need output adjustments.
-3. Set `Print Scale (%)`, `Header extra line feed`, or `Footer extra line feed` only when the test output needs adjustment.
-4. If `Printer Type` is `Dot Matrix`, set `Dot matrix density` and `Dot matrix color`.
-5. Tap `Save`.
-6. To remove, tap delete icon.
-7. Confirm removal prompt.
+3. For receipt printers, set `Print Scale (%)`, `Header extra line feed`, or `Footer extra line feed` only when the test output needs adjustment. New printers start with `Footer extra line feed` at 0.
+4. For `TSPL label (203 dpi)`, adjust `Label X offset (dots)` or `Label Y offset (dots)` if the printed image is off-center. Positive values move right or down; negative values move left or up. The line-feed controls are hidden for label printers.
+5. If `Printer Type` is `Dot Matrix`, set `Dot matrix density` and `Dot matrix color`.
+6. Tap `Save`, then run `Test Print` to check the placement. Content moved beyond the label edge is clipped.
+7. To remove, tap delete icon.
+8. Confirm removal prompt.
 
 What to verify:
 
@@ -99,6 +100,7 @@ What to verify:
 
 > Screenshot pending: `functions/fn-printer-remove-confirm-dialog.png`
 > Screenshot pending: `functions/fn-printer-dot-matrix-advanced-settings.png`
+> Screenshot pending: `functions/fn-printer-label-offset-settings.png`
   </TabItem>
   <TabItem value="spooler" label="Manage Printer Spooler">
 1. Tap `Manage Spooler` on target printer row.
