@@ -26,7 +26,7 @@ Open `Dashboard`.
 
 - **Daily KPI cards**: `Gross Sales`, `Net Sales`, `Total Orders`, and `Avg Service Time` for the selected date.
 - **Performance details**: `Overview` shows day sections. `Store Performance` compares shops only when the brand has more than one active shop; each shop appears once even if it has several day sections.
-- **Trends**: `Daily sales` shows the last 28 days, `Monthly sales` shows the last 12 months, and `Sales by day of week` compares four seven-day periods. These charts use the annual turnover summary and end at the selected date or month.
+- **Trends**: `Daily sales` shows the last 28 days, `Monthly sales` shows the last 12 months, and `Sales by day of week` compares four consecutive seven-day periods. Each trend ends at the selected date or month.
 - **Other charts**: sales trend, best/worst items, category, hourly, department, payment method, and dine-in/takeaway views.
 - **Header tools**: search, language switch, support, notifications, and settings.
 - **Workspace and brand selector**: the upper-left selector controls which workspace and brand the dashboard is showing.
