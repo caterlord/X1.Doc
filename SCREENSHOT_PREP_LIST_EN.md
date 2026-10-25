@@ -99,6 +99,7 @@ Use these subfolders:
 
 | Filename (relative to `static/img/hq/`) | Document placement | What to capture |
 |---|---|---|
+| `workspace-invitation-role.png` | `docs/hq/organization.md` and all translations | After deployment, capture the full HQ Workspace Administration invitation dialog with the Role dropdown open showing Member and Admin. Component previews are for QA only. |
 | `store-settings/reservations_board.png` | `docs/hq/store-settings/reservations.md` | HQ `Bookings` -> `Booking Board` with shop and date selectors, counters, and at least one row showing the quick actions |
 | `store-settings/reservations_settings.png` | `docs/hq/store-settings/reservations.md` | HQ `Bookings` -> `Booking Settings` showing the public booking controls, the `Time zone`, `First slot time`, `Last slot time`, and `Slot interval (minutes)` fields, and the policy text |
 | `store-settings/reservations_detail_history.png` | `docs/hq/store-settings/reservations.md` | HQ `Booking details` dialog showing the state action buttons and the `Status history` timeline with at least one `POS:` entry and one `Guest` entry |
