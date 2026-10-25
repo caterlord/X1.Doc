@@ -103,17 +103,28 @@ For the first setup, `New Company` is selected and `New Brand` and `New Shop` st
 
 ### Invite a workspace member and assign access
 
+Only workspace admins can send invitations, including invitations for other admins.
+
 1. Select `Business Access`.
 2. Click `Invite member`.
 3. Enter the person's `Email`.
-4. Click `Send Invitation`.
-5. Find the new row marked `Pending invitation`.
-6. Click `Assign access`.
-7. Select the `Access level`.
-8. Select the `Target`.
-9. Select the `Role`.
-10. Click `Grant access`.
-11. Repeat the assignment if the person needs access to more than one company, brand, or shop.
+4. Select `Member` or `Admin` in `Role`.
+5. Click `Send Invitation`.
+6. Check the email and role in the `Pending invitation` row.
+
+`Member` is the default and needs business access assignments. `Admin` can manage all companies, brands, shops, and members in the workspace and does not need additional business access assignments.
+
+To prepare business access for a `Member` invitation:
+
+1. Find the pending invitation.
+2. Click `Assign access`.
+3. Select the `Access level`.
+4. Select the `Target`.
+5. Select the business access `Role`.
+6. Click `Grant access`.
+7. Repeat the assignment if the person needs access to more than one company, brand, or shop.
+
+Screenshot pending: `workspace-invitation-role.png`
 
 ### Assign access to an existing workspace member
 
