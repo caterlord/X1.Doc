@@ -30,7 +30,7 @@ Use this page to:
 - send a saved menu to Foodpanda or MeiTuan with `Sync Menu`
 - remove a platform card from the store's saved settings
 
-This page is shop-level. Subscription happens at brand/company level, but the fields you enter here apply to the store you opened.
+Most fields apply to the selected shop. Subscriptions and **Shared Keeta brand credentials** apply across the brand. Only a brand administrator can view or save those credentials.
 
 ![3rd Party Platforms page](/img/hq/online-ordering/oo_third_party_platforms_page.png)
 
@@ -62,7 +62,11 @@ Each platform card can show one of these states:
 
 Some cards show editable fields. Some show `No configuration required — this integration is managed by the partner platform.`
 
-The `MeiTuan` card includes its payment, discount, service-charge, webhook, and menu-sync settings. When webhook access is supplied by the partner, also enter `API URL`, `Shop ID`, `Access Token`, `Refresh Token`, and `Token expiry date/time`. Treat both token fields as confidential credentials.
+The `MeiTuan` card includes shop-level payment, discount, service-charge, webhook, and menu-sync settings. Enter the partner-provided `API URL` and `Shop ID` for this shop.
+
+Under `Shared Keeta brand credentials`, review `Access Token`, `Refresh Token`, and `Token expiry date/time`. These credentials are shared by all Keeta shops in the brand. Enter the expiry in UTC, then select `Save shared brand credentials`. This is separate from `Save Settings`. Treat both tokens as confidential.
+
+This form repairs missing setup. If HQ offers values previously saved only for this shop, check them with the partner before saving them for the whole brand. Existing connected credentials are read-only; contact support to replace or disconnect a connection. If HQ reports duplicate empty setup rows, save the unchanged credentials to repair them. If the credentials changed elsewhere, select `Reload credentials` before continuing.
 
 :::note[Screenshot pending]
 Needed file: `hq/online-ordering/meituan-webhook-settings.png`
@@ -70,7 +74,7 @@ Needed file: `hq/online-ordering/meituan-webhook-settings.png`
 
 ### Save action
 
-Changes on the card do not fully apply until you use the page-level `Save Settings` button in `Shop Settings`.
+Use `Save Settings` for shop-level changes. Use `Save shared brand credentials` separately for Keeta tokens; it applies to every Keeta shop in the brand.
 
 ### Foodpanda
 
@@ -106,13 +110,13 @@ Needed files:
 7. Expand the platform card if fields are available.
 8. Enter the required shop-level values.
 9. For `Foodpanda`, complete `Connect Foodpanda`, `Foodpanda store details`, and the required `Order totals` mappings.
-10. For `MeiTuan`, enter the partner-provided `API URL`, `Shop ID`, `Access Token`, `Refresh Token`, and `Token expiry date/time` before enabling `Webhook enabled`.
+10. For `MeiTuan`, enter the shop’s `API URL` and `Shop ID`, and enable `Webhook enabled`. Review the brand credentials and UTC expiry, then select `Save shared brand credentials` before syncing.
 11. Select `Save Settings`.
 12. If the platform shows `Menu synchronization`, select `Sync Menu` after the settings have saved.
 
 ## What changes after you save
 
-Saving updates the selected store's platform settings.
+`Save Settings` updates the selected store’s platform settings. `Save shared brand credentials` updates Keeta credentials for the entire brand. Generated channel tokens are shown for reference and cannot be changed here.
 
 The subscription itself also affects other HQ areas:
 
