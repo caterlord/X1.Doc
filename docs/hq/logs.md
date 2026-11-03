@@ -3,7 +3,7 @@ title: Logs
 ---
 
 :::info[Who this is for]
-Owners, managers, support staff, and back-office admins who need to review POS diagnostic files from HQ.
+Owners, managers, support staff, and back-office admins who need to review third-party communications and POS diagnostic files from HQ.
 :::
 
 ## Before you start
@@ -16,19 +16,43 @@ Owners, managers, support staff, and back-office admins who need to review POS d
 ## Open this page
 
 1. Open `Logs` from the Analytics area.
-2. Select `POS Logs`.
+2. Select `API Logs` for third-party communications, or `POS Logs` for terminal files.
 
-![Logs overview](/img/hq/logs/logs_overview_page.png)
+![Logs overview](/img/hq/logs/logs_overview_page.jpg)
 
 ## What this page controls
 
 `Logs` is the overview for log-related tools in HQ.
 
 - `HQ Audit Trails`: coming soon. This will be used for administrative and user-action history.
-- `API Logs`: coming soon. This will be used for backend and integration diagnostics.
+- `API Logs`: review existing third-party requests, responses and errors by brand or shop.
 - `POS Logs`: available now. Use this to review log files uploaded by POS terminals.
 
 `POS Logs` does not change POS behavior. It helps you inspect files that were already uploaded from POS.
+
+## Review third-party API logs
+
+1. Open `Logs` → `API Logs`.
+2. Select the required scope in `Brand / Shop`.
+3. Select a `Log type`. Choose `Keeta / MeiTuan` for Keeta menu sync.
+4. Enter `Start date (UTC)` and `End date (UTC)`.
+5. Select `Apply`.
+6. Select `View` beside a request to open `Log details`.
+7. Expand `Response body` and the request sections to inspect the result.
+
+Dates include both selected days, up to 7 days. Convert the time of the issue to UTC before selecting dates. Use the page controls for more results; the newest requests appear first. `Refresh` reloads the applied filters.
+
+`Brand logs only` excludes shop logs. Select the specific shop to find its communications. Users with shop-only access see only assigned shops and cannot inspect brand logs.
+
+`Log details` includes HTTP status, time, method, domain, origin, request query, headers and bodies. Credentials are masked, but logs may contain other personal or business data. Review them before sharing. Long fields show a preview limit message; the preview contains up to 32,768 characters per field.
+
+An HTTP success status does not confirm that a partner completed an operation. Read the response and verify the result in the partner system. If there are no logs, confirm the shop, log type and UTC dates. If the service reports too much data or times out, select a shorter range. If the source is unavailable, ask your administrator; an error is different from an empty result.
+
+If `Sync Menu` explains that Keeta settings are disabled, review `Webhook enabled` and `Menu sync enabled` in MeiTuan settings with your administrator. Save the intended configuration before retrying. Viewing API logs never enables an integration or retries an operation.
+
+![API Logs filters and results](/img/hq/logs/api_logs_page.jpg)
+
+![API log details (example with sample data)](/img/hq/logs/api_log_details.png)
 
 ## Main sections
 
