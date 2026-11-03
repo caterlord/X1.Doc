@@ -233,7 +233,7 @@ Needed file: `client/cl-label-paper-size-and-tspl.png`
 
 若看不到 `额外打印份数`，请先使用 `重印收据`，并请经理确认 POS 更新安排。若没有打印副本，请与经理检查相应的自动打印开关及打印机设置。将份数改回 `0` 即恢复只打印原本一张。
 
-Screenshot pending: `client/cl-print-extra-copies.png` — 收据额外打印份数设为 1，以及项目清单和外卖打印机的独立设置。
+![收据额外打印份数设为 1；项目清单及外卖打印机独立设置](/img/manual/zh-CN/client/cl-print-extra-copies.png)
 
 ## 常见外带联络资料列印任务
 

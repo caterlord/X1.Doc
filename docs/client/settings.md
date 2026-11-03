@@ -234,7 +234,7 @@ These counts apply only to automatic printing. Manual receipt and checklist repr
 
 If `Extra Copies` is not shown, use `Reprint Receipt` and ask your manager about updating POS. If duplicates do not print, check the relevant automatic-print switch and printer assignment with your manager. Return the count to `0` to print one original again.
 
-Screenshot pending: `client/cl-print-extra-copies.png` — Receipt extra copies set to 1, with independent Item Checklist and Takeaway Printer controls.
+![Receipt Extra Copies = 1, with independent Item Checklist and Takeaway Printer counters](/img/manual/en/client/cl-print-extra-copies.png)
 
 ## Common takeaway contact print task
 

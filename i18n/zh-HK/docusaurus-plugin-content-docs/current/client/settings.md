@@ -234,7 +234,7 @@ Needed file: `client/cl-label-paper-size-and-tspl.png`
 
 若看不到 `額外列印份數`，請先使用 `重印收據`，並請經理確認 POS 更新安排。若沒有印出複本，請與經理檢查相應的自動列印開關及印表機設定。將份數改回 `0` 即恢復只印原本一張。
 
-Screenshot pending: `client/cl-print-extra-copies.png` — 收據額外列印份數設為 1，以及項目清單和外賣印表機的獨立設定。
+![收據額外列印份數設為 1；項目清單及外賣印表機獨立設定](/img/manual/zh-TW/client/cl-print-extra-copies.png)
 
 ## 常見外賣聯絡資料列印
 
