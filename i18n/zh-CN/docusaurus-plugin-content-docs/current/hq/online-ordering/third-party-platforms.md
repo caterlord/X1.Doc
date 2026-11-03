@@ -30,7 +30,7 @@ title: 第三方平台
 - 在保存设置后使用 `同步菜单`，将最新菜单发送到 Foodpanda 或 MeiTuan
 - 从门店已保存设置中移除某个平台卡片
 
-本页是门店级。订阅本身发生在品牌／公司级，但您在这里输入的字段只会应用到当前打开的门店。
+大部分字段只应用于当前门店。订阅及 `Keeta 品牌共享凭证` 则适用于整个品牌。只有品牌管理员可查看或保存共用凭证。
 
 ![第三方平台页面](/img/hq/online-ordering/oo_third_party_platforms_page.png)
 
@@ -62,7 +62,11 @@ HQ 会将平台卡片分组为：
 
 有些卡片会显示可编辑字段。有些则只会显示 `无需设置 — 此集成由合作伙伴平台管理。`
 
-`MeiTuan` 卡片包含付款、折扣、服务费、Webhook 和菜单同步设置。如果合作伙伴提供 Webhook 存取资料，还要填写 `API URL`、`Shop ID`、`Access Token`、`Refresh Token` 和 `Token 到期日期/时间`。请把两个 Token 字段视为机密凭证。
+`MeiTuan` 卡片包含门店的付款、折扣、服务费、Webhook 及菜单同步设置。请填写合作伙伴提供的 `API URL` 及 `Shop ID`。
+
+在 `Keeta 品牌共享凭证` 中，核对 `Access Token`、`Refresh Token` 及 `Token 到期日期/时间`。这些凭证由品牌内所有 Keeta 门店共用。以 UTC 输入到期时间，再点击 `保存品牌共享凭证`。此操作与 `保存设置` 分开。请妥善保管两个 Token。
+
+若 HQ 显示先前只保存在此门店的值，请先向合作伙伴确认，再应用至整个品牌。若凭证已在其他地方更新，请点击 `重新加载凭证`，核对最新资料后再保存。
 
 :::note[待补截图]
 需要文件：`hq/online-ordering/meituan-webhook-settings.png`
@@ -70,7 +74,7 @@ HQ 会将平台卡片分组为：
 
 ### 保存操作
 
-卡片上的更改，必须在 `门店设置` 页面级点击 `保存设置` 后才会完整生效。
+门店字段更改后，请点击 `保存设置`。Keeta Token 须另点击 `保存品牌共享凭证`，并会应用至品牌内所有 Keeta 门店。
 
 ### Foodpanda
 
@@ -103,7 +107,7 @@ Foodpanda 和 MeiTuan 会显示 `菜单同步` 区域及 `同步菜单`。请先
 7. 如果有字段可填，展开平台卡片。
 8. 输入所需的门店级信息。
 9. 对于 `Foodpanda`，完成 `连接 Foodpanda`、`Foodpanda 门店资料` 及所需的 `订单总额` 对应。
-10. 对于 `MeiTuan`，先填写合作伙伴提供的 `API URL`、`Shop ID`、`Access Token`、`Refresh Token` 和 `Token 到期日期/时间`，再开启 `启用 Webhook`。
+10. 对于 `MeiTuan`，填写门店的 `API URL` 及 `Shop ID`，并开启 `启用 Webhook`。核对品牌凭证及 UTC 到期时间后，点击 `保存品牌共享凭证`，再进行同步。
 11. 选择 `保存设置`。
 12. 如果平台显示 `菜单同步`，请在设置保存后选择 `同步菜单`。
 
