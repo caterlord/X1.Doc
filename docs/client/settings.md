@@ -218,6 +218,24 @@ Needed file: `client/cl-label-paper-size-and-tspl.png`
 
 `Auto Print Receipt` controls receipt printing only. If the payment method is configured to open the cash drawer, the drawer still opens after checkout when `Auto Print Receipt` is off.
 
+## Print an extra itemized receipt
+
+Use this when the customer needs one receipt and the restaurant needs an identical copy with all item details.
+
+1. Open `Settings` -> `Printing` -> `Setting`.
+2. In `Receipt`, turn `Auto Print Receipt` on.
+3. Set `Extra Copies` to `1` for two receipts in total.
+4. Tap `Save`.
+5. Complete a normal checkout and confirm that two identical itemized receipts print.
+
+Each section has its own `Extra Copies` setting. The default is `0` (one original); `1` prints two copies, and `2` prints three. You can add up to `9` extra copies. Configure `Item Checklist` and `Takeaway Printer` separately if those outputs also need duplicates. Their existing enable switches and item filters still apply. Takeaway copies work with either receipt-style output or `Print As Single Kitchen Slip`.
+
+These counts apply only to automatic printing. Manual receipt and checklist reprints still produce one copy. `Print Company Copy` is separate: Company Copy intentionally omits item details. Use `Receipt` -> `Extra Copies` when you need a full duplicate receipt.
+
+If `Extra Copies` is not shown, use `Reprint Receipt` and ask your manager about updating POS. If duplicates do not print, check the relevant automatic-print switch and printer assignment with your manager. Return the count to `0` to print one original again.
+
+![Receipt Extra Copies = 1, with independent Item Checklist and Takeaway Printer counters](/img/manual/en/client/cl-print-extra-copies.png)
+
 ## Common takeaway contact print task
 
 1. Tap `Settings` -> `Printing`.
