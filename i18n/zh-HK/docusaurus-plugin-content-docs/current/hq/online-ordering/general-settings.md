@@ -61,6 +61,27 @@ title: 一般設定
 
 請只進入與本次變更相關的分區，不要在同一次操作中順手調整無關設定。
 
+### 地區網上付款
+
+在店舖的付款分區，選擇 `新增付款方式`，加入 `Alipay CN`、`HSBC PayMe`、`UnionPay` 或 `Octopus`。`Octopus` 使用 QFPay，與 `Octopus App` 分開設定。
+
+| 付款方式 | 供應商選項 |
+|---|---|
+| Alipay CN | KPay、QFPay、Global Payments EFT Pay、Aigens |
+| HSBC PayMe / UnionPay | KPay、QFPay、OssPay |
+| Octopus | QFPay |
+| Alipay HK / WeChat Pay | KPay、QFPay、Global Payments EFT Pay、Aigens、OssPay |
+
+1. 在 `供應商` 選擇付款合作夥伴指定的選項。
+2. 選擇連結至 ODO Online Pay 的 `付款方式 ID`。如未有此選項，先在[付款方式](../pos-settings/payment-methods.md)建立或檢查。
+3. 輸入該付款方式的憑證。KPay 使用商戶代碼、私鑰及平台公鑰；只有合作夥伴確認後才開啟 `服務商模式`。Global Payments EFT Pay 使用用戶確認金鑰及秘密金鑰。Aigens 使用 API URL、店舖 ID 及驗證權杖。QFPay 使用應用程式代碼及客戶端金鑰，商戶 ID 為選填。
+4. 按合作夥伴指示設定 `正式環境`。KPay 的開關只適用於 KPay；Aigens 沒有環境開關。
+5. 選擇 `儲存設定`，重新開啟同一店舖，檢查已儲存的供應商與設定值。
+
+切換供應商會保留其他供應商的憑證。移除付款方式並儲存後，會停用該方式並清除其所有供應商憑證。變更正式付款憑證前，請先詢問擁有人或管理員，並在完成設定後於相關網店核對付款方式。
+
+> Screenshot pending: `hq/online-ordering/oo_regional_payment_providers.png` — 使用範例憑證顯示地區付款方式及供應商設定。
+
 ## 步驟
 
 1. 開啟 `Online Ordering` -> `General Settings`。
