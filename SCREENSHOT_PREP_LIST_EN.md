@@ -22,6 +22,7 @@ Use these subfolders:
 
 | Filename (relative to `static/img/manual/en/`) | Document placement | What to capture |
 |---|---|---|
+| `client/cl-print-extra-copies.png` | `docs/client/settings.md` and all translations | Printing > Setting: Receipt Extra Copies = 1, independent Item Checklist and Takeaway Printer counters, and 0/1 meaning |
 | `hq/online-ordering/oo_regional_payment_providers.png` (under `static/img/`) | HQ Online Ordering General Settings and all translations | Regional payment catalog plus KPay, Global Payments EFT Pay, Aigens and QFPay Octopus forms using sample credentials; distinguish Octopus App |
 | `client/cl-label-paper-size-and-tspl.png` | `docs/client/settings.md` and all translations | Printing > Template > Label with 40 × 30 mm and 3 mm gap; TSPL label (203 dpi) driver selection and bordered test label |
 | `getting-started/gs-10-login-quick-language-switch.png` | `docs/getting-started/access-and-navigation.md`, `docs/functions/sign-in.md` | Login screen with quick language switch button (`EN` / `繁` / `简`) visible |
