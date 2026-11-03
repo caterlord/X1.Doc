@@ -18,7 +18,7 @@ Owners, managers, support staff, and back-office admins who need to review third
 1. Open `Logs` from the Analytics area.
 2. Select `API Logs` for third-party communications, or `POS Logs` for terminal files.
 
-Screenshot pending: `logs/logs_overview_page.png` (API Logs card enabled).
+![Logs overview](/img/hq/logs/logs_overview_page.jpg)
 
 ## What this page controls
 
@@ -50,7 +50,9 @@ An HTTP success status does not confirm that a partner completed an operation. R
 
 If `Sync Menu` explains that Keeta settings are disabled, review `Webhook enabled` and `Menu sync enabled` in MeiTuan settings with your administrator. Save the intended configuration before retrying. Viewing API logs never enables an integration or retries an operation.
 
-Screenshot pending: `logs/api_logs_page.png` and `logs/api_log_details.png`.
+![API Logs filters and results](/img/hq/logs/api_logs_page.jpg)
+
+![API log details (example with sample data)](/img/hq/logs/api_log_details.png)
 
 ## Main sections
 

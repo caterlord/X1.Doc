@@ -18,7 +18,7 @@ title: 日誌
 1. 在 Analytics 區域開啟 `日誌`。
 2. 選擇 `API 日誌` 查看第三方通訊，或 `POS 日誌` 查看終端檔案。
 
-Screenshot pending: `logs/logs_overview_page.png` (API Logs card enabled).
+![日誌總覽](/img/hq/logs/logs_overview_page.jpg)
 
 ## 此頁用途
 
@@ -50,7 +50,9 @@ HTTP 成功不代表第三方已完成操作。請閱讀回應，並在第三方
 
 若 `同步菜單` 提示 Keeta 設定未啟用，請與管理員檢查 MeiTuan 設定中的 `啟用 Webhook` 及 `啟用菜單同步`。儲存所需設定後再重試。查看 API 日誌不會啟用整合或重試操作。
 
-Screenshot pending: `logs/api_logs_page.png` and `logs/api_log_details.png`.
+![API 日誌篩選及結果](/img/hq/logs/api_logs_page.jpg)
+
+![API 日誌詳情（範例資料）](/img/hq/logs/api_log_details.png)
 
 ## 主要區段
 
