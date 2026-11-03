@@ -22,6 +22,9 @@ Use these subfolders:
 
 | Filename (relative to `static/img/manual/en/`) | Document placement | What to capture |
 |---|---|---|
+| `static/img/hq/logs/logs_overview_page.png` | `docs/hq/logs.md` and all translations | Replace the old overview showing API Logs as coming soon with the released enabled API Logs card |
+| `static/img/hq/logs/api_logs_page.png` | `docs/hq/logs.md` and all translations | Released API Logs page showing Brand / Shop, Log type, inclusive UTC dates and sanitized sample results |
+| `static/img/hq/logs/api_log_details.png` | `docs/hq/logs.md` and all translations | Released Log details with response body and request headers expanded; redact credentials and customer data |
 | `hq/online-ordering/oo_regional_payment_providers.png` (under `static/img/`) | HQ Online Ordering General Settings and all translations | Regional payment catalog plus KPay, Global Payments EFT Pay, Aigens and QFPay Octopus forms using sample credentials; distinguish Octopus App |
 | `client/cl-label-paper-size-and-tspl.png` | `docs/client/settings.md` and all translations | Printing > Template > Label with 40 × 30 mm and 3 mm gap; TSPL label (203 dpi) driver selection and bordered test label |
 | `getting-started/gs-10-login-quick-language-switch.png` | `docs/getting-started/access-and-navigation.md`, `docs/functions/sign-in.md` | Login screen with quick language switch button (`EN` / `繁` / `简`) visible |
