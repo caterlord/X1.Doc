@@ -66,7 +66,7 @@ The `MeiTuan` card includes shop-level payment, discount, service-charge, webhoo
 
 Under `Shared Keeta brand credentials`, review `Access Token`, `Refresh Token`, and `Token expiry date/time`. These credentials are shared by all Keeta shops in the brand. Enter the expiry in UTC, then select `Save shared brand credentials`. This is separate from `Save Settings`. Treat both tokens as confidential.
 
-If HQ offers values previously saved only for this shop, check them with the partner before saving them for the whole brand. If the credentials changed elsewhere, select `Reload credentials` and review the latest values before saving again.
+This form repairs missing setup. If HQ offers values previously saved only for this shop, check them with the partner before saving them for the whole brand. Existing connected credentials are read-only; contact support to replace or disconnect a connection. If HQ reports duplicate empty setup rows, save the unchanged credentials to repair them. If the credentials changed elsewhere, select `Reload credentials` before continuing.
 
 :::note[Screenshot pending]
 Needed file: `hq/online-ordering/meituan-webhook-settings.png`
