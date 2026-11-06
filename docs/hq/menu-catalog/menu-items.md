@@ -33,6 +33,8 @@ Use this page to create or maintain:
 
 ![Menu Items List](/img/hq/menu-catalog/menu_items_list.png)
 
+Use [Batch Edit Menu Items](./batch-edit-menu-items.md) to change prices, availability, routing, or shared item details for multiple items.
+
 When you edit an item in the drawer, the header shows the current `Item Code` and `Item Name`. If you use `Skip to Next` or `Update & Next`, the drawer keeps the active tab selected so you can continue the same workflow across records.
 
 ## Main sections

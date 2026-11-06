@@ -33,6 +33,8 @@ title: 菜单项目
 
 ![菜单项目列表](/img/hq/menu-catalog/menu_items_list.png)
 
+如需一次调整多个项目的价格、供应状态、出单设置或共享资料，请参阅 [批量编辑菜单项目](./batch-edit-menu-items.md)。
+
 编辑商品时，抽屉标题会显示当前的 `Item Code` 和 `Item Name`。如果使用 `Skip to Next` 或 `Update & Next`，抽屉会保留当前选取的分页，方便你在多笔记录之间持续处理同一类设置。
 
 ## 主要分区
