@@ -41,9 +41,13 @@ title: 批次編輯菜單項目
 
 使用 `每頁筆數`，每頁最多可顯示 500 個項目。如只想填入指定項目，開啟 `選取項目` 並勾選所需的項目。表頭的核取方塊可選取本頁項目。若要選取所有頁面上符合篩選條件的項目，使用 `選取全部 {count} 個篩選結果`。
 
-:::note[待補截圖]
-所需檔案：`hq/menu-catalog/batch-edit-grid.png`、`hq/menu-catalog/batch-edit-categories.png`。
-:::
+![分類選擇器顯示已選取的咖啡子分類及上層路徑](/img/hq/menu-catalog/zh-HK/batch-edit-categories.jpg)
+
+*兩個分類都叫「咖啡」。勾選的項目在名稱下方顯示上層分類。*
+
+![批次編輯表格顯示中環和海港已暫存的價格](/img/hq/menu-catalog/zh-HK/batch-edit-grid.jpg)
+
+*藍色儲存格是已暫存的價格。市集的價格維持原值。*
 
 ### 為多個項目填入相同的值
 
@@ -54,11 +58,15 @@ title: 批次編輯菜單項目
 5. 檢查預計受影響的儲存格數量和操作數量。
 6. 選取 `暫存變更`。
 
+![填入價格視窗已選取所有篩選結果及三間分店中的兩間](/img/hq/menu-catalog/zh-HK/batch-edit-fill.jpg)
+
+*這次填入會在兩間已選取的分店各暫存六個項目的價格 28，共 12 項變更。*
+
 如要設定廚房出單，請在 `欄位` 選擇要變更的打印機或 KDS 位置，再選取 `填入打印機／KDS`。在 `按名稱配對設備` 輸入名稱，HQ 會按分店及設備類型尋找名稱完全相符的設備。逐一確認各分店的目的地。如果有多個同名設備，按清單中的設備編號選擇。若沒有相符設備，可手動選擇目的地或選取 `略過此分店`。
 
-:::note[待補截圖]
-所需檔案：`hq/menu-catalog/batch-edit-fill.png`、`hq/menu-catalog/batch-edit-routing.png`。
-:::
+![打印機填入視窗顯示不同的設備編號及沒有相符設備的分店](/img/hq/menu-catalog/zh-HK/batch-edit-routing.jpg)
+
+*中環和海港找到同名但不同編號的打印機。市集需要另選設備或略過。*
 
 ### 檢查並套用變更
 
@@ -70,9 +78,9 @@ title: 批次編輯菜單項目
 6. 選取 `套用 {count} 項變更`。
 7. 逐批檢查並套用剩餘的變更。
 
-:::note[待補截圖]
-所需檔案：`hq/menu-catalog/batch-edit-review.png`。
-:::
+![批次編輯檢查畫面顯示目前價格、新價格及確認選項](/img/hq/menu-catalog/zh-HK/batch-edit-review.jpg)
+
+*確認受影響的分店，並比較目前價格與新價格，再套用這一批變更。*
 
 ## 套用後的影響
 

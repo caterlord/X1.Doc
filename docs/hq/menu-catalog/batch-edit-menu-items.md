@@ -41,9 +41,13 @@ You can stage changes to several fields. Review and apply each mode separately.
 
 Use `Rows per page` to show up to 500 items on a page. If you want to fill only certain rows, turn on `Select items` and tick those rows. The header checkbox selects the current page. Use `Select all {count} filtered items` to select matches across pages.
 
-:::note[Screenshot pending]
-Needed files: `hq/menu-catalog/batch-edit-grid.png` and `hq/menu-catalog/batch-edit-categories.png`.
-:::
+![Categories picker with the selected Coffee subcategory and its parent path](/img/hq/menu-catalog/batch-edit-categories.jpg)
+
+*Both entries are named Coffee. The checked entry shows its parent under the name.*
+
+![Batch edit grid showing staged prices in Central and Harbour](/img/hq/menu-catalog/batch-edit-grid.jpg)
+
+*The blue cells show staged prices. The Market column keeps its original prices.*
 
 ### Fill the same value across items
 
@@ -54,11 +58,15 @@ Needed files: `hq/menu-catalog/batch-edit-grid.png` and `hq/menu-catalog/batch-e
 5. Check the projected number of cells and operations.
 6. Select `Stage changes`.
 
+![Fill prices dialog with all filtered items and two of three shops selected](/img/hq/menu-catalog/batch-edit-fill.jpg)
+
+*This fill stages a price of 28 for six items at each of the two selected shops, for a total of 12 changes.*
+
 For kitchen routing, select the printer or KDS slot under `Field`, then select `Fill printer / KDS`. Enter a name in `Match a destination by name` to get an exact match for each shop and device type. Check each shop's destination. If several devices share a name, use the device ID shown in the list to pick the right one. Choose a destination manually or select `Skip this shop` if there is no match.
 
-:::note[Screenshot pending]
-Needed files: `hq/menu-catalog/batch-edit-fill.png` and `hq/menu-catalog/batch-edit-routing.png`.
-:::
+![Printer fill showing separate printer IDs and an unmatched shop](/img/hq/menu-catalog/batch-edit-routing.jpg)
+
+*Central and Harbour match the same printer name to different devices. Market needs a destination or must be skipped.*
 
 ### Review and apply
 
@@ -70,9 +78,9 @@ Needed files: `hq/menu-catalog/batch-edit-fill.png` and `hq/menu-catalog/batch-e
 6. Select `Apply {count} changes`.
 7. Review and apply any remaining jobs.
 
-:::note[Screenshot pending]
-Needed file: `hq/menu-catalog/batch-edit-review.png`.
-:::
+![Batch edit review comparing current and new prices with the confirmation checkbox](/img/hq/menu-catalog/batch-edit-review.jpg)
+
+*Check the affected shops and compare the current and new prices before confirming the job.*
 
 ## What changes after you save
 
