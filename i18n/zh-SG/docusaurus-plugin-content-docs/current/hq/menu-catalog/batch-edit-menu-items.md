@@ -41,9 +41,13 @@ title: 批量编辑菜单项目
 
 使用 `每页行数`，每页最多可显示 500 个项目。如只想填入指定项目，打开 `选择项目` 并勾选所需项目。表头的复选框可以选择本页项目。若要选择所有页面上符合条件的项目，使用 `选择全部 {count} 个筛选结果`。
 
-:::note[待补截图]
-所需文件：`hq/menu-catalog/batch-edit-grid.png`、`hq/menu-catalog/batch-edit-categories.png`。
-:::
+![分类选择器显示已选择的咖啡子分类及上层路径](/img/hq/menu-catalog/zh-SG/batch-edit-categories.jpg)
+
+*两个分类都叫“咖啡”。勾选的项目在名称下方显示上层分类。*
+
+![批量编辑表格显示中环和海港已暂存的价格](/img/hq/menu-catalog/zh-SG/batch-edit-grid.jpg)
+
+*蓝色单元格是已暂存的价格。市集的价格保持原值。*
 
 ### 为多个项目填入相同的值
 
@@ -54,11 +58,15 @@ title: 批量编辑菜单项目
 5. 检查预计受影响的单元格数量和操作数量。
 6. 选择 `暂存更改`。
 
+![填入价格窗口已选择所有筛选结果及三家门店中的两家](/img/hq/menu-catalog/zh-SG/batch-edit-fill.jpg)
+
+*这次填入会在两家已选择的门店各暂存六个项目的价格 28，共 12 项更改。*
+
 如需设置厨房出单，请在 `字段` 选择要更改的打印机或 KDS 位置，再选择 `填入打印机／KDS`。在 `按名称匹配设备` 输入名称，HQ 会按门店和设备类型查找名称完全匹配的设备。逐一确认各门店的目的地。如果有多个同名设备，按列表中的设备编号选择。若没有匹配设备，可以手动选择目的地或选择 `跳过此门店`。
 
-:::note[待补截图]
-所需文件：`hq/menu-catalog/batch-edit-fill.png`、`hq/menu-catalog/batch-edit-routing.png`。
-:::
+![打印机填入窗口显示不同的设备编号及没有匹配设备的门店](/img/hq/menu-catalog/zh-SG/batch-edit-routing.jpg)
+
+*中环和海港找到同名但编号不同的打印机。市集需要另选设备或跳过。*
 
 ### 检查并应用更改
 
@@ -70,9 +78,9 @@ title: 批量编辑菜单项目
 6. 选择 `应用 {count} 项更改`。
 7. 逐批检查并应用剩余的更改。
 
-:::note[待补截图]
-所需文件：`hq/menu-catalog/batch-edit-review.png`。
-:::
+![批量编辑检查页面显示当前价格、新价格及确认选项](/img/hq/menu-catalog/zh-SG/batch-edit-review.jpg)
+
+*确认受影响的门店，并比较当前价格与新价格，再应用这一批更改。*
 
 ## 应用后的影响
 
