@@ -40,6 +40,7 @@ title: 菜单管理总览
 
 ## 常见工作
 
+- 如需一次调整多个项目的价格、供应状态、出单设置或共享资料，请参阅 [批量编辑菜单项目](./batch-edit-menu-items.md)。
 - 建立新的可售商品：先从 [菜单项目](./menu-items.md) 开始。
 - 更改收银员浏览商品的方式：检查 [分类](./categories.md)、[智能分类](./smart-categories.md) 和 [POS 菜单](./pos-menus.md)。
 - 加入组合选项：使用 [套餐群组](./meal-sets.md) 搭配 [菜单项目](./menu-items.md)。

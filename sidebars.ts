@@ -160,6 +160,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'hq/menu-catalog/overview',
         'hq/menu-catalog/menu-items',
+        'hq/menu-catalog/batch-edit-menu-items',
         'hq/menu-catalog/categories',
         'hq/menu-catalog/smart-categories',
         'hq/menu-catalog/pos-menus',

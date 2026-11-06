@@ -40,6 +40,7 @@ title: 菜單管理總覽
 
 ## 常見工作
 
+- 如需一次調整多個項目的價格、供應狀態、出單設定或共用資料，請參閱 [批次編輯菜單項目](./batch-edit-menu-items.md)。
 - 建立新的可售項目：從 [菜單項目](./menu-items.md) 開始。
 - 變更收銀員瀏覽商品的方式：檢視 [菜單分類](./categories.md)、[智能分類](./smart-categories.md) 與 [POS 菜單](./pos-menus.md)。
 - 加入套餐選項：搭配 [菜單項目](./menu-items.md) 使用 [套餐群組](./meal-sets.md)。

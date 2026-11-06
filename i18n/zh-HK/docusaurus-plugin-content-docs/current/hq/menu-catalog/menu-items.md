@@ -33,6 +33,8 @@ title: 菜單項目
 
 ![菜單項目清單](/img/hq/menu-catalog/menu_items_list.png)
 
+如需一次調整多個項目的價格、供應狀態、出單設定或共用資料，請參閱 [批次編輯菜單項目](./batch-edit-menu-items.md)。
+
 編輯商品時，抽屜標題會顯示目前的 `Item Code` 和 `Item Name`。如果使用 `Skip to Next` 或 `Update & Next`，抽屜會保留目前選取的分頁，方便你在多筆記錄之間持續處理同一類設定。
 
 ## 主要分區

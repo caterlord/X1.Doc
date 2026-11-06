@@ -40,6 +40,7 @@ Use the pages in this section in a logical setup order:
 
 ## Common tasks
 
+- Use [Batch Edit Menu Items](./batch-edit-menu-items.md) to change prices, availability, routing, or shared item details for multiple items.
 - Create a new sellable item: start with [Menu Items](./menu-items.md).
 - Change how cashiers browse products: review [Categories](./categories.md), [Smart Categories](./smart-categories.md), and [POS Menus](./pos-menus.md).
 - Add combo choices: use [Meal Sets](./meal-sets.md) with [Menu Items](./menu-items.md).
