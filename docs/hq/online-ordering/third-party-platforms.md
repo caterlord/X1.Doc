@@ -68,6 +68,8 @@ Under `Shared Keeta brand credentials`, review `Access Token`, `Refresh Token`, 
 
 This form repairs missing setup. If HQ offers values previously saved only for this shop, check them with the partner before saving them for the whole brand. Existing connected credentials are read-only; contact support to replace or disconnect a connection. If HQ reports duplicate empty setup rows, save the unchanged credentials to repair them. If the credentials changed elsewhere, select `Reload credentials` before continuing.
 
+After saving the shop settings and shared credentials, a brand administrator can select `Set webhook URL`. This registers order callbacks for the brand. A success message confirms registration. If the result cannot be confirmed, some callbacks may already have changed; check the connection and retry. Contact support if the problem continues.
+
 :::note[Screenshot pending]
 Needed file: `hq/online-ordering/meituan-webhook-settings.png`
 :::
