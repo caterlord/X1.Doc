@@ -89,6 +89,18 @@ For the first setup, `New Company` is selected and `New Brand` and `New Shop` st
 5. Enter the optional `Description` or `Address` if needed.
 6. Save the record.
 
+### Copy settings to a new brand or shop
+
+This option appears after the settings-copy update reaches your HQ workspace.
+
+1. After creating the brand or shop in the wizard, choose `Copy existing settings` and select `Next`.
+2. For a new brand, select a `Source brand` you can access in the same POS region. If you created its first shop too, select the `Source shop` for prices and other shop settings. For a new shop under an existing brand, select another shop under that brand.
+3. Under `Settings to copy`, select the groups you need. For example, select `Tables and floor plan` to bring across a shop’s table layout.
+4. Select `Review copy`. Check the destination, source and selected groups, then select `Copy settings`.
+5. Open the destination in HQ and check its settings. If you copied staff profiles, set new login details before enabling them. When you copy menu settings, the new brand gets its own menu photos. Copying table settings also copies the floor-plan backgrounds. You can change these images in either brand independently.
+
+![Select a source shop and settings groups](/img/hq/organization/copy-settings-en.png)
+
 ### Set up the first company, brand, and shop
 
 1. Open `Dashboard` in the new workspace.
