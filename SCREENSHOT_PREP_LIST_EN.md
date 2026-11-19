@@ -118,6 +118,10 @@ Use these subfolders:
 | `online-ordering/foodpanda-settings-and-menu-sync.png` | `docs/hq/online-ordering/third-party-platforms.md` | Foodpanda card showing `Connect Foodpanda`, store details, searchable `Payment method`/`Discount`, `Container charge item`, `More order options`, `Save Settings`, and `Menu synchronization`/`Sync Menu` |
 | `pos-settings/takeaway_service_charge_settings.png` | `docs/hq/pos-settings/tax-and-surcharge.md` | Tax & Surcharge → Surcharge, showing Takeaway orders in Edit mode with the checkbox, Cancel and Confirm and save. Capture after deployment; component QA images are not full product screenshots. |
 
+## Captured HQ walkthroughs
+
+- The five online category guides use the captures under `static/img/hq/online-ordering/<locale>/add-item-by-category/` for the expanded category, item selection, and save steps. The publication-status capture in the pending checklist covers the separate shop display settings.
+
 ## Insights workspace update
 
 - `insights_workspace_overview.png`: replace the long-page overview capture with the five-view navigation and business summary. Capture after the matching HQ release.
