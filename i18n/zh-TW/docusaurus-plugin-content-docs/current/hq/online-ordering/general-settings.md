@@ -63,22 +63,34 @@ title: 一般設定
 
 ### 地區網上付款
 
-在店舖的付款分區，選擇 `新增付款方式`，加入 `Alipay CN`、`HSBC PayMe`、`UnionPay` 或 `Octopus`。`Octopus` 使用 QFPay，與 `Octopus App` 分開設定。
+在店舖的付款分區，選擇 `新增付款方式`，加入 `Alipay CN`、`HSBC PayMe`、`UnionPay` `Octopus` 或 `FPS`。`Octopus` 使用 QFPay。在 `Octopus App`，使用原有服務時選擇 `八達通`，使用 KPay 時選擇 `KPay`。
 
 | 付款方式 | 供應商選項 |
 |---|---|
 | Alipay CN | KPay、QFPay、Global Payments EFT Pay、Aigens |
 | HSBC PayMe / UnionPay | KPay、QFPay、OssPay |
 | Octopus | QFPay |
+| FPS | KPay |
 | Alipay HK / WeChat Pay | KPay、QFPay、Global Payments EFT Pay、Aigens、OssPay |
 
 1. 在 `供應商` 選擇付款合作夥伴指定的選項。
 2. 選擇連結至 ODO Online Pay 的 `付款方式 ID`。如未有此選項，先在[付款方式](../pos-settings/payment-methods.md)建立或檢查。
-3. 輸入該付款方式的憑證。KPay 使用商戶代碼、私鑰及平台公鑰；只有合作夥伴確認後才開啟 `服務商模式`。Global Payments EFT Pay 使用用戶確認金鑰及秘密金鑰。Aigens 使用 API URL、店舖 ID 及驗證權杖。QFPay 使用應用程式代碼及客戶端金鑰，商戶 ID 為選填。
-4. 按合作夥伴指示設定 `正式環境`。KPay 的開關只適用於 KPay；Aigens 沒有環境開關。
+3. 輸入該付款方式的憑證。Global Payments EFT Pay 使用用戶確認金鑰及秘密金鑰。Aigens 使用 API URL、店舖 ID 及驗證權杖。QFPay 使用應用程式代碼及客戶端金鑰，商戶 ID 為選填。
+4. 按合作夥伴指示設定 `正式環境`。Aigens 沒有環境開關。
 5. 選擇 `儲存設定`，重新開啟同一店舖，檢查已儲存的供應商與設定值。
 
 切換供應商會保留其他供應商的憑證。移除付款方式並儲存後，會停用該方式並清除其所有供應商憑證。變更正式付款憑證前，請先詢問擁有人或管理員，並在完成設定後於相關網店核對付款方式。
+
+#### KPay 設定
+
+`Credit Card`、`Google Pay` 和 `Apple Pay` 亦可選用 KPay。
+
+1. 在 `供應商` 選擇 `KPay`。
+2. 按付款合作夥伴確認的環境設定 `正式環境`。付款方式需要同時設定網上結帳和 KPay 環境時，兩者共用同一開關。
+3. 輸入 `商戶代碼`。
+4. 合作夥伴確認後，開啟 `服務商模式`。關閉此模式時，輸入 `私鑰（PKCS8 Base64）` 和 `平台公鑰（PKCS8 Base64）`。開啟此模式後，畫面會隱藏這兩個欄位。
+5. 使用 `Google Pay` 時，輸入 `Google Pay 商戶 ID`。在網頁使用 `Apple Pay` 時，如合作夥伴有提供資料，請填寫 `Apple Pay 商戶識別碼`、`Apple Pay 憑證密碼` 和 `Apple Pay 商戶身分憑證（.p12 Base64）`。
+6. 選擇 `儲存設定`，再到相同環境的網店核對付款方式。
 
 > Screenshot pending: `hq/online-ordering/oo_regional_payment_providers.png` — 使用範例憑證顯示地區付款方式及供應商設定。
 
