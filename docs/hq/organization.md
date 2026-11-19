@@ -99,6 +99,8 @@ This option appears after the settings-copy update reaches your HQ workspace.
 4. Select `Review copy`. Check the destination, source and selected groups, then select `Copy settings`.
 5. Open the destination in HQ and check its settings. If you copied staff profiles, set new login details before enabling them. When you copy menu settings, the new brand gets its own menu photos. Copying table settings also copies the floor-plan backgrounds. You can change these images in either brand independently.
 
+If you already created the shop and its setup is still unfinished, select the sparkle icon (**Create starter setup**) on the shop’s row in **Business Structure**. Select **Copy existing settings**, then **Next**, and continue from step 2.
+
 ![Select a source shop and settings groups](/img/hq/organization/copy-settings-en.png)
 
 ### Set up the first company, brand, and shop
