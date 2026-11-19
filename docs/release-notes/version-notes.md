@@ -7,6 +7,17 @@ This page tracks manual changes by release and update batch across the full X1 d
 
 It is not limited to the POS app manual. Use it for POS, HQ, shared workflow, and documentation-structure updates.
 
+## 2026-11-19 (HQ Documentation Updates)
+
+### Updated
+
+- Added illustrated steps to review POS device seats, pair a tablet, generate a new pairing code, cancel pairing, and release a device. [My Subscriptions](../hq/marketplace/my-subscriptions.md)
+- Added a Lemon Tea example showing how to browse for an item, add it to a published online category, save the change, and check the customer-facing menu. [Categories and Items](../hq/online-ordering/categories-and-items.md)
+- Added guidance for setting separate Foodpanda and Keeta delivery and pickup prices per shop, including which prices apply when a field is left blank. [Menu Items](../hq/menu-catalog/menu-items.md)
+- Added guidance for configuring KPay payment methods, the production environment, and service provider mode. [General Settings](../hq/online-ordering/general-settings.md)
+
+Channel pricing and the expanded KPay settings are part of the upcoming X1 HQ release.
+
 ## 2026-08-09 (POS v1.8.0 and HQ Public Portal Alignment)
 
 ### Updated

@@ -7,6 +7,17 @@ title: 版本说明
 
 本页不只针对 POS app 手册，也包括 HQ、共用流程和文档结构更新。
 
+## 2026-11-19（HQ 文档更新）
+
+### 已更新
+
+- 新增操作截图，说明如何查看 POS 设备席位、配对平板、重新生成配对码、取消配对和释放设备。[我的订阅](../hq/marketplace/my-subscriptions.md)
+- 新增冰柠檬茶示例，演示如何浏览项目、添加到已发布的线上分类、保存更改，并核对顾客看到的菜单。[分类与项目](../hq/online-ordering/categories-and-items.md)
+- 补充如何按门店分别设置 Foodpanda 和 Keeta 的外送与自取价格，以及字段留空时会应用的价格。[菜单项目](../hq/menu-catalog/menu-items.md)
+- 补充 KPay 付款方式、正式环境及服务商模式的设置指南。[通用设置](../hq/online-ordering/general-settings.md)
+
+渠道价格和新增的 KPay 选项将随下一次 X1 HQ 更新推出。
+
 ## 2026-08-09（POS v1.8.0 与 HQ 公开商户后台对齐）
 
 ### 已更新
