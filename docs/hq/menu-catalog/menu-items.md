@@ -97,6 +97,8 @@ In the shop settings area, `Takeaway Surcharge` is a per-shop amount added when 
 
 On an existing menu item, open `Channel Prices` and find the shop you want to update. Enter delivery and pickup prices for Foodpanda or Keeta, then select `Update`. Each price applies to that shop and platform.
 
+![The Channel Prices tab shows delivery and pickup overrides for two shops](/img/hq/menu-catalog/menu-item-channel-prices.png)
+
 - Leave delivery blank to use the shop's base item price.
 - Leave pickup blank to use that platform's delivery override. If delivery is also blank, pickup uses the shop's base item price.
 
