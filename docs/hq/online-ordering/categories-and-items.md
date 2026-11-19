@@ -93,6 +93,37 @@ Use the online description field for customer-facing copy such as:
 6. Select `Save`.
 7. If the category is not listed, turn on `Show unpublished` and check its `Published` status.
 
+### Add an existing item to an online category
+
+This example adds **Lemon Tea** from the POS category **Beverages** to the online category **Cold Drinks**. Before you start, check that **Cold Drinks** is published for the shop where you want to sell the item.
+
+1. Open `Online Ordering` -> `Online Categories`.
+2. Expand the **Cold Drinks** row.
+3. Select `Sellable Items`.
+4. Select `Add Items`.
+
+![The expanded Cold Drinks row with Sellable Items and Add Items visible](/img/hq/online-ordering/en/add-item-by-category/open-category.png)
+
+The expanded category shows the items already assigned to it.
+
+5. Select `Browse by Category`.
+6. In `Select a category to browse items`, choose **Beverages**.
+7. Check the box next to **Lemon Tea**.
+
+![The Beverages category selected with Lemon Tea checked](/img/hq/online-ordering/en/add-item-by-category/browse-and-select.png)
+
+The selection count appears on the `Add Selected` button.
+
+8. Select `Add Selected (1)`.
+
+![Lemon Tea in Sellable Items with the Save Changes button visible](/img/hq/online-ordering/en/add-item-by-category/save-changes.png)
+
+**Lemon Tea** is now in the category’s item list. The change is ready to save.
+
+9. Select `Save Changes`.
+10. Reopen **Cold Drinks** in HQ and confirm **Lemon Tea** is still in `Sellable Items`.
+11. Open the customer-facing menu for the intended shop and check that **Lemon Tea** appears under **Cold Drinks**.
+
 ## Create several online categories at once
 
 1. Open `Online Ordering` -> `Online Categories`.
