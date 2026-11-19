@@ -63,22 +63,34 @@ Use the section that matches the change you are making instead of editing unrela
 
 ### Regional online payments
 
-In the shop's payment section, use `Add Payment Method` to add `Alipay CN`, `HSBC PayMe`, `UnionPay`, or `Octopus`. `Octopus` uses QFPay and is separate from `Octopus App`.
+In the shop's payment section, use `Add Payment Method` to add `Alipay CN`, `HSBC PayMe`, `UnionPay`, `Octopus`, or `FPS`. `Octopus` uses QFPay. In `Octopus App`, choose `Octopus` for the native service or `KPay` for KPay.
 
 | Payment method | Provider choices |
 |---|---|
 | Alipay CN | KPay, QFPay, Global Payments EFT Pay, Aigens |
 | HSBC PayMe / UnionPay | KPay, QFPay, OssPay |
 | Octopus | QFPay |
+| FPS | KPay |
 | Alipay HK / WeChat Pay | KPay, QFPay, Global Payments EFT Pay, Aigens, OssPay |
 
 1. Choose the `Provider` supplied by your payment partner.
 2. Select the `Payment method ID` linked to ODO Online Pay. Create or check it in [Payment Methods](../pos-settings/payment-methods.md) first if it is missing.
-3. Enter the credentials supplied for this payment method. KPay uses a merchant code, private key, and platform public key; use `Service provider mode` only when your partner confirms it. Global Payments EFT Pay uses a user confirm key and secret key. Aigens uses an API URL, store ID, and auth token. QFPay uses an app code and client key, with an optional merchant ID.
-4. Set `Production environment` as directed by your partner. For KPay, the switch applies specifically to KPay. Aigens has no environment switch.
+3. Enter the credentials supplied for this payment method. Global Payments EFT Pay uses a user confirm key and secret key. Aigens uses an API URL, store ID, and auth token. QFPay uses an app code and client key, with an optional merchant ID.
+4. Set `Production environment` as directed by your partner. Aigens has no environment switch.
 5. Select `Save Settings` and reopen the same shop to check the saved provider and values.
 
 Switching providers keeps the other provider's credentials. Removing a payment method disables it and clears all of its configured provider credentials when you save. Ask your owner/admin before changing live payment credentials, and verify the payment method in the relevant storefront after setup.
+
+#### KPay setup
+
+KPay is also available for `Credit Card`, `Google Pay`, and `Apple Pay`.
+
+1. Choose `KPay` as the `Provider`.
+2. Set `Production environment` to the environment your payment partner confirmed. The same switch controls the checkout and KPay environment for methods that use both.
+3. Enter the `Merchant Code`.
+4. Enable `Service provider mode` when your partner confirms that setup. When it is off, enter the `Private Key (PKCS8 Base64)` and `Platform Public Key (PKCS8 Base64)`. The form hides both keys when the mode is on.
+5. For `Google Pay`, enter the `Google Pay Merchant ID`. For web `Apple Pay`, enter the `Apple Pay Merchant Identifier`, `Apple Pay Certificate Password`, and `Apple Pay Merchant Identity Certificate (.p12 Base64)` if your partner provides them.
+6. Select `Save Settings` and check the method in the matching storefront environment.
 
 > Screenshot pending: `hq/online-ordering/oo_regional_payment_providers.png` — regional payment methods and provider-specific settings, using sample credentials.
 
