@@ -93,6 +93,17 @@ Use the item's pricing, availability, and shop settings areas to control branch-
 
 In the shop settings area, `Takeaway Surcharge` is a per-shop amount added when the item is sold as takeaway. Enter a non-negative amount within the field limit, then save the item. Use `Additional Settings` to expand less frequently changed controls such as `Out of Stock`, `Limited`, `Group Print`, and additional printer assignments.
 
+### Foodpanda and Keeta prices
+
+On an existing menu item, open `Channel Prices` and find the shop you want to update. Enter delivery and pickup prices for Foodpanda or Keeta, then select `Update`. Each price applies to that shop and platform.
+
+![The Channel Prices tab shows delivery and pickup overrides for two shops](/img/hq/menu-catalog/menu-item-channel-prices.png)
+
+- Leave delivery blank to use the shop's base item price.
+- Leave pickup blank to use that platform's delivery override. If delivery is also blank, pickup uses the shop's base item price.
+
+Reopen the item to check the overrides. Sync the menu from [3rd Party Platforms](../online-ordering/third-party-platforms.md) and verify the item price on the platform for each ordering mode you updated.
+
 ### Copy an existing item
 
 Use the copy action when a new item should start from an existing item's setup.
