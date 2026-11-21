@@ -7,6 +7,17 @@ title: 版本說明
 
 本頁不只限於 POS app 手冊，也包含 HQ、共用流程與文件結構更新。
 
+## 2026-11-21（X1 HQ 更新）
+
+### 已修正
+
+- 修正了在 HQ 更換收據標誌，或刪除後重新加入時，仍可能顯示舊標誌的問題。[店舖資料](../hq/store-settings/general-info.md)
+
+### 新增
+
+- 在 `渠道價格` 為各店舖設定 Foodpanda 和 Keeta 的外送與自取價格。外送價格留白時套用基本價格。自取價格留白時，優先套用同一平台的外送價格，未設定外送價格則套用基本價格。[菜單項目](../hq/menu-catalog/menu-items.md)
+- 線上點餐現可設定 KPay 信用卡、Apple Pay、Google Pay、Octopus App 和 FPS 付款。你可以選擇 KPay 環境並啟用服務商模式。[一般設定](../hq/online-ordering/general-settings.md)
+
 ## 2026-11-19（HQ 文件更新）
 
 ### 已更新
@@ -15,8 +26,6 @@ title: 版本說明
 - 新增冰檸檬茶範例，示範如何瀏覽項目、加入已發佈的線上分類、儲存變更，並核對顧客看到的菜單。[分類及項目](../hq/online-ordering/categories-and-items.md)
 - 補充如何按店舖分別設定 Foodpanda 和 Keeta 的外送與自取價格，以及欄位留白時會套用的價格。[菜單項目](../hq/menu-catalog/menu-items.md)
 - 補充 KPay 付款方式、正式環境與服務商模式的設定指南。[一般設定](../hq/online-ordering/general-settings.md)
-
-渠道價格與新增的 KPay 選項將隨下一次 X1 HQ 更新推出。
 
 ## 2026-08-09（POS v1.8.0 與 HQ 公開商戶後台對齊）
 
