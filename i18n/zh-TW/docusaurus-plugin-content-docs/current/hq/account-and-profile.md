@@ -22,6 +22,15 @@ Any 使用者 who needs 到 更新 their HQ 登入 credentials, email address, o
 
 ![Account 個人檔案 設定](/img/manual/en/hq/account.png)
 
+## 變更 HQ 外觀
+
+1. 在 HQ 或登入頁面的右上角，點選語言按鈕旁的`外觀`。
+2. 選擇`淺色`、`深色`或`跟隨系統`。
+
+![HQ 頁首的外觀選單](/img/hq/appearance/appearance-zh-TW.png)
+
+預設為`淺色`。`跟隨系統`會依照裝置的淺色或深色設定，並在裝置設定變更時更新。HQ 會立即切換外觀，並在這個瀏覽器中記住你的選擇。
+
 ## 主要分區
 
 ### 個人檔案 資訊

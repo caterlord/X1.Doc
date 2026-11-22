@@ -22,6 +22,15 @@ title: 帐户与个人档案
 
 ![Account Profile Settings](/img/manual/en/hq/account.png)
 
+## 更改 HQ 外观
+
+1. 在 HQ 或登入页面的右上角，点击语言按钮旁的`外观`。
+2. 选择`浅色`、`深色`或`跟随系统`。
+
+![HQ 页首的外观菜单](/img/hq/appearance/appearance-zh-SG.png)
+
+预设为`浅色`。`跟随系统`会使用设备的浅色或深色设定，并在设备设定更改时更新。HQ 会立即切换外观，并在这个浏览器中记住你的选择。
+
 ## 主要分区
 
 ### 个人档案资讯

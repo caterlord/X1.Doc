@@ -120,6 +120,7 @@ Use these subfolders:
 
 ## Captured HQ walkthroughs
 
+- The five Account and Profile guides show the localized Appearance menu using the portal screenshots under `static/img/hq/appearance/`.
 - The five online category guides use the captures under `static/img/hq/online-ordering/<locale>/add-item-by-category/` for the expanded category, item selection, and save steps. The publication-status capture in the pending checklist covers the separate shop display settings.
 
 ## Insights workspace update

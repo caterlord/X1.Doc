@@ -22,6 +22,15 @@ Use this page to manage your own HQ sign-in details, profile information, and se
 
 ![Account Profile Settings](/img/manual/en/hq/account.png)
 
+## Change the portal appearance
+
+1. Open `Appearance` next to the language button in the upper-right corner of HQ or on the sign-in page.
+2. Select `Light`, `Dark`, or `System`.
+
+![Appearance menu in the HQ header](/img/hq/appearance/appearance-en.png)
+
+`Light` is the default. `System` follows your device’s light or dark setting and updates when the device setting changes. The portal switches immediately and remembers your choice in this browser.
+
 ## Main sections
 
 ### Profile information
